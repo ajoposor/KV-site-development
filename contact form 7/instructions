@@ -1,0 +1,60 @@
+Godaddy, Contact Form 7, Gmail (company), Postman SMTP
+
+1.- Able to setup Postman SMTP as suggested by:
+case CPanel on Linux, smpt: localhost, port 25, authentications void.
+
+2. On Postman used domain mails.
+
+3. Contact Form 7 didn't work.
+Found that it didn't work when sending mail to domain.
+
+It did work sending mail to other domains, even setting Reply-To: customer-email
+
+
+4.-  Need to sort out what to do to send mail to same domain.
+
+TRY 1: didn't work
+On contact form 7
+a) change To:
+was : ajoposor@gmail.com
+try: info@kapitalvalue.com
+change from:
+was: [customer-name] <info@kapitalvalue.com>
+try: : [customer-name] <ajoposor@gmail.com>
+
+Try 2:  WORKS
+TO:   ajoposor@gmail.com
+FROM: [customer-name] <ajoposor@gmail.com>  (message then displays From: info@kapitalvalue.com On Behalf Of: Antonio Osorio, es decir, no tomó en cuenta el ajoposor@gmail.com en from)
+
+Try 3:  DIDN'T WORK
+to: info@kapitalvalue.com
+from [customer-name] <info@kapitalvalue.com>
+
+5. find out if gmail api credentials work.
+
+Last working settings:
+ 
+
+option 1: Postman working settings using dodaddy mail server localhost on port 25 no username or password
+ 
+
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+option 2 in postman, using gmail api, 
+Account / transport  / type Gmail API
+Authentication, get client ID and Client secret from google api de kapital value
+
+Message, email addres, info@kapitalvalue.com, name kapitalvalue Contact Form, Reply-To info@kapitalvalue.com
+
+
