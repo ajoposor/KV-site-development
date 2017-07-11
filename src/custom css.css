@@ -1,0 +1,610 @@
+/**
+*
+* Font hack to solve display problems in chrome
+*
+*/
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url('../../includes/fonts/ubuntu.svg') format('svg');
+  }
+}
+
+
+
+/**
+*
+*  custom color classes
+*
+*/
+
+
+
+/* kv colors */
+.kv_darkblue {
+color:#1D3860;
+}
+
+.kv_midblue {
+color:#125B90;
+}
+
+.kv_lightblue {
+color: #1577BC;
+}
+
+.kv_white {
+color: #ffffff;
+}
+
+.kv_blue {
+color: #486ba5;
+}
+
+.kv_background_brown50 {
+background-color: rgba(189, 167, 120, 0.5);
+}
+
+.kv_background_brown_233_220_180 {
+background-color: rgba(233, 220, 180,1);
+}
+
+
+.kv_background_blue50 {
+background-color: rgba(81, 98, 135, 0.5);
+}
+
+.kv_background_blue90 {
+background-color: rgba(81, 98, 135, 0.90);
+}
+
+.kv_background_blue {
+background-color: rgba(81, 98, 135, 1);
+}
+
+
+
+
+
+
+.kv-col-13 {
+ display: inline-block;
+ width: 33.33%;
+vertical-align: top;
+}
+
+
+.kv-col-23 {
+ display: inline-block;
+ width: 66.67%;
+vertical-align: top;
+}
+
+.kv-icon {
+  width: 100%;
+}
+
+.kv-icon-container {
+    padding: 0px 10px 10px 10px;
+   max-width: 70px;
+   margin:auto;
+}
+
+.kv-picture-container {
+   padding: 0px 0px 0px 0px;
+   margin:auto;
+}
+
+.kv-wrap-h1 {
+ height: 60;
+}
+
+
+/*
+h2 { font-weight: 300; }
+h3 { font-weight: 300; }
+h4 { font-weight: 300; }
+*/
+
+.section-border-bottom { border-top: 1px solid rgba(0,0,0,.1); }
+.section-border-bottom { border-bottom: 1px solid rgba(0,0,0,.1); }
+
+/* Action Bar*/
+#Action_bar .contact_details li { color: #047cff; } /* letra e ícono tel y mail*/ 
+#Action_bar .contact_details li a { color: #047cff; } /* tel e email*/ 
+#Action_bar .contact_details li a:hover { color: #252525; }
+#Action_bar .social li a { color: #047cff; } /* íconos socialesl*/
+#Action_bar .social li a:hover { color: #252525; }
+.header-split #Action_bar { background-color: #ececec; }
+
+/* Header */
+@media only screen and (min-width: 768px) {
+	.header-split #Header .top_bar_left .menu_left { width: 40%; }
+	.header-split #Header .top_bar_left .menu_right { width: 40%; }
+	.header-split #Header .top_bar_left .logo { width: 20%; left: 40%; }
+}
+
+/* Icon box */
+.icon_box .desc_wrapper { margin: 0 10%; }
+.icon_box .desc_wrapper .desc { font-size: 12px; }
+#accessories .icon_box .desc_wrapper h4 { color: #fff; }
+
+/*.icon_box .icon_wrapper {  background-color: #F7F6FC!important;} *//* color del fondo el ícono */
+
+/*.icon_box .icon_wrapper i { color: #FFFFFF !important; }  color de línea el ícono */
+/*.icon_box:hover .icon_wrapper i { color: #1F3C6E !important; }*/
+/*.icon_box:hover .icon_wrapper::before, .icon_box a:hover .icon_wrapper::before {
+    background-color: #ff0000;*/
+}
+
+
+/* Notebook others */
+.notebook_image_left { left: -35%; position: relative; }
+@media only screen and (max-width: 767px) {
+	.notebook_image_left { left: 0; text-align: center; }
+}
+
+/* Footer */
+#Footer .footer_copy .social li a { color: #AAAAAA; }
+#Footer .footer_copy .social li a:hover { color: #ffffff; }
+
+
+/* Photobox no blinking/
+.image_frame .image_wrapper .mask::after { display: none !important; }
+.image_frame:not(.no_link) .image_wrapper img:not(.ls-l) { margin-bottom: 0 !important; }
+.image_frame .image_wrapper img:not(.ls-l) { top: 0 !important; }
+
+
+/* making iframe responsive */
+.my-responsive-iframe-content { position: relative;
+padding-top: 0%;
+padding-botton: 0%;
+height: 0;
+overflow: hidden;
+}
+
+
+/* 16x9 Aspect Ratio */
+.my-responsive-iframe-content-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.my-responsive-iframe-content-4x3 {
+  padding-bottom: 75%;
+}
+
+.my-responsive-iframe-content iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* no wrapper image style */
+.image_frame .image_wrapper .mask { display: none !important; }
+.image_frame:not(.no_link) .image_wrapper img:not(.ls-l) { margin-bottom: 0 !important; }
+
+
+/* linear of log buttons for plotly charts */
+.buttonPlotlyAxisLinearLog {
+  color: #444444;
+  background: #EEEEEE;
+  background-color: #EEEEEE;
+  display: block;
+  position: relative;
+  float: left;
+  width: 50px;
+  padding: 0;
+  margin: 1px 1px 1px 1px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 17px;
+  border-radius: 3px;
+  transition: all 0.2s ;
+}
+
+.buttonPlotlyAxisLinearLog:hover{
+  background-color: #D4D4D4;
+  color: #444444;
+}
+
+
+/* radio button on plotly */
+.radioPlotly {
+  color: #444444;
+  background: #EEEEEE;
+  background-color: #EEEEEE;
+}
+
+.radioPlotly:hover {
+background-color: #D4D4D4;
+color: #444444;
+}
+
+
+
+/* Contact Form 7 Styles
+---------------------------------------*/
+// makes check box align far left
+
+.wpcf7-list-item.first.last  {
+
+   margin-left: 0px;
+
+}
+
+.wpcf7_my_submit_recaptcha_inline_container {
+
+display: -webkit-flex;
+-webkit-flex-wrap: wrap;
+-webkit-align-items: center;
+
+display: -moz-flex;
+-moz-flex-wrap: wrap;
+-moz-align-items: center;
+
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+background-color: #f9f9f9;
+align-items: center;
+overflow: hidden;
+z-index: 1;
+
+}
+
+.wpcf7_my_submit_container {
+display: flex;
+flex-wrap: wrap;
+width: 120px;
+height: 60px;
+background-color: #f9f9f9;
+align-items: center;
+z-index: 3;
+}
+
+.wpcf7_my_flex-item-submit {
+margin: 10px 10px 10px 5px;
+min-width: 105px;
+background-color: #f9f9f9;
+z-index: 4;
+}
+
+.wpcf7_my_recaptcha_container {
+width: 300px;
+height: 74px;
+overflow: hidden;
+}
+
+.wpcf7_my_flex-item-recaptcha {
+
+margin: 0px 0px 0px 0px;
+min-width: 302px;
+overflow: hidden;
+height: 76px;
+width: 350px;
+
+transform: translate(-1px, -1px);
+z-index: 2;
+}
+
+
+@media only screen and (max-width: 416px) { 
+   #rc-imageselect, .wpcf7_my_flex-item-recaptcha {
+      transform:scale(0.77);
+      transform-origin:-1px -3.5px;
+     }
+
+ .wpcf7_my_recaptcha_container {
+    width: 231px;
+    height: 56.98px;
+}
+
+}
+
+
+@media only screen and (max-width: 342px) { 
+   #rc-imageselect, .wpcf7_my_flex-item-recaptcha {
+      transform:scale(0.6);
+      transform-origin:-1px -1.5px;
+     }
+
+ .wpcf7_my_recaptcha_container {
+    width: 180px;
+    height: 44.4px;
+}
+
+}
+
+
+
+.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    border: 0;
+    padding: 10px;
+}
+
+
+
+/** Menus and Logo 
+*
+*/
+
+
+
+/*  Remove logo from sticky header mobile below top*/
+
+.logo img.logo-mobile-sticky {
+	display:none !important;
+}
+
+
+
+
+/* Sticky Header Mobile Color Transparency */
+
+
+/* reduce max size of Top-bar.is-sticky  funciona esto??? */
+#Top_bar.is-sticky .container_wrapper {
+max-width: 920px;
+}
+
+/* adjust max width for header container 1220 - 32 (16 x 2) */
+#Top_bar .container {
+max-width: 1188px !important;
+}
+
+
+
+/* kv sizing*/
+
+
+/* kv_max_width: para limitar ancho de párrafos en secciones a todo lo ancho */
+.kv_max_width {
+max-width: 1188px; /*1220 menos 32 16x2*/
+ margin: auto;
+}
+
+
+@media only screen and (max-width: 1240px) { 
+   .kv_max_width {
+      max-width: 908px; /* 940 menos 16 por cada lado de padding */
+     }
+
+   #Top_bar .container {
+      max-width: 908px !important; /* 940 menos  32 (16 x 2)  */
+     }
+}
+
+
+@media only screen and (max-width: 960px) { 
+   .kv_max_width {
+      max-width: 676px; /* 708 menos 16 por cada lado de padding */
+     }
+
+   #Top_bar .container{
+      max-width: 708px !important; /* 708 quitar los márgenes de 16 de cada lado en los elementos */
+     }
+
+   .logo-no-margin #Top_bar .logo {
+     margin-left: 16px !important;
+   }
+
+   #Top_bar .logo {
+     margin: 0px 14px 0px 16px !important;
+     margin-left: 16px !important;
+   }
+
+
+
+  /* place sticky menu icon on the right */
+  #Top_bar a.responsive-menu-toggle.is-sticky { 
+      right: 10px !important;  /* 16 - 6 (34-22)/2  */  
+   }
+    
+}
+
+
+
+@media only screen and (max-width: 767px) { 
+   .kv_max_width {
+      max-width: 668px;
+     }
+
+
+/* set logo to be displayed on the left side*/
+#Top_bar .logo {
+   float: left;
+   margin: 0px 14px 0px 16px; 
+   position: unset;
+   width: unset;
+   text-align: unset;
+}
+
+/* set side margins on logo top_bar top */
+#Top_bar .logo #logo {
+margin: 7.5px 0px 7.5px 0px !important;
+width: 180px;
+}
+
+/* adjust margin on topbar sticky logo on the left void space */
+#Top_bar.is-sticky #logo {
+margin: 7.5px 100px 7.5px 0px !important;  /*   */
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 700px) { 
+   .kv_max_width {
+      max-width: 700px;
+      padding-right: 16px; /*0 margin + 16  padding*/
+     padding-left: 16px;
+     }
+}  
+
+
+
+
+@media only screen and (max-width: 767px) { 
+
+   #Top_bar .container {
+      max-width: 700px !important;
+     }
+
+
+  /* place sticky menu icon on the right */
+  #Top_bar a.responsive-menu-toggle.is-sticky {
+      left: unset !important;
+      position: absolute !important;
+      right: 10px !important;  /* 16 - 6 (34-22)/2  */  
+      top: 50% !important;
+
+   }
+
+
+}
+
+
+/* leave responsive menu icon on the right */
+@media only screen and (max-width: 767px) { 
+
+/* unset background for Top_bar */
+#Top_bar {
+background: unset !important;
+}
+
+/* set color to 1 opacity on sticky bar */
+#Top_bar.is-sticky { 
+background: rgba(255,255,255,1) !important;
+ }
+
+/* set color to 1 opacity on top bar*/
+#Top_bar.top { 
+background: rgba(255,255,255,1) !important;
+ }
+
+
+/* display big logo on top*/
+  #Top_bar.top .logo img.logo-main{
+	display:inline  !important;
+}
+
+/* display small logo on sticky */
+  #Top_bar.is-sticky .logo img.logo-sticky {
+	display:inline  !important;
+}
+
+
+}
+
+/* Remove from top header if width less than 422*/
+
+@media only screen and (max-width: 422px) { 
+
+
+/* remove big logo from top*/
+  #Top_bar.top .logo img.logo-mobile  {
+	display:none  !important;
+}
+
+/* replace with logo icon*/
+  #Top_bar.top .logo img.logo-sticky  {
+	display:inline !important;
+}
+
+}
+
+/**
+*
+* No left right padding on section wrappers
+*/
+
+@media only screen and (max-width: 767px) { 
+
+.section_wrapper {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
+}
+
+
+/* remove margins from columns and one column */
+
+.column, .columns {
+   margin-left: 0% !important;
+   margin-right: 0% !important;
+}
+
+.one.column{
+width: 100% !important;
+}
+
+
+
+
+/**
+*
+* change font size by width in Responsive
+*
+*
+*/
+
+
+
+@media only screen and (max-width: 959px) and (min-width: 768px) { 
+   body {
+     font-size: 16px !important;
+     line-height: 24px;
+   }
+
+   #menu > ul > li > a, a.button.action_button, #overlay-menu ul li a {
+       font-size: 16px !important;
+       
+   }
+
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 480px) { 
+    body {
+        font-size: 16px !important;
+        line-height: 23px;
+   }
+
+   #menu > ul > li > a, a.button.action_button, #overlay-menu ul li a {
+       font-size: 16px !important;
+       
+   }
+
+}
+
+@media only screen and (max-width: 479px)  { 
+    body {
+     font-size: 16px !important;
+     line-height: 20px; 
+   }
+
+   #menu > ul > li > a, a.button.action_button, #overlay-menu ul li a {
+       font-size: 16px !important;
+   }
+
+
+}
+
+/*
+*
+*  Remove Widget Wrapper from Footer
+*
+*/
+
+#Footer .widgets_wrapper { display: none;}
