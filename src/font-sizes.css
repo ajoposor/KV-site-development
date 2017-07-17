@@ -90,7 +90,7 @@ h6 {
     }
     big,
     .big {
-        font-size: 21px;
+        font-size: 20px;
         line-height: 29px;
     }
     #menu > ul > li > a,
@@ -197,8 +197,8 @@ h6 {
     }
     big,
     .big {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 19px;
+        line-height: 27px;
     }
     #menu > ul > li > a,
     a.button.action_button,
@@ -304,8 +304,8 @@ h6 {
     }
     big,
     .big {
-        font-size: 19px;
-        line-height: 27px;
+        font-size: 17px;
+        line-height: 25px;
     }
     #menu > ul > li > a,
     a.button.action_button,
