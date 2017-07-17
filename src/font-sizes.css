@@ -1,0 +1,405 @@
+
+body {
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+big,
+.big {
+    font-size: 22px;
+    line-height: 30x;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+#menu > ul > li > a,
+a.button.action_button,
+#overlay-menu ul li a {
+    font-size: 19x;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+#overlay-menu ul li a {
+    line-height: 29px;
+}
+
+#Subheader .title {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h1,
+.text-logo #logo {
+    font-size: 44px;
+    line-height: 47px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 43px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font-size: 33px;
+    line-height: 39px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h6 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+#Intro .intro-title {
+    font-size: 44px;
+    line-height: 47px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    body {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    big,
+    .big {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    #menu > ul > li > a,
+    a.button.action_button,
+    #overlay-menu ul li a {
+        font-size: 18px;
+    }
+    #overlay-menu ul li a {
+        line-height: 27px;
+    }
+    #Subheader .title {
+        font-size: 33px;
+        line-height: 33x;
+    }
+    h1,
+    .text-logo #logo {
+        font-size: 37px;
+        line-height: 43px;
+    }
+    h2 {
+        font-size: 33px;
+        line-height: 39px;
+    }
+    h3 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    h5 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    h6 {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    #Intro .intro-title {
+        font-size: 37px;
+        line-height: 43px;
+    }
+    blockquote {
+        font-size: 18px;
+    }
+    .chart_box .chart .num {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .counter .desc_wrapper .number-wrapper {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .counter .desc_wrapper .title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .faq .question .title {
+        font-size: 18px;
+    }
+    .fancy_heading .title {
+        font-size: 41px;
+        line-height: 41px;
+    }
+    .offer .offer_li .desc_wrapper .title h3 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title h3 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .pricing-box .plan-header h2 {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .pricing-box .plan-header .price > span {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .pricing-box .plan-header .price sup.currency {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .pricing-box .plan-header .price sup.period {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .quick_fact .number {
+        font-size: 62px;
+        line-height: 62px;
+    }
+    .trailer_box .desc h2 {
+        font-size: 33px;
+        line-height: 33px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    big,
+    .big {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #menu > ul > li > a,
+    a.button.action_button,
+    #overlay-menu ul li a {
+        font-size: 18px;
+    }
+    #overlay-menu ul li a {
+        line-height: 27px;
+    }
+    #Subheader .title {
+        font-size: 29px;
+        line-height: 29px;
+    }
+    h1,
+    .text-logo #logo {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    h2 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    h5 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    h6 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #Intro .intro-title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    blockquote {
+        font-size: 18px;
+    }
+    .chart_box .chart .num {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .counter .desc_wrapper .number-wrapper {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .counter .desc_wrapper .title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .faq .question .title {
+        font-size: 18px;
+    }
+    .fancy_heading .title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .offer .offer_li .desc_wrapper .title h3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title h3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .pricing-box .plan-header h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .pricing-box .plan-header .price > span {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .pricing-box .plan-header .price sup.currency {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .pricing-box .plan-header .price sup.period {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .quick_fact .number {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .trailer_box .desc h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 17x;
+        line-height: 25px;
+    }
+    big,
+    .big {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    #menu > ul > li > a,
+    a.button.action_button,
+    #overlay-menu ul li a {
+        font-size: 17px;
+    }
+    #overlay-menu ul li a {
+        line-height: 26px;
+    }
+    #Subheader .title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    h1,
+    .text-logo #logo {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    h6 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    #Intro .intro-title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    blockquote {
+        font-size: 17px;
+    }
+    .chart_box .chart .num {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .counter .desc_wrapper .number-wrapper {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .counter .desc_wrapper .title {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .faq .question .title {
+        font-size: 17px;
+    }
+    .fancy_heading .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .offer .offer_li .desc_wrapper .title h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .pricing-box .plan-header h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .pricing-box .plan-header .price > span {
+        font-size: 31px;
+        line-height: 31px;
+    }
+    .pricing-box .plan-header .price sup.currency {
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .pricing-box .plan-header .price sup.period {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .quick_fact .number {
+        font-size: 41px;
+        line-height: 41px;
+    }
+    .trailer_box .desc h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+}
