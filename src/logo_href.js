@@ -37,7 +37,7 @@
          DEBUG && console.log("path: ", path);
          DEBUG && console.log("addressComponents: ", addressComponents);
          DEBUG && console.log("lastElement: ", lastElement);
-        
+         DEBUG && console.log("priorToLastElement: ", priorToLastElement);
 
          if(
             (lastElement === "" && (priorToLastElement === "" || 
@@ -55,6 +55,7 @@
             
            ) {
             
+            DEBUG && console.log("scrolling to top");
             document.body.scrollTop = document.documentElement.scrollTop = 0;         
             
          } else if (addressComponents.indexOf("en") !== -1) {
@@ -75,6 +76,7 @@
             
          } else {
             logoElement.setAttribute("href", "/");
+            DEBUG && console.log("else, href set to /");
          }
 
         /* if(start !== null) start.style.top = "65px";
