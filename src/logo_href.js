@@ -1,6 +1,6 @@
 (function(){
    
-   var DEBUG = true;
+   var DEBUG = false;
 
    var  logoElement =  document.getElementById("logo");
    
