@@ -55,7 +55,7 @@
             
             logoElement.setAttribute("href", "/de/");
             
-         } else 
+         } else {
             logoElement.setAttribute("href", "/");
          }
 
