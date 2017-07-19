@@ -20,7 +20,8 @@
    
 
    if(logoElement !== null) {
-      logoElement.setAttribute("href", "/#start");
+      //logoElement.setAttribute("href", "/#start");
+      logoElement.setAttribute("href", "#");
       var path = ""; 
       var addressComponents = [];
       var lastElement = "";
@@ -60,22 +61,24 @@
             
          } else if (addressComponents.indexOf("en") !== -1) {
             
-            logoElement.setAttribute("href", "/en/");
+            window.open("/en/","_self");
+            //logoElement.setAttribute("href", "/en/");
             
          } else if (addressComponents.indexOf("pt") !== -1) {
-           
-            logoElement.setAttribute("href", "/pt/");
+            window.open("/pt/","_self");
+            //logoElement.setAttribute("href", "/pt/");
             
          } else if (addressComponents.indexOf("fr") !== -1) {
-            
-            logoElement.setAttribute("href", "/fr/");
+            window.open("/fr/","_self");
+            //logoElement.setAttribute("href", "/fr/");
             
          } else if (addressComponents.indexOf("de") !== -1) {
-            
-            logoElement.setAttribute("href", "/de/");
+            window.open("/de/","_self");
+            //logoElement.setAttribute("href", "/de/");
             
          } else {
-            logoElement.setAttribute("href", "/");
+            window.open("/","_self");
+            //logoElement.setAttribute("href", "/");
             DEBUG && console.log("else, href set to /");
          }
 
