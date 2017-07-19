@@ -1,4 +1,6 @@
 (function(){
+   
+   var DEBUG = true;
 
    var  logoElement =  document.getElementById("logo");
    
@@ -27,6 +29,11 @@
          path = window.location.pathname;
          addressComponents = path.split("/");
          lastElement = addressComponents[addressComponents.length - 1];
+         
+         DEBUG && console.log("path: ", path);
+         DEBUG && console.log("addressComponents: ", addressComponents);
+         DEBUG && console.log("lastElement: ", lastElement);
+
          if(lastElement === "" || lastElement === "en" || lastElement === "pt" ||
             lastElement === "fr" || lastElement === "de" ) {
             
