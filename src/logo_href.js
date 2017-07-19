@@ -24,18 +24,36 @@
       var path = ""; 
       var addressComponents = [];
       var lastElement = "";
+      var priorToLastElement = "";
 
       logoElement.onclick = function () {
          path = window.location.pathname;
          addressComponents = path.split("/");
          lastElement = addressComponents[addressComponents.length - 1];
-         
+         if(addressComponents.length > 1) {
+            priorToLastElement = addressComponents[addressComponents.length - 2];
+         }
+
          DEBUG && console.log("path: ", path);
          DEBUG && console.log("addressComponents: ", addressComponents);
          DEBUG && console.log("lastElement: ", lastElement);
+        
 
-         if(lastElement === "" || lastElement === "en" || lastElement === "pt" ||
-            lastElement === "fr" || lastElement === "de" ) {
+         if(
+            (lastElement === "" && (priorToLastElement === "" || 
+                                    priorToLastElement === "en" ||
+                                    priorToLastElement === "pt" ||
+                                    priorToLastElement === "fr" ||
+                                    priorToLastElement === "de")
+            ) 
+            || 
+            (lastElement !== "" && (lastElement === "en" ||
+                                    lastElement === "pt" ||
+                                    lastElement === "fr" ||
+                                    lastElement === "de")
+            )
+            
+           ) {
             
             document.body.scrollTop = document.documentElement.scrollTop = 0;         
             
