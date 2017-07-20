@@ -904,7 +904,7 @@ max-width: 1188px !important;
 /* set min heigh of section to 100vh minus height of header / sticky banner */
 .kv_full_height_section {
    position: relative;
-   min-height: calc(100vh - 65px);
+   min-height: calc(100vh - 70px);
 }
 
 /* pass height to child container */
