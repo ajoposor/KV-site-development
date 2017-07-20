@@ -43,13 +43,13 @@
          if(
             (lastElement === "" && (priorToLastElement === "" || 
                                     priorToLastElement === "en" ||
-                                    priorToLastElement === "pt" ||
+                                    priorToLastElement === "pt-br" ||
                                     priorToLastElement === "fr" ||
                                     priorToLastElement === "de")
             ) 
             || 
             (lastElement !== "" && (lastElement === "en" ||
-                                    lastElement === "pt" ||
+                                    lastElement === "pt-br" ||
                                     lastElement === "fr" ||
                                     lastElement === "de")
             )
@@ -65,8 +65,8 @@
             //logoElement.setAttribute("href", "/en/");
             
          } else if (addressComponents.indexOf("pt") !== -1) {
-            window.open("/pt/","_self");
-            //logoElement.setAttribute("href", "/pt/");
+            window.open("/pt-br/","_self");
+            //logoElement.setAttribute("href", "/pt-br/");
             
          } else if (addressComponents.indexOf("fr") !== -1) {
             window.open("/fr/","_self");
