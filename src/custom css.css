@@ -985,13 +985,13 @@ max-width: 1188px; /*1220 menos 32 16x2*/
 
 /* set side margins on logo top_bar top */
 #Top_bar .logo #logo {
-margin: 7.5px 0px 7.5px 0px !important;
+margin: 5px 0px 5px 0px !important;
 width: 180px;
 }
 
 /* adjust margin on topbar sticky logo on the left void space */
 #Top_bar.is-sticky #logo {
-margin: 7.5px 100px 7.5px 0px !important;  /*   */
+margin: 5px 100px 5px 0px !important;  /*   */
 }
 
 
