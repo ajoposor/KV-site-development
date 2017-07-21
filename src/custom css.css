@@ -902,8 +902,12 @@ max-width: 1188px !important;
     padding: 5px 0px 5px 0px !important;
 }
 
+/* adjust header/menu height to menu items to 60px  and reduce side padding from 20 to 15*/
 
-
+#Top_bar .menu > li > a span:not(.description) {
+    line-height: 50px !important;
+    padding: 0 15px;
+}
 
 
 
