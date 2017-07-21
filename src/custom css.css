@@ -1021,9 +1021,9 @@ margin: 7.5px 100px 7.5px 0px !important;  /*   */
   /* place sticky menu icon on the right */
   #Top_bar a.responsive-menu-toggle.is-sticky {
       left: unset !important;
-      position: absolute !important;
+      /*position: absolute !important;*/
       right: 10px !important;  /* 16 - 6 (34-22)/2  */  
-      top: 50% !important;
+      /*top: 50% !important;*/
 
    }
 
