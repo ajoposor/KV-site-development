@@ -878,8 +878,6 @@ z-index: 2;
 }
 
 
-
-
 /* Sticky Header Mobile Color Transparency */
 
 
@@ -910,13 +908,12 @@ max-width: 1188px !important;
 }
 
 /* fix back unexpected padding appeared after introducing above change */
-@media only screen and (min-width: 768px) {
-   
+@media only screen and (min-width: 768px) {  
     #Top_bar.is-sticky .menu_wrapper .menu > li > a {
         padding: 0px 0px 0px 0px !important;
     }
-	
-*/
+}
+
 
 /**
 *
