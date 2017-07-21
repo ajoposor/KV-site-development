@@ -863,7 +863,9 @@ z-index: 2;
 
 
 
-/** Menus and Logo 
+/** 
+* 
+* Menus and Logo 
 *
 */
 
@@ -890,6 +892,18 @@ max-width: 920px;
 #Top_bar .container {
 max-width: 1188px !important;
 }
+
+/* adjust header/menu height to 60px */
+
+#Top_bar #logo,
+.header-fixed #Top_bar #logo,
+.header-plain #Top_bar #logo,
+.header-transparent #Top_bar #logo {
+    padding: 5px 0px 5px 0px !important;
+}
+
+
+
 
 
 
