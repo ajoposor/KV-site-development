@@ -163,13 +163,13 @@ big,
 #menu > ul > li > a,
 a.button.action_button,
 #overlay-menu ul li a {
-    font-size: 17x;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 0px;
 }
 
 #overlay-menu ul li a {
-    line-height: 22px;
+    line-height: 17px;
 }
 
 #Subheader .title {
@@ -243,10 +243,10 @@ h6, .p6 {
     #menu > ul > li > a,
     a.button.action_button,
     #overlay-menu ul li a {
-        font-size: 17px;
+        font-size: 15px;
     }
     #overlay-menu ul li a {
-        line-height: 22px;
+        line-height: 17px;
     }
     #Subheader .title {
         font-size: 32px;
@@ -351,10 +351,10 @@ h6, .p6 {
     #menu > ul > li > a,
     a.button.action_button,
     #overlay-menu ul li a {
-        font-size: 17px;
+        font-size: 15px;
     }
     #overlay-menu ul li a {
-        line-height: 22px;
+        line-height: 17px;
     }
     #Subheader .title {
         font-size: 29px;
@@ -459,10 +459,10 @@ h6, .p6 {
     #menu > ul > li > a,
     a.button.action_button,
     #overlay-menu ul li a {
-        font-size: 17px;
+        font-size: 15px;
     }
     #overlay-menu ul li a {
-        line-height: 22px;
+        line-height: 17px;
     }
     #Subheader .title {
         font-size: 26px;
