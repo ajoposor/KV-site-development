@@ -162,7 +162,8 @@ big,
 
 #menu > ul > li > a,
 a.button.action_button,
-#overlay-menu ul li a {
+#overlay-menu ul li a,
+.wpml-ls-menu-item {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 0.05em;
@@ -241,8 +242,9 @@ h6, .p6 {
         line-height: 24px;
     }
     #menu > ul > li > a,
-    a.button.action_button,
-    #overlay-menu ul li a {
+	a.button.action_button,
+	#overlay-menu ul li a,
+	.wpml-ls-menu-item {
         font-size: 15px;
 	    letter-spacing: 0.05em;
     }
@@ -350,8 +352,9 @@ h6, .p6 {
         line-height: 23px;
     }
     #menu > ul > li > a,
-    a.button.action_button,
-    #overlay-menu ul li a {
+	a.button.action_button,
+	#overlay-menu ul li a,
+	.wpml-ls-menu-item {
         font-size: 15px;
 	    letter-spacing: 0.05em;
     }
@@ -459,8 +462,9 @@ h6, .p6 {
         line-height: 22px;
     }
     #menu > ul > li > a,
-    a.button.action_button,
-    #overlay-menu ul li a {
+	a.button.action_button,
+	#overlay-menu ul li a,
+	.wpml-ls-menu-item {
         font-size: 15px;
 	    letter-spacing: 0.05em;
     }
