@@ -84,6 +84,14 @@ a#back_to_top {
 	margin: 0px;
 }
 
+
+
+/*  Remove Widget Wrapper from Footer */
+
+#Footer .widgets_wrapper { display: none;}
+
+
+
 /**
 *
 * Custom font styling
@@ -1145,16 +1153,6 @@ padding-right: 0px !important;
 width: 100% !important;
 }
 
-
-
-
-/*
-*
-*  Remove Widget Wrapper from Footer
-*
-*/
-
-#Footer .widgets_wrapper { display: none;}
 
 
 
