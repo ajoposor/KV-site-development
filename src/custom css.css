@@ -1168,7 +1168,7 @@ width: 100% !important;
 
 /* remove padding top, bottom from footer */
 .wpml-ls-legacy-list-horizontal {
-	padding: 0px 7px 0px 7px;
+	padding: 5.5px 7px 5.5px 7px;
 }
 
 /* remove bottom margin from footer */
