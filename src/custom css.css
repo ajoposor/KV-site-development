@@ -67,8 +67,8 @@ background-color: rgba(34, 119, 187, 1.0);
 
 
 #Footer .footer_copy .one {
-    margin-bottom: 10px;
-    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     min-height: 33px;
 }
 
@@ -76,6 +76,13 @@ background-color: rgba(34, 119, 187, 1.0);
     float: right;
 }
 
+.copyright {
+	margin: 8px 0px 8px 0px;
+}
+
+a#back_to_top {
+	margin: 0px;
+}
 
 /**
 *
