@@ -81,7 +81,7 @@ background-color: rgba(34, 119, 187, 1.0);
 	margin: 8px 0px 8px 0px;
 }
 
-/* remove margin on back to top icon to reduce line height
+/* remove margin on back to top icon to reduce line height */
 .footer-copy-center #Footer .footer_copy a#back_to_top {
 	margin: 0px;
 }
