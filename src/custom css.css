@@ -153,6 +153,53 @@ p.big + p.big {
   margin-bottom: 0.4em;
 }
 
+/*
+*
+* set shortcodes font-weight to 300
+*
+*/
+
+/* Forms */
+label,legend{font-weight:300;}
+
+/* Lists */
+dl > dt{font-weight:300;}
+
+/* Muffin link, Effect 4, Effect 8 */
+a.mfn-link-4{font-weight:300;}
+a.mfn-link-8{font-weight:300;}
+
+/* Accordion */
+.accordion .question .title{font-weight:300;}
+
+/* FAQ */
+.faq .question .title .num {font-weight:300;}
+
+/* Table */
+table th{font-weight:300;}
+
+
+/* List */
+.list_item .circle{font-weight:300;}
+
+/* Pricing Table */
+.pricing-box-label ul li{font-weight:300;}
+
+/* Progress Bar */
+.progress_bars .bars_list li h6 .label{font-weight:300;}
+
+/* Content links */
+a.content_link .title{font-weight:300;}
+
+/* Opening hours */
+.opening_hours .opening_hours_wrapper li label{font-weight:300;}
+
+/* Quick fact */
+.style-simple .quick_fact .title{font-weight:300;}
+
+
+
+
 
 
 /**
