@@ -937,11 +937,15 @@ z-index: 2;
 /* class to make form fields go to 66% width and to 100% below threshold */
 .kv-wpcf7-66 {
 	width: 66%;
-	
-	@media only screen and (max-width: 479px) { 
+}
+
+
+@media only screen and (max-width: 479px) { 
+	.kv-wpcf7-66 {
 		width: 100%;
 	}
 }
+
 
 
 /** 
@@ -949,7 +953,6 @@ z-index: 2;
 * Menus and Logo 
 *
 */
-
 
 
 /*  Remove logo from sticky header mobile below top*/
