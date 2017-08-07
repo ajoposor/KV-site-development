@@ -934,6 +934,16 @@ z-index: 2;
 
 
 
+/* class to make form fields go to 66% width and to 100% below threshold */
+.kv-wpcf7-66 {
+	width: 66%;
+	
+	@media only screen and (max-width: 479px) { 
+		width: 100%;
+	}
+}
+
+
 /** 
 * 
 * Menus and Logo 
