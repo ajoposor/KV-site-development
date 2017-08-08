@@ -926,8 +926,10 @@ z-index: 2;
 
 
 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
-    color: #4F8A10;
-    background-color: #DFF2BF;
+    //color: #4F8A10;
+    //background-color: #DFF2BF;
+	color: #FFFFFF;
+	background-color: rgba(166,146,85,1.0);
     border: 0;
     padding: 10px;
 }
