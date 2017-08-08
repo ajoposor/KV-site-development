@@ -929,7 +929,7 @@ z-index: 2;
     //color: #4F8A10;
     //background-color: #DFF2BF;
 	color: #FFFFFF;
-	background-color: rgba(166,146,85,1.0);
+	background-color: rgba(166,146,85,1.0) important!;
     border: 0;
     padding: 10px;
 }
