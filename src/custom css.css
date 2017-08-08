@@ -931,7 +931,7 @@ z-index: 2;
     //background-color: #DFF2BF;
 	color: #FFFFFF;
 	background-color: rgba(166,146,85,1.0) !important;
-    border: 0;
+    border: 0px !important;
     margin: 10px 0px 10px 0px !important;
 }
 
