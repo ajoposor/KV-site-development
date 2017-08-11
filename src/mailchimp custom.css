@@ -372,7 +372,8 @@ p.big + p.big {
 *
 */
 
-.kvmcImage {
+.kvmcImage, 
+.kvmcHeaderLogo {
 	vertical-align: bottom !important;
 }
 
@@ -380,7 +381,11 @@ p.big + p.big {
 	
 	.kvmcImage {
 		width: 100%;
-	}	
+	}
+	
+	.kvmcHeaderLogo {
+		width> 75%;
+	}
 
 }
 
