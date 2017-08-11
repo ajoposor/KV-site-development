@@ -1,0 +1,376 @@
+
+/**
+*
+*
+*  Mail Chimp custom CSS for KV
+*
+*
+*/
+
+/* TYPOGRAPHY */
+
+/* font family */
+body, div, span, p, h1, h2, h3, h4, h5, h6,
+.kvmc-menu-bar, .kvmc-menu-items, .kvmc-menu-dot {
+	font-family: 'Raleway', 'Arial', sans-serif !Important;
+}
+
+
+/* colors */
+body, div, span, p {
+	color: #58595b !Important;
+}
+
+.kvmc-menu-dot {
+	color: #D3D3D3;
+}
+
+.kvmc-menu-items {
+	color: #808285 !important;
+}
+
+
+h1 {
+  color: #2277bb !important;
+}
+
+h2 {
+	color: #2277bb !important;
+}
+
+h3, h4, h5 {
+	color: #1d3860 !important;
+}
+
+h6 {
+	color: #0a5a8e !important;
+}
+
+
+/**
+*
+* set font sizes  - change font size by width in Responsive
+*
+*
+*/
+
+body {
+    font-size: 19px !important;
+    line-height: 26px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
+}
+
+big,
+.big {
+    font-size: 22px;
+    line-height: 28x;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+.kvmc-menu-items {
+	font-size: 15px;
+  font-weight: 300 !important;
+	letter-spacing: 0.05em;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+#Subheader .title {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h1,
+.text-logo #logo,
+.p1 {
+    font-size: 44px;
+    line-height: 50x;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h2, .p2 {
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h3, .p3 {
+    font-size: 33px;
+    line-height: 41px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h4, .p4 {
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h5, .p5 {
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+h6, .p6 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    body {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    big,
+    .big {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .kvmc-menu-items {
+		font-size: 15px;
+		letter-spacing: 0.05em;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+
+ 
+    h1,
+    .text-logo #logo,
+    .p1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    h2, .p2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    h3, .p3 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    h4, .p4 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    h5, .p5 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    h6, .p6 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    big,
+    .big {
+        font-size: 19px;
+        line-height: 23px;
+    }
+	
+	.kvmc-menu-items {
+		font-size: 14px;
+		letter-spacing: 0.05em;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+
+ 
+    h1,
+    .text-logo #logo,
+    .p1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    h2, .p2 {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    h3, .p3 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    h4, .p4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h5, .p5 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    h6, .p6 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+ 
+}
+
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 17x;
+        line-height: 22px;
+    }
+    big,
+    .big {
+        font-size: 17px;
+        line-height: 22px;
+    }
+	
+	.kvmc-menu-items {
+		font-size: 13px;
+		letter-spacing: 0.05em;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+
+
+    h1,
+    .text-logo #logo,
+    .p1{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    h2, .p2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h3, .p3 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    h4, .p4 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    h5, .p5 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    h6, .p6 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+}
+
+
+
+
+
+/* Menu items */
+
+.kvmc-menu-bar {
+	text-align: center;
+	margin: 5px 0px 22.5px 0px;
+}
+
+
+.kvmc-menu-items {
+	text-align: center;
+	word-wrap: break-word;
+	text-decoration: none;
+}
+
+
+
+
+
+/**
+*
+*  custom color classes
+*
+*/
+
+
+/* kv colors */
+.kv_darkblue {
+color:#1D3860 !important;
+}
+
+.kv_midblue {
+color:#0A5A8E !important;
+}
+
+.kv_lightblue, .kv_blue {
+color: #2277bb !important;
+}
+
+.kv_white {
+color: #ffffff !important;
+}
+
+.kv_background_brown70 {
+background-color: rgba(166, 146, 86, 0.7);
+}
+
+
+.kv_background_blue85 {
+background-color: rgba(34, 119, 187, 0.85);
+}
+
+.kv_background_blue {
+background-color: rgba(34, 119, 187, 1.0);
+}
+
+.kv_background_darkblue {
+  background-color: #1D3860;
+}
+
+
+
+
+/**
+*
+* Custom font styling
+*
+*
+*/
+
+.kv_400 {
+   font-weight: 400 !important;
+}
+
+
+.kv_600 {
+   font-weight: 600 !important;
+}
+
+
+
+
+/**
+*
+* custom paragraphs
+*
+*
+*/
+
+/* a paragraph proceeded by another paragraph will have a top margin */
+p.big + p.big {
+    margin-top: 0.60em;
+}
+
+
+
+
