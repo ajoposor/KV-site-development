@@ -373,4 +373,23 @@ p.big + p.big {
 
 
 
+/**
+*
+*
+*  Images
+*
+*
+*/
+
+.kvmcImage {
+	vertical-align: bottom !important;
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.kvmcImage {
+		width: 100%;
+	}	
+
+}
 
