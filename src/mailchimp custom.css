@@ -347,6 +347,7 @@ background-color: rgba(34, 119, 187, 1.0);
 	text-align: center;
 	word-wrap: break-word;
 	text-decoration: none;
+	padding: 0px 10px 0px 10px;
 }
 
 
@@ -356,6 +357,12 @@ background-color: rgba(34, 119, 187, 1.0);
 		padding-left: 9px;
 		padding-right: 9px;
 	}
+	
+	.kvmc-menu-items {
+		padding: 0px 4px 0px 4px;
+	}
+
+	
 }
 
 
