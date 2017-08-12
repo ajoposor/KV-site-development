@@ -63,82 +63,82 @@ body {
 
 big,
 .big {
-    font-size: 22px;
-    line-height: 28x;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 22px !important;
+    line-height: 28x !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 .kvmc-menu-items {
 	font-size: 15px;
  	font-weight: 300 !important;
-	letter-spacing: 0.05em;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	letter-spacing: 0.05em !important;
+	-ms-text-size-adjust: 100% !important;
+	-webkit-text-size-adjust: 100% !important;
 }
 
 #Subheader .title {
-    font-size: 38px;
-    line-height: 38px;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 38px !important;
+    line-height: 38px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 h1,
 .text-logo #logo,
 .p1 {
-    font-size: 44px;
-    line-height: 50x;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 44px !important;
+    line-height: 50x !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 h2, .p2 {
-    font-size: 38px;
-    line-height: 46px;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 38px !important;
+    line-height: 46px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 h3, .p3 {
-    font-size: 33px;
-    line-height: 41px;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 33px !important;
+    line-height: 41px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 h4, .p4 {
-    font-size: 29px;
-    line-height: 36px;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 29px !important;
+    line-height: 36px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 h5, .p5 {
-    font-size: 25px;
-    line-height: 31px;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 25px !important;
+    line-height: 31px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 h6, .p6 {
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0px !important;
 }
 
 
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     body {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 18px !important;
+        line-height: 24px !important;
     }
     big,
     .big {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 20px !important;
+        line-height: 24px !important;
     }
     
     .kvmc-menu-items {
@@ -149,41 +149,41 @@ h6, .p6 {
     h1,
     .text-logo #logo,
     .p1 {
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 36px !important;
+        line-height: 44px !important;
     }
     h2, .p2 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 32px !important;
+        line-height: 40px !important;
     }
     h3, .p3 {
         font-size: 29px;
-        line-height: 36px;
+        line-height: 36px !important;
     }
     h4, .p4 {
-        font-size: 26px;
-        line-height: 31px;
+        font-size: 26px !important;
+        line-height: 31px !important;
     }
     h5, .p5 {
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 22px !important;
+        line-height: 26px !important;
     }
     h6, .p6 {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 20px !important;
+        line-height: 24px !important;
     }
   
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     body {
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 18px !important;
+        line-height: 23px !important;
     }
     big,
     .big {
-        font-size: 19px;
-        line-height: 23px;
+        font-size: 19px !important;
+        line-height: 23px !important;
     }
 	
 	.kvmc-menu-items {
@@ -194,41 +194,41 @@ h6, .p6 {
     h1,
     .text-logo #logo,
     .p1 {
-        font-size: 32px;
-        line-height: 39px;
+        font-size: 32px !important;
+        line-height: 39px !important;
     }
     h2, .p2 {
-        font-size: 29px;
-        line-height: 35px;
+        font-size: 29px !important;
+        line-height: 35px !important;
     }
     h3, .p3 {
-        font-size: 26px;
-        line-height: 31px;
+        font-size: 26px !important;
+        line-height: 31px !important;
     }
     h4, .p4 {
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 24px !important;
+        line-height: 28px !important;
     }
     h5, .p5 {
-        font-size: 21px;
-        line-height: 25px;
+        font-size: 21px !important;
+        line-height: 25px !important;
     }
     h6, .p6 {
-        font-size: 19px;
-        line-height: 22px;
+        font-size: 19px !important;
+        line-height: 22px !important;
     }
  
 }
 
 @media only screen and (max-width: 479px) {
     body {
-        font-size: 17x;
-        line-height: 22px;
+        font-size: 17x !important;
+        line-height: 22px !important;
     }
     big,
     .big {
-        font-size: 17px;
-        line-height: 22px;
+        font-size: 17px !important;
+        line-height: 22px !important;
     }
 	
 	.kvmc-menu-items {
@@ -239,28 +239,28 @@ h6, .p6 {
     h1,
     .text-logo #logo,
     .p1{
-        font-size: 28px;
-        line-height: 33px;
+        font-size: 28px !important;
+        line-height: 33px !important;
     }
     h2, .p2 {
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 26px !important;
+        line-height: 30px !important;
     }
     h3, .p3 {
-        font-size: 24px;
-        line-height: 27px;
+        font-size: 24px !important;
+        line-height: 27px !important;
     }
     h4, .p4 {
-        font-size: 22px;
-        line-height: 25px;
+        font-size: 22px !important;
+        line-height: 25px !important;
     }
     h5, .p5 {
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 20px !important;
+        line-height: 23px !important;
     }
     h6, .p6 {
-        font-size: 18px;
-        line-height: 21px;
+        font-size: 18px !important;
+        line-height: 21px !important;
     }
 
 }
@@ -381,7 +381,8 @@ p.big + p.big {
     margin-top: 0.60em;
 }
 
-.mcnTextContent {
+.mcnTextContent,
+.mcnDividerBlockInner {
 	padding-right: 18px !important;
 	padding-left: 18px !important;
 }
@@ -394,10 +395,14 @@ p.big + p.big {
 @media only screen and (max-width: 480px) {
 	
 
-	.mcnTextContent {
+	.mcnTextContent,
+	.mcnDividerBlockInner
+	{
 		padding-right: 9px !important;
 		padding-left: 9px !important;
 	}
+	
+
 
 }
 
