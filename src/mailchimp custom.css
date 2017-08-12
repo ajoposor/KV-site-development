@@ -466,6 +466,13 @@ p.big + p.big {
 	padding-left: 5px !important;
 }
 
+.mcnShareTextContent {
+	padding: 0px !important;
+}
+
+.mcnShareIconContent {
+	padding 3px 0px 3px 10px !important;
+}
 
 
 
