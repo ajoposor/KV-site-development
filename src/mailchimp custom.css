@@ -384,7 +384,7 @@ p.big + p.big {
 	}
 	
 	.kvmcHeaderLogo {
-		width> 75%;
+		width: 75%;
 	}
 
 }
