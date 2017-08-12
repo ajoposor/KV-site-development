@@ -269,21 +269,6 @@ h6, .p6 {
 
 
 
-/* Menu items */
-
-.kvmc-menu-bar {
-	text-align: center;
-	margin: 5px 0px 5px 0px;
-}
-
-
-.kvmc-menu-items {
-	text-align: center;
-	word-wrap: break-word;
-	text-decoration: none;
-}
-
-
 
 
 
@@ -346,6 +331,33 @@ background-color: rgba(34, 119, 187, 1.0);
 .kv_600 {
    font-weight: 600 !important;
 }
+
+
+/* Menu items */
+
+.kvmc-menu-bar {
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+
+.kvmc-menu-items {
+	text-align: center;
+	word-wrap: break-word;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	.kvmc-menu-bar {
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+}
+
 
 
 
