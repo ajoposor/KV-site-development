@@ -342,6 +342,42 @@ background-color: rgba(34, 119, 187, 1.0);
 *
 */
 
+@media only screen and (max-width: 480px) {
+
+	.kvmc-menu-bar {
+		padding-left: 10px;
+		padding-right: 7px;
+	}
+	
+	.kvmc-menu-items {
+		padding: 0px 4px 0px 4px;
+	}
+	
+	.mcnTextContent,
+	.mcnDividerBlockInner
+	{
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+	
+	
+	.kvmcImage {
+		width: 100%;
+	}
+	
+	.kvmcHeaderLogo {
+		width: 75%;
+	}
+	
+
+	
+}
+
+
+
+
+
+
 /* a paragraph proceeded by another paragraph will have a top margin */
 p.big + p.big {
     margin-top: 0.60em;
@@ -433,37 +469,6 @@ p.big + p.big {
 }
 
 
-
-@media only screen and (max-width: 480px) {
-
-	.kvmc-menu-bar {
-		padding-left: 10px;
-		padding-right: 7px;
-	}
-	
-	.kvmc-menu-items {
-		padding: 0px 4px 0px 4px;
-	}
-	
-	.mcnTextContent,
-	.mcnDividerBlockInner
-	{
-		padding-right: 9px;
-		padding-left: 9px;
-	}
-	
-	
-	.kvmcImage {
-		width: 100%;
-	}
-	
-	.kvmcHeaderLogo {
-		width: 75%;
-	}
-	
-
-	
-}
 
 
 
