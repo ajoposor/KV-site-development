@@ -141,7 +141,7 @@ h6, .p6 {
         line-height: 24px;
     }
     
-    .kvmc-menu-items {
+    .kvmc-menu-items.m {
 		font-size: 15px;
 	}
 
@@ -186,7 +186,7 @@ h6, .p6 {
         line-height: 23px;
     }
 	
-	.kvmc-menu-items {
+	.kvmc-menu-items.m.i {
 		font-size: 14px;
 	}
 
@@ -231,8 +231,8 @@ h6, .p6 {
         line-height: 22px;
     }
 	
-	.kvmc-menu-items {
-		font-size: 13px;
+	kvmc-menu-items.m.i.s {
+		font-size: 13px !important;
 	}
 
 
@@ -354,8 +354,8 @@ p.big + p.big {
 
 .mcnTextContent,
 .mcnDividerBlockInner {
-	padding-right: 17px;
-	padding-left: 17px;
+	padding-right: 18px;
+	padding-left: 18px;
 }
 
 .mcnBoxedTextContentColumn {
@@ -368,8 +368,8 @@ p.big + p.big {
 .kvmc-menu-bar {
 	text-align: center;
 	margin: 5px 0px 5px 0px;
-	padding-left: 19px;
-	padding-right: 19px;
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 
@@ -441,12 +441,12 @@ p.big + p.big {
 
 @media only screen and (max-width: 480px) {
 
-	div .kvmc-menu-bar {
-		padding-left: 10px ;
-		padding-right: 7px ;
+	div.kvmc-menu-bar {
+		padding-left: 9px ;
+		padding-right: 9px ;
 	}
 	
-	div .kvmc-menu-items {
+	a.kvmc-menu-items {
 		padding: 0px 4px 0px 4px ;
 	}
 	
