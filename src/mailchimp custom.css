@@ -236,8 +236,8 @@ h6, .p6 {
         line-height: 22px;
     }
 	
-	kvmc-menu-items {
-		font-size: 13px !important;
+	a.kvmc-menu-items {
+		font-size: 13px;
 	}
 
 
@@ -452,7 +452,7 @@ p.big + p.big {
 	}
 	
 	a.kvmc-menu-items {
-		padding: 0px 4px 0px 4px ;
+		padding: 0px 4px 0px 4px;
 	}
 	
 	.mcnTextContent,
