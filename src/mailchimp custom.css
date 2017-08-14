@@ -54,6 +54,9 @@ h6 {
 *
 */
 
+
+@media only screen and (max-width: 5000px) {
+
 body {
     font-size: 19px;
     line-height: 26px;
@@ -141,7 +144,7 @@ h6, .p6 {
         line-height: 24px;
     }
     
-    .kvmc-menu-items.m {
+    .kvmc-menu-items {
 		font-size: 15px;
 	}
 
@@ -186,7 +189,7 @@ h6, .p6 {
         line-height: 23px;
     }
 	
-	.kvmc-menu-items.m.i {
+	.kvmc-menu-items{
 		font-size: 14px;
 	}
 
@@ -231,7 +234,7 @@ h6, .p6 {
         line-height: 22px;
     }
 	
-	kvmc-menu-items.m.i.s {
+	kvmc-menu-items {
 		font-size: 13px !important;
 	}
 
