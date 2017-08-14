@@ -420,7 +420,7 @@ p.big + p.big {
 	padding-left: 0px !important;
 }
 
-.mcnShareIconContent {
+td.mcnShareIconContent {
 	padding-top: 1px !important;
 	padding-right: 2px !important;
 	padding-bottom: 1px !important;
