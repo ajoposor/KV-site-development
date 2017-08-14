@@ -441,13 +441,13 @@ p.big + p.big {
 
 @media only screen and (max-width: 480px) {
 
-	.kvmc-menu-bar {
-		padding-left: 10px !important;
-		padding-right: 7px !important;
+	div .kvmc-menu-bar {
+		padding-left: 10px ;
+		padding-right: 7px ;
 	}
 	
-	.kvmc-menu-items {
-		padding: 0px 4px 0px 4px !important;
+	div .kvmc-menu-items {
+		padding: 0px 4px 0px 4px ;
 	}
 	
 	.mcnTextContent,
