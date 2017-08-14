@@ -338,8 +338,8 @@ background-color: rgba(34, 119, 187, 1.0);
 .kvmc-menu-bar {
 	text-align: center;
 	margin: 5px 0px 5px 0px;
-	padding-left: 18px;
-	padding-right: 18px;
+	padding-left: 19px;
+	padding-right: 19px;
 }
 
 
@@ -383,8 +383,8 @@ p.big + p.big {
 
 .mcnTextContent,
 .mcnDividerBlockInner {
-	padding-right: 18px;
-	padding-left: 18px;
+	padding-right: 17px;
+	padding-left: 17px;
 }
 
 .mcnBoxedTextContentColumn {
