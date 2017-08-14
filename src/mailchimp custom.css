@@ -393,8 +393,10 @@ p.big + p.big {
 
 
 .mcnShareBlockInner {
-	padding: 0px 9px 0px 9px;
+	padding: 0px 0px 0px 0px !important;
 }
+
+
 
 .mcnShareContentItemContainer {
 	padding-top: 0px;
