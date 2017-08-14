@@ -422,12 +422,9 @@ td.mcnShareIconContent {
 }
 
 .mcnShareTextContent {
-	padding: 0px;
+	padding: 0px !important;
 }
 
-.mcnShareIconContent {
-	padding 3px 0px 3px 10px;
-}
 
 
 /**
