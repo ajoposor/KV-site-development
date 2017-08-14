@@ -413,7 +413,7 @@ p.big + p.big {
 }
 
 /*table*/
-.mcnShareContentItem tbody tr td {
+.mcnShareContentItem > tbody > tr > td {
 	padding-top: 0px !important;
 	padding-right: 0px !important;
 	padding-bottom: 0px !important;
