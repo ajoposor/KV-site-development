@@ -354,8 +354,8 @@ background-color: rgba(34, 119, 187, 1.0);
 @media only screen and (max-width: 480px) {
 
 	.kvmc-menu-bar {
-		padding-left: 9px;
-		padding-right: 9px;
+		padding-left: 10px;
+		padding-right: 7px;
 	}
 	
 	.kvmc-menu-items {
