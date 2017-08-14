@@ -398,12 +398,6 @@ p.big + p.big {
 
 
 
-.mcnShareContentItemContainer {
-	padding-top: 0px !important;
-	padding-right: 0px !important;
-	padding-left: 0px !important;
-}
-
 /*td*/
 .mcnShareContentItemContainer {
 	padding-top: 0px !important;
@@ -434,6 +428,43 @@ td.mcnShareIconContent {
 .mcnShareIconContent {
 	padding 3px 0px 3px 10px;
 }
+
+
+/**
+*
+*
+*  Format follow buttons
+*
+*/
+
+
+.mcnFollowBlockInner {
+	padding: 0px 0px 0px 0px !important;
+}
+
+/*table*/
+.mcnFollowContent > tbody > tr > td {
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+}
+
+.mcnFollowContentItemContainer {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-rigth: 0px !important;
+}
+
+/*table*/
+table.mcnFollowContentItem > tbody > tr > td {
+	padding-top: 1px !important;
+	padding-right: 2px !important;
+	padding-bottom: 1px !important;
+	padding-left: 2px !important;
+}
+
 
 
 
