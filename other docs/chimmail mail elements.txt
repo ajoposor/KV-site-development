@@ -93,7 +93,40 @@ table#bodyTable
 																			
 																		
 														
-														
+								
+			table.mcnFollowBlock
+				tbody.mcnFollowBlockOuter
+					tr
+						td.mcnFollowBlockInner (sets padding to 0 left right and 0 top left on kv custom css) DONE
+							table.mcnFollowContentContainer
+								tbody
+									tr
+										td (sets padding to 9 left right) OK
+											table.mcnFollowContent
+												tbody
+													tr
+														td  (set padding to 0) DONE
+															table
+																tbody
+																	tr
+																		td
+																			table
+																				tbody
+																					tr
+																						td.mcnFollowContentItemContainer PAD DONE
+																								table.mcnFollowContentItem
+																										tbody
+																											tr
+																												td padding AJUSTAR A
+																													table
+																														tbody
+																															tr
+																																td.mcnFollowIconContent
+																																	a
+																																			
+																																	
+																																
+																																										
 													
 							
 						
