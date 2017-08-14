@@ -55,8 +55,6 @@ h6 {
 */
 
 
-@media only screen and (max-width: 5000px) {
-
 body {
     font-size: 19px;
     line-height: 26px;
@@ -96,7 +94,7 @@ h1,
     letter-spacing: 0px;
 }
 
-h2, .p2 {
+.h2kv, .p2 {
     font-size: 38px;
     line-height: 46px;
     font-weight: 300;
@@ -131,7 +129,7 @@ h6, .p6 {
     letter-spacing: 0px;
 }
 	
-}
+
 
 
 
@@ -157,7 +155,7 @@ h6, .p6 {
         font-size: 36px;
         line-height: 44px;
     }
-    h2, .p2 {
+    .h2kv, .p2 {
         font-size: 32px;
         line-height: 40px;
     }
@@ -202,7 +200,7 @@ h6, .p6 {
         font-size: 32px;
         line-height: 39px;
     }
-    h2, .p2 {
+    .h2kv, .p2 {
         font-size: 29px;
         line-height: 35px;
     }
@@ -247,7 +245,7 @@ h6, .p6 {
         font-size: 28px;
         line-height: 33px;
     }
-    h2.kv, .p2 {
+    h2.h2kv, .p2 {
         font-size: 26px !important;
         line-height: 30px !important;
     }
