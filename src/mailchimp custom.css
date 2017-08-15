@@ -69,7 +69,7 @@ body, .kvdiv {
 big,
 .big {
     font-size: 22px;
-    line-height: 28x;
+    line-height: 28px;
     font-weight: 300;
     letter-spacing: 0px;
 }
@@ -93,7 +93,7 @@ big,
 .text-logo #logo,
 .p1 {
     font-size: 44px;
-    line-height: 50x;
+    line-height: 50px;
     font-weight: 300;
     letter-spacing: 0px;
 }
@@ -229,7 +229,7 @@ big,
 
 @media only screen and (max-width: 480px) {
     body, div.kvdiv {
-        font-size: 17x!important;
+        font-size: 17px!important;
         line-height: 22px!important;
     }
     big,
