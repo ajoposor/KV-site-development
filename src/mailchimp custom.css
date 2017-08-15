@@ -66,6 +66,14 @@ body, .kvdiv {
     letter-spacing: 0px;
 }
 
+.kvinfo {
+	  font-size: 17px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+
 big,
 .big {
     font-size: 22px;
@@ -151,6 +159,11 @@ big,
     a.kvmc-menu-items {
 		font-size: 15px;
 	}
+	
+	.kvinfo {
+	  font-size: 16px;
+    line-height: 23px;
+	}
 
  
     .h1kv,
@@ -195,6 +208,11 @@ big,
 	
 	.kvmc-menu-items{
 		font-size: 14px;
+	}
+	
+		.kvinfo {
+	  font-size: 15px;
+    line-height: 22px;
 	}
 
  
@@ -242,6 +260,10 @@ big,
 		font-size: 13px !important;
 	}
 
+	div.kvinfo {
+	  font-size: 14px !important;
+    line-height: 20px !important;
+	}
 
     h1.h1kv,
     .text-logo #logo,
@@ -368,6 +390,13 @@ p.big + p.big {
 .mcnBoxedTextContentColumn {
 	
 }
+
+.kvNoTopBottomPadding {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
 
 
 /* Menu items */
