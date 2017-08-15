@@ -21,7 +21,9 @@ body, div, span, p, h1, h2, h3, h4, h5, h6,
 
 
 /* colors */
-body, div, span, p {
+body, div, span, p,
+.kvfineprint, .kvfineprint a ,
+.kvinfo, .kvinfo a {
 	color: #58595b;
 }
 
