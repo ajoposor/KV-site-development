@@ -15,6 +15,11 @@ body, div, span, p, h1, h2, h3, h4, h5, h6,
 #templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
 #templateBody .mcnTextContent,#templateBody .mcnTextContent p,
 #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
+#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
+#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a,
+#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
+#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a,
+
 .kvmc-menu-bar, .kvmc-menu-items, .kvmc-menu-dot {
 	font-family: 'Raleway', 'Arial', sans-serif;
 }
@@ -22,8 +27,13 @@ body, div, span, p, h1, h2, h3, h4, h5, h6,
 
 /* colors */
 body, div, span, p,
-.kvfineprint, .kvfineprint a ,
-.kvinfo, .kvinfo a {
+.kvfineprint, .kvfineprint a,
+.kvinfo, .kvinfo a,
+#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p,
+#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a,
+#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
+#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a
+{
 	color: #58595b;
 }
 
@@ -53,6 +63,8 @@ h6 {
 }
 
 
+
+
 /**
 *
 * set font sizes  - change font size by width in Responsive
@@ -60,6 +72,13 @@ h6 {
 *
 */
 
+
+#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a,
+#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a,
+#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a,
+#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a {
+	    font-weight: 300;
+}
 
 body, .kvdiv {
     font-size: 19px;
