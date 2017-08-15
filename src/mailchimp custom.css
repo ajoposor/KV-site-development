@@ -11,6 +11,10 @@
 
 /* font family */
 body, div, span, p, h1, h2, h3, h4, h5, h6,
+.mcnTextContent,
+#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
+#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
+#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
 .kvmc-menu-bar, .kvmc-menu-items, .kvmc-menu-dot {
 	font-family: 'Raleway', 'Arial', sans-serif;
 }
