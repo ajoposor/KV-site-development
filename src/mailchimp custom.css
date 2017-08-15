@@ -73,6 +73,13 @@ body, .kvdiv {
     letter-spacing: 0px;
 }
 
+.kvfineprint {
+	  font-size: 13px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
 
 big,
 .big {
@@ -165,6 +172,10 @@ big,
     line-height: 18px;
 	}
 
+	.kvfineprint {
+	  font-size: 12px;
+    line-height: 14px;
+	}
  
     .h1kv,
     .text-logo #logo,
@@ -215,6 +226,10 @@ big,
     line-height: 16px;
 	}
 
+	 .kvfineprint {
+	  font-size: 11px;
+    line-height: 13px;
+	 }
  
     .h1kv,
     .text-logo #logo,
@@ -264,6 +279,11 @@ big,
 	  font-size: 13px !important;
     line-height: 15px !important;
 	}
+	
+	.kvfineprint {
+	  font-size: 10px !important;
+    line-height: 12px !important;
+	 }
 
     h1.h1kv,
     .text-logo #logo,
