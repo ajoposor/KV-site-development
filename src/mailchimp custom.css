@@ -564,7 +564,9 @@ table.mcnFollowContentItem > tbody > tr > td {
 	vertical-align: bottom;
 }
 
-
+img[title] {
+    display: none;
+}
 
 @media only screen and (max-width: 480px) {
 
