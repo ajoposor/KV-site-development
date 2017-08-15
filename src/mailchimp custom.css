@@ -396,6 +396,21 @@ p.big + p.big {
 	padding-bottom: 0px;
 }
 
+.kvblock {
+	padding-right: 18px;
+	padding-left: 18px;
+}
+
+
+@media only screen and (max-width: 480px) {
+	
+	div.kvblock {
+		padding-left: 9px  !important;
+		padding-right: 9px  !important;
+	}
+	
+}
+
 
 
 
