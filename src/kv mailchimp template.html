@@ -179,8 +179,27 @@
 				padding-bottom: 0px !important;
 			}
 			
-			
-			
+			/* font family */
+			body, div, span, p, h1, h2, h3, h4, h5, h6,
+			.mcnTextContent,
+			#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
+			#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
+			#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
+			#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
+			#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a,
+			#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
+			#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a,
+			.mcnFollowTextContent > a,
+			.mcnShareTextContent > a,
+			.preheaderContent, .headerContent, .bodyContent, .footerContent,
+			.kvmc-menu-bar, .kvmc-menu-items, .kvmc-menu-dot,
+			.kvmc-menu-bar-content,
+			.kvmc-menu-bar-content a:link,
+			.kvmc-menu-bar-content a:visited,
+			.kvmc-menu-bar-content a .yshortcuts 
+			{
+				font-family: 'Raleway',Arial,Helvetica,sans-serif;
+			}
 
 			/*
 			@tab Page
@@ -267,6 +286,23 @@
 				
 			}
 
+			/*
+			@tab Page
+			@section other text styles color
+			@tip Set the styling for kv fine print text style.
+			@style kvfineprint
+			*/
+
+				body, div, span, p,
+				#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p,
+				#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a,
+				#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
+				#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a
+				{
+					/*@editable*/color: #58595b;
+				}
+			
+			
 
 
 			/*
@@ -278,7 +314,6 @@
 			h1{
 				/*@editable*/color:#2277bb !important;
 				display:block;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:44px;
 				/*@editable*/font-style:normal;
 				/*@editable*/font-weight:300;
@@ -299,7 +334,6 @@
 			h2{
 				/*@editable*/color:#2277bb !important;
 				display:block;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:38px;
 				/*@editable*/font-style:normal;
 				/*@editable*/font-weight:300;
@@ -320,7 +354,6 @@
 			h3{
 				/*@editable*/color:#1d3860 !important;
 				display:block;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:33px;
 				/*@editable*/font-style:normal;
 				/*@editable*/font-weight:300;
@@ -341,7 +374,6 @@
 			h4{
 				/*@editable*/color:#1d3860 !important;
 				display:block;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:29px;
 				/*@editable*/font-style:normal;
 				/*@editable*/font-weight:300;
@@ -362,7 +394,6 @@
 			h5{
 				/*@editable*/color:#1d3860 !important;
 				display:block;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:25px;
 				/*@editable*/font-style:normal;
 				/*@editable*/font-weight:300;
@@ -383,7 +414,6 @@
 			h6{
 				/*@editable*/color:#0a5a8e !important;
 				display:block;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:22px;
 				/*@editable*/font-style:normal;
 				/*@editable*/font-weight:300;
@@ -412,7 +442,6 @@
 			*/
 			.preheaderContent{
 				/*@editable*/color:#58595b;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:13px;
 				/*@editable*/line-height:16px;
 				/*@editable*/text-align:left;
@@ -450,7 +479,6 @@
 			*/
 			.headerContent{
 				/*@editable*/color:#58595b;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:19px;
 				/*@editable*/font-weight:300;
 				/*@editable*/line-height:26px;
@@ -508,7 +536,6 @@
 			.kvmc-menu-bar-content a:visited,
 			.kvmc-menu-bar-content a .yshortcuts  {
 				/*@editable*/color:#808285 !important;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:15px;
 				/*@editable*/font-weight:300;
 							/*@editable*/letter-spacing:.05em;
@@ -549,13 +576,12 @@
 			}
 			/*
 			@tab Body
-			@section body text
+			@section body Content text
 			@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
 			@theme main
 			*/
 			.bodyContent{
 				/*@editable*/color:#58595b;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:19px;
 				/*@editable*/line-height:26px;
 				padding-top:20px;
@@ -581,6 +607,15 @@
 				padding:0 18px;
 				width:100%;
 			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			/*
 			@tab Text Block
@@ -705,7 +740,6 @@
 
 			.mcnShareTextContent > a {
 			/*@editable*/color: #58595b;
-			/*@editable*/font-family: 'Raleway',Arial,Helvetica,sans-serif;
 			/*@editable*/font-size: 15px;
 			/*@editable*/font-weight: 300;
 			/*@editable*/line-height: 18px;
@@ -773,7 +807,6 @@
 
 			.mcnFollowTextContent > a {
 			/*@editable*/color: #58595b;
-			/*@editable*/font-family: 'Raleway',Arial,Helvetica,sans-serif;
 			/*@editable*/font-size: 15px;
 			/*@editable*/font-weight: 300;
 			/*@editable*/line-height: 18px;
@@ -810,7 +843,6 @@
 			*/
 			.footerContent{
 				/*@editable*/color:#58595b;
-				/*@editable*/font-family:'Raleway',Arial,Helvetica,sans-serif;
 				/*@editable*/font-size:13px;
 				/*@editable*/line-height:15px;
 				/*@editable*/padding-top:20px;
