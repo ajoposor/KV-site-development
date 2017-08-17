@@ -528,8 +528,10 @@
 			.mcnTextBlock {
 				width: 100%;
 				min-width: 100%;
+				/*@editable*/padding-top: 9px;
+				/*@editable*/padding-right: 18px;			
+				/*@editable*/padding-bottom: 9px;
 				/*@editable*/padding-left: 18px;
-				/*@editable*/padding-right: 18px;
 				
 			}
 			
@@ -937,8 +939,10 @@
 				@tip Set the styling for your email's text block.
 				*/
 				.mcnTextBlock {
-					/*@editable*/padding-left: 9px !important;
-					/*@editable*/padding-right: 9px !important;
+				/*@editable*/padding-top: 6px !important;
+				/*@editable*/padding-right: 9px !important;			
+				/*@editable*/padding-bottom: 6px !important;
+				/*@editable*/padding-left: 9px !important;
 
 				}
 			}
@@ -1084,7 +1088,7 @@
 								<!-- BEGIN HEADLINE TEXT // -->
                 <table class="mcnTextBlock">
                  <tr>
-                  <td valign="top" class="bodyContent" mc:edit="body_content">
+                  <td valign="top" class="bodyContent" mc:edit="headline_text">
                    <h2>Financial management services to be provided by Kapital Value</h2>
 									</td>
                  </tr>
@@ -1308,7 +1312,7 @@
 												<table class="mcnTextContentContainer">
 													<tbody>
 														<tr>
-															<td class="mcnTextContent">
+															<td class="mcnTextContent" mc:edit="summary_text_block">
 																<div>KAPITAL VALUE offers support in planning and budget management, financial models, management reports, administration of operating capital, cash flow, auditing and taxes.
 																</div>
 															</td>
@@ -1333,23 +1337,23 @@
 								
 									
 									<!-- BEGIN FEATURE IMAGE TEXT BLOCK// -->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<table class="mcnTextBlock">
 										<tbody class="mcnTextBlockOuter">
 											<tr>
-												<td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+												<td valign="top" class="mcnTextBlockInner" >
 												<!--[if mso]>
-													<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+													<table >
 														<tr>
 												<![endif]-->
 
 												<!--[if mso]>
-													<td valign="top" width="600" style="width:600px;">
+													<td >
 												<![endif]-->
-													<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
+													<table align="left" class="mcnTextContentContainer">
 														<tbody>
 															<tr>
-																<td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-family: 'Raleway', 'Arial', sans-serif;color: #202020;font-size: 16px;line-height: 150%;text-align: left;">
-																		<img alt="At work" class="kvmcImage" data-file-id="152045" height="400" src="https://gallery.mailchimp.com/96c3ac2fd3ab5f7b175730ca5/images/6beb4a77-9a00-48a2-94bc-47acfe597b8a.jpg" style="border: 0px;height: 400px;margin: 0px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="100%">
+																<td valign="top" class="mcnTextContent" mc:edit="feature_image">
+																		<img alt="At work" class="kvmcImage" data-file-id="152045" height="400" src="https://gallery.mailchimp.com/96c3ac2fd3ab5f7b175730ca5/images/6beb4a77-9a00-48a2-94bc-47acfe597b8a.jpg" style="height: 400px;>
 																</td>
 															</tr>
 														</tbody>
@@ -1386,12 +1390,12 @@
                     
 									<table class="mcnTextBlock">
 										<tr>
-											<td valign="top" class="footerContent" mc:edit="footer_content00">
+											<td valign="top" class="footerContent" mc:edit="prefooter_content00">
 												<a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>   <a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>   <a href="*|FORWARD|*">Forward to Friend</a> 
 											</td>
 										</tr>
 										<tr>
-											<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+											<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="prefooter_content01">
 													<em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
 													<br>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
 													<br>
