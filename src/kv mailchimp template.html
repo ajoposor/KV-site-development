@@ -535,6 +535,33 @@
 				
 			}
 			
+			/*
+			@tab Divider Block
+			@section divider block
+			@tip Set the styling for your email's divider block.
+			*/
+			.mcnDividerBlock {
+				/*@editable*/min-width: 100%;
+				/*@editable*/background-color: #FFFFFF;
+				table-layout: fixed !important;	
+			}
+			
+			.mcnDividerBlockInner {
+				/*@editable*/padding-top: 4px;
+				/*@editable*/padding-right: 18px;			
+				/*@editable*/padding-bottom: 4px;
+				/*@editable*/padding-left: 18px;
+			}
+			
+
+			.mcnDividerContent {
+				/*@editable*/border-top-width: 2px;
+				/*@editable*/border-style: solid;
+				/*@editable*/border-color: #EAEAEA;
+			}
+					
+			
+			
 			
 			
 
@@ -946,6 +973,27 @@
 
 				}
 			}
+			
+			@media only screen and (max-width: 480px){			
+				/*
+				@tab Mobile Styles
+				@section divider block
+				@tip Set the styling for your email's divider block.
+				*/
+
+
+				.mcnDividerBlockInner {
+					/*@editable*/padding-top: 2px !important;
+					/*@editable*/padding-right: 9px !important;			
+					/*@editable*/padding-bottom: 2px !important;
+					/*@editable*/padding-left: 9px !important;
+				}
+
+
+			}
+					
+			
+			
 			
 			
 			
@@ -1371,6 +1419,30 @@
 									</table>
 									<!-- // END FEATURE IMAGE TEXT BLOCK -->
 									
+									
+									
+									
+									
+									
+									<!-- BEGIN DIVIDER BLOCK// -->
+									<table class="mcnDividerBlock" style="min-width: 100%;background-color: #FFFFFF;table-layout: fixed !important;">
+    								<tbody class="mcnDividerBlockOuter">
+											<tr>
+												<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 4px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+													<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+														<tbody>
+															<tr>
+																<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+																	<span style="font-family: 'Raleway', 'Arial', sans-serif;color: #58595b;"></span>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- END DIVIDER BLOCK// -->
 									
 									
 									
