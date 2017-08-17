@@ -161,6 +161,26 @@
 			.mcnDividerBlock{
 				table-layout:fixed !important;
 			}
+			
+			.kvcenter {
+				text-align: center;
+			}
+			
+			.kvleft {
+				text-align: left;
+			}
+			
+			.kvright {
+				text-align:right;
+			}
+			
+			.kvNoTopBottomPadding {
+				padding-top: 0px !important;
+				padding-bottom: 0px !important;
+			}
+			
+			
+			
 
 			/*
 			@tab Page
@@ -204,6 +224,48 @@
 					/*@editable*/letter-spacing: 0px;
 			}
 
+
+			/*
+			@tab Page
+			@section kv info text style
+			@tip Set the styling for kv info text.
+			@style kvinfo
+			*/
+
+			.kvinfo {
+				/*@editable*/color: #58595b;
+				/*@editable*/font-size: 15px;
+				/*@editable*/line-height: 18px;
+				/*@editable*/font-weight: 300;
+				/*@editable*/letter-spacing: 0px;
+			}
+
+			.kvinfo a {
+				/*@editable*/color: #58595b;
+				
+			}
+			
+			
+			
+			/*
+			@tab Page
+			@section kv info text style
+			@tip Set the styling for kv fine print text style.
+			@style kvfineprint
+			*/
+
+			.kvfineprint {
+				/*@editable*/color: #58595b;
+				/*@editable*/font-size: 13px;
+				/*@editable*/line-height: 15px;
+				/*@editable*/font-weight: 300;
+				/*@editable*/letter-spacing: 0px;
+			}
+
+			.kvfineprint a {
+				/*@editable*/color: #58595b;
+				
+			}
 
 
 
@@ -535,6 +597,22 @@
 				
 			}
 			
+			
+			/*
+			@tab Code Block
+			@section code block
+			@tip Set the styling for your email's code block.
+			*/
+			.mcnCodeBlock {
+				width: 100%;
+				min-width: 100%;
+				/*@editable*/padding-top: 0px;
+				/*@editable*/padding-right: 18px;			
+				/*@editable*/padding-bottom: 0px;
+				/*@editable*/padding-left: 18px;
+				
+			}
+			
 			/*
 			@tab Divider Block
 			@section divider block
@@ -778,13 +856,43 @@
 			@section body and kvdiv font
 			@tip Make the first-level headings larger in size for better readability on small screens.
 			*/
-			body, div.kvdiv {
-					/*@editable*/font-size: 15px!important;
-					/*@editable*/line-height: 18px!important;
-			}
+				body, div.kvdiv {
+						/*@editable*/font-size: 15px!important;
+						/*@editable*/line-height: 18px!important;
+				}
 
 			}		
 
+			@media only screen and (max-width: 480px){		
+			
+			/*
+			@tab Mobile Styles
+			@section kv info text style
+			@tip Set the styling for kvinfo text
+			@style kvinfo
+			*/
+
+				.kvinfo {
+					/*@editable*/font-size: 13px !important;
+					/*@editable*/line-height: 15px !important;
+				}
+			}
+			
+			@media only screen and (max-width: 480px){		
+			
+			/*
+			@tab Mobile Styles
+			@section kv fineprint text style
+			@tip Set the styling for kvfineprint text
+			@style kvfineprint
+			*/
+
+				.kvfineprint {
+					/*@editable*/font-size: 10px !important;
+					/*@editable*/line-height: 12px !important;
+				}
+			}
+			
 
 			@media only screen and (max-width: 480px){
 			/*
@@ -973,6 +1081,22 @@
 
 				}
 			}
+			
+			@media only screen and (max-width: 480px){	
+			
+				/*
+				@tab Mobile Stiles
+				@section code block
+				@tip Set the styling for your email's code block.
+				*/
+				.mcnCodeTextBlock {
+				/*@editable*/padding-right: 9px !important;			
+				/*@editable*/padding-left: 9px !important;
+
+				}
+			}
+			
+			
 			
 			@media only screen and (max-width: 480px){			
 				/*
@@ -1361,7 +1485,8 @@
 													<tbody>
 														<tr>
 															<td class="mcnTextContent" mc:edit="summary_text_block">
-																<div>KAPITAL VALUE offers support in planning and budget management, financial models, management reports, administration of operating capital, cash flow, auditing and taxes.
+																<div>
+																	KAPITAL VALUE offers support in planning and budget management, financial models, management reports, administration of operating capital, cash flow, auditing and taxes.
 																</div>
 															</td>
 														</tr>
@@ -1433,7 +1558,8 @@
 														<tbody>
 															<tr>
 																<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-																	<span style="font-family: 'Raleway', 'Arial', sans-serif;color: #58595b;"></span>
+																	<span style="font-family: 'Raleway', 'Arial', sans-serif;color: #58595b;">
+																	</span>
 																</td>
 															</tr>
 														</tbody>
@@ -1445,8 +1571,21 @@
 									<!-- END DIVIDER BLOCK// -->
 									
 									
-									
-									
+									<!-- BEGIN CODE BLOCK, share text// -->
+									<table class="mcnCodeBlock">
+    								<tbody class="mcnTextBlockOuter">
+        							<tr>
+            						<td valign="top" class="mcnTextBlockInner"  mc:edit="share_bar_title">
+                					<div class="kvinfo kvNoTopBottomPadding kvcenter">
+														Share:
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- END CODE BLOCK, share text// -->																																												 
+																																																					 
+																																																					 
 									
 									
 									
@@ -1456,6 +1595,12 @@
 								<!-- // END BODY -->
               </tr>
 							
+																																																					 
+																																																					 
+																																																					 
+																																																					 
+																																																					 
+																																																					 
 							 <tr>
 								<!-- BEGIN PRE FOOTER // -->
                 <td align="center" valign="top" id="templatePrefooter">
@@ -1486,6 +1631,10 @@
 									<!-- // END PRE FOOTER -->
                 </tr>
 							
+																																																					 
+																																																					 
+																																																					 
+																																																					 
 							
               <tr>
 								<!-- BEGIN FOOTER // -->
