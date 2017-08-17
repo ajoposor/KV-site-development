@@ -186,8 +186,27 @@
 	@tip Set the border for your email.
 	*/
 		#templateContainer{
-			/*@editable*/border:0;
+		/*@editable*/border:0;
 		}
+		
+		
+	/*
+	@tab Page
+	@section body and div text
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		
+		body, .kvdiv {
+				/*@editable*/font-size: 19px;
+				/*@editable*/line-height: 26px;
+				/*@editable*/font-weight: 300;
+				/*@editable*/letter-spacing: 0px;
+		}
+		
+		
+		
+		
 	/*
 	@tab Page
 	@section heading 1
@@ -443,9 +462,19 @@
     
 		.kvmc-menu-items    {
 			/*@editable*/padding-left: 10px;
-            /*@editable*/padding-right: 10px;
+      /*@editable*/padding-right: 10px;
 		}
 	
+	.kvmc-menu-items {
+		font-size: 15px;
+		font-weight: 300;
+		letter-spacing: 0.05em;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+
+		
+		
      /*
 	@tab Body
 	@section body style
@@ -536,8 +565,28 @@
 	}
 	
 	.mcnShareTextContent {
-	  /*@editable*/padding: 0px !important;
+	  /*@editable*/padding: 0px;
 	}
+		
+		
+	.mcnShareTextContent > a {
+		/*@editable*/color: #58595b;
+		/*@editable*/font-family: 'Raleway',Arial,Helvetica,sans-serif;
+		/*@editable*/font-size: 15px;
+		/*@editable*/font-weight: 300;
+		/*@editable*/line-height: 18px;
+		/*@editable*/text-align: center;
+		/*@editable*/text-decoration: none;
+		}
+		
+		
+		
+	.kvmcShareSocialIcon {
+		/*@editable*/display: block;
+		/*@editable*/width: 24px;
+		/*@editable*/height: 24px;
+		}
+
 	
 	/*
 	@tab Follow Block
@@ -587,6 +636,26 @@
 	  /*@editable*/padding: 0px !important;
 	}	
 		
+			
+	.mcnFollowTextContent > a {
+		/*@editable*/color: #58595b;
+		/*@editable*/font-family: 'Raleway',Arial,Helvetica,sans-serif;
+		/*@editable*/font-size: 15px;
+		/*@editable*/font-weight: 300;
+		/*@editable*/line-height: 18px;
+		/*@editable*/text-align: center;
+		/*@editable*/text-decoration: none;
+		}
+		
+		
+		
+	.kvmcFollowSocialIcon {
+		/*@editable*/display: block;
+		/*@editable*/width: 24px;
+		/*@editable*/height: 24px;
+		}
+
+		
 		
 		
 	/*
@@ -627,9 +696,6 @@
 			/*@editable*/text-decoration:underline;
 		}
 		
-		
-		
-		
 	@media only screen and (max-width: 480px){
 		body,table,td,p,a,li,blockquote{
 			-webkit-text-size-adjust:none !important;
@@ -659,7 +725,23 @@
 			/*@editable*/width:100% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	
+		
+@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section body and kvdiv font
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+    body, div.kvdiv {
+        /*@editable*/font-size: 15px!important;
+        /*@editable*/line-height: 18px!important;
+    }
+
+}		
+		
+		
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section heading 1
@@ -808,8 +890,15 @@
 	*/
 		.kvmc-menu-items{
 			/*@editable*/padding-left: 4px !important;
-            /*@editable*/padding-right: 4px !important;
+      /*@editable*/padding-right: 4px !important;
 		}
+	
+		.kvmc-menu-items {
+		/*@editable*/font-size: 13px !important;
+	}
+
+
+	
 
 } @media only screen and (max-width: 480px){
 	/*
@@ -836,6 +925,14 @@
 			/*@editable*/padding-bottom: 0px !important;
 			/*@editable*/padding-left: 0px !important;
 		}
+			
+		.mcnShareTextContent > a {
+		/*@editable*/font-size: 13px;
+		/*@editable*/line-height: 15px;
+		}
+		
+			
+			
 	}
 	@media only screen and (max-width: 480px){		
 	/*
@@ -849,6 +946,14 @@
 			/*@editable*/padding-bottom: 0px !important;
 			/*@editable*/padding-left: 0px !important;
 		}
+		
+		
+		.mcnFollowTextContent > a {
+		/*@editable*/font-size: 13px;
+		/*@editable*/line-height: 15px;
+		}
+		
+		
 	}
 		
 		
@@ -969,10 +1074,10 @@
 																																																			<table align="left" width="" >
 																																																					<tbody><tr>
 																																																							<td align="center" valign="middle" width="24" class="mcnShareIconContent" >
-																																																									<a href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+																																																									<a href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" class="kvmcShareSocialIcon"></a>
 																																																							</td>
 																																																							<td align="left" valign="middle" class="mcnShareTextContent" >
-																																																									<a href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="" style="color: #202020;font-family: Arial;font-size: 12px;font-weight: normal;line-height: 125%;text-align: center;text-decoration: none;"> </a>
+																																																									<a href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="" > </a>
 																																																							</td>
 																																																					</tr>
 																																																			</tbody></table>
@@ -998,7 +1103,7 @@
 																																																			<table align="left" width="" >
 																																																					<tbody><tr>
 																																																							<td align="center" valign="middle" width="24" class="mcnShareIconContent">
-																																																									<a href="*|FORWARD|*" target="_blank" ><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+																																																									<a href="*|FORWARD|*" target="_blank" ><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" class="kvmcShareSocialIcon"></a>
 																																																							</td>
 																																																							<td align="left" valign="middle" class="mcnShareTextContent" >
 																																																									<a href="*|FORWARD|*" target="" style="color: #202020;font-family: Arial;font-size: 12px;font-weight: normal;line-height: 125%;text-align: center;text-decoration: none;"> </a>
@@ -1027,7 +1132,7 @@
 																																																			<table align="left" width="" >
 																																																					<tbody><tr>
 																																																							<td align="center" valign="middle" width="24" class="mcnShareIconContent">
-																																																									<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+																																																									<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" class="kvmcShareSocialIcon"></a>
 																																																							</td>
 																																																							<td align="left" valign="middle" class="mcnShareTextContent">
 																																																									<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="" style="color: #202020;font-family: Arial;font-size: 12px;font-weight: normal;line-height: 125%;text-align: center;text-decoration: none;"> </a>
@@ -1056,7 +1161,7 @@
 																																																			<table align="left" width="" >
 																																																					<tbody><tr>
 																																																							<td align="center" valign="middle" width="24" class="mcnShareIconContent">
-																																																									<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+																																																									<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" class="kvmcShareSocialIcon"></a>
 																																																							</td>
 																																																							<td align="left" valign="middle" class="mcnShareTextContent">
 																																																									<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="" style="color: #202020;font-family: Arial;font-size: 12px;font-weight: normal;line-height: 125%;text-align: center;text-decoration: none;"> </a>
@@ -1085,7 +1190,7 @@
 																																																			<table align="left" width="" >
 																																																					<tbody><tr>
 																																																							<td align="center" valign="middle" width="24" class="mcnShareIconContent">
-																																																									<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+																																																									<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png"  class="kvmcShareSocialIcon"></a>
 																																																							</td>
 																																																							<td align="left" valign="middle" class="mcnShareTextContent">
 																																																									<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="" style="color: #202020;font-family: Arial;font-size: 12px;font-weight: normal;line-height: 125%;text-align: center;text-decoration: none;"> </a>
