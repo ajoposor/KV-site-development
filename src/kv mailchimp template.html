@@ -52,7 +52,14 @@
 		table{
 			border-spacing: 0px;
 			border-collapse:collapse !important;
+			border: 0px solid black;
 		}
+		
+		table td{
+			border: 0px solid black;
+		}
+		
+		
 		th, td {
 			padding: 0px;
 		}
@@ -61,6 +68,17 @@
 			margin:0;
 			padding:0;
 			width:100% !important;
+		}
+		
+		#templatePreheader,
+		#templateHeader,
+		#templateShareBarTop,
+		#templateBody,
+		#templaceFooter,
+		.mcnShareContentContainer,
+		.mcnShareContent,
+		#kvmc-menu-bar {
+			width: 100%;
 		}
 		
 		.mcnShareContentItem {
@@ -553,7 +571,8 @@
 		#headerImage{
 			/*@tab Mobile Styles
 @section header image
-@tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.*/height:auto !important;
+@tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.*/
+									height:auto !important;
 			/*@editable*/max-width:600px !important;
 			/*@editable*/width:100% !important;
 		}
@@ -654,7 +673,7 @@
 
 	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
     <center>
-      <table align="center" border="0" width="100%" id="bodyTable" style="height:100%;">
+      <table align="center" border="0"  id="bodyTable" style="height:100%;">
         <tr>
           <td align="center" valign="top" id="bodyCell">
             <!-- BEGIN TEMPLATE // -->
@@ -662,7 +681,7 @@
               <tr>
                 <td align="center" valign="top">
                   <!-- BEGIN PREHEADER // -->
-                  <table border="0" width="100%" id="templatePreheader">
+                  <table border="0" id="templatePreheader">
                     <tr>
                       <td valign="top" class="preheaderContent" style="padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;" mc:edit="preheader_content00">
                         Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
@@ -695,7 +714,7 @@
               <tr>
                 <td align="center" valign="top">
                     <!-- BEGIN MENU BAR // -->
-                   	<table border="0" width="100%" id="kvmc-menu-bar" >
+                   	<table border="0" id="kvmc-menu-bar" >
                     	<tbody class="mcnTextBlockOuter">
                         	<tr>
                            		<td valign="top" class="kvmc-menu-bar-content" mc:edit="menu_content">
@@ -720,14 +739,14 @@
                <tr>
                 <td align="right" valign="top">
                     <!-- BEGIN SHARE BAR // -->
-										 <table border="0" width="100%" class="mcnShareBlock">
+										 <table border="0" class="mcnShareBlock" id="templateShareBarTop">
 												<tbody class="mcnShareBlockOuter">
 																<tr>
 																		<td valign="top" style="padding: 9px;mso-line-height-rule: exactly;" class="mcnShareBlockInner">
-																				<table border="0" width="100%" class="mcnShareContentContainer">
+																				<table border="0" class="mcnShareContentContainer">
 																					<tbody><tr>
 																							<td align="right" style="padding-top: 0;padding-left: 9px;padding-bottom: 0;padding-right: 9px;mso-line-height-rule: exactly;">
-																									<table align="right" border="0" width="100%" class="mcnShareContent">
+																									<table align="right" border="0" class="mcnShareContent">
 																											<tbody><tr>
 																													<td align="right" valign="top" class="mcnShareContentItemContainer" style="padding-top: 9px;padding-right: 9px;padding-left: 9px;mso-line-height-rule: exactly;">
 																															<table align="right" border="0" >
@@ -914,7 +933,7 @@
               <tr>
                 <td align="center" valign="top">
                   <!-- BEGIN BODY // -->
-                  <table border="0" width="100%" id="templateBody">
+                  <table border="0" id="templateBody">
                     <tr>
                       <td valign="top" class="bodyContent" mc:edit="body_content">
                         <h2>Financial management services to be provided by Kapital Value</h2>
@@ -930,7 +949,7 @@
                 <tr>
                   <td align="center" valign="top">
                     <!-- BEGIN FOOTER // -->
-                    <table border="0" width="100%" id="templateFooter">
+                    <table border="0" id="templateFooter">
                       <tr>
                         <td valign="top" class="footerContent" mc:edit="footer_content00">
                           <a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>   <a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>   <a href="*|FORWARD|*">Forward to Friend</a> 
