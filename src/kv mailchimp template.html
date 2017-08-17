@@ -116,17 +116,23 @@
 		#templaceFooter,
 		.mcnShareContentContainer,
 		.mcnShareContent,
+		.mcnFollowContentContainer,
+		.mcnFollowContent,
 		#kvmc-menu-bar {
 			width: 100%;
 		}
 		
-		.mcnShareContentItem {
+		.mcnShareContentItem,
+		.mcnFollowContentItem{
 			border-collapse:separate !important;
 		}
 		
 		.mcnShareBlock,
 		.mcnShareContentContainer,
-		.mcnShareContent {
+		.mcnShareContent,
+		.mcnFollowBlock,
+		.mcnFollowContentContainer,
+		.mcnFollowContent{
 			min-width: 100%;
 		}
 		
@@ -486,7 +492,7 @@
 		}
 		
 	/*
-	@tab ShareBlock
+	@tab Share Block
 	@section share block
 	@tip Set the styling for your share block.
 	*/
@@ -533,6 +539,56 @@
 	  /*@editable*/padding: 0px !important;
 	}
 	
+	/*
+	@tab Follow Block
+	@section share block
+	@tip Set the styling for your share block.
+	*/
+		.mcnFollowBlockInner {
+			/*@editable*/padding-top: 0px;
+			/*@editable*/padding-right: 9px;
+			/*@editable*/padding-bottom: 0px;
+			/*@editable*/padding-left: 9px;
+		}
+		
+		.mcnFollowContentContainer > tbody > tr > td {
+			/*@editable*/padding-top: 0px;
+			/*@editable*/padding-right: 9px;
+			/*@editable*/padding-bottom: 0px;
+			/*@editable*/padding-left: 9px;
+		}
+		
+	.mcnFollowContentItemContainer {
+			/*@editable*/padding-top: 0px;
+			/*@editable*/padding-bottom: 0px;
+			/*@editable*/padding-left: 0px;
+			/*@editable*/padding-right: 0px;
+		}
+		
+		mcnFollowContentItem {
+			/*@editable*/border-radius: 1px;
+		}
+		
+	.mcnFollowContentItem > tbody > tr > td {
+			/*@editable*/padding-top: 0px;
+			/*@editable*/padding-right: 0px;
+			/*@editable*/padding-bottom: 0px;
+			/*@editable*/padding-left: 0px;
+		}
+		
+	td.mcnFollowIconContent {
+		/*@editable*/padding-top: 1px;
+		/*@editable*/padding-right: 5px;
+		/*@editable*/padding-bottom: 1px;
+		/*@editable*/padding-left: 5px;
+	}
+	
+	.mcnFollowTextContent {
+	  /*@editable*/padding: 0px !important;
+	}	
+		
+		
+		
 	/*
 	@tab Footer
 	@section footer style
@@ -780,8 +836,20 @@
 			/*@editable*/padding-bottom: 0px !important;
 			/*@editable*/padding-left: 0px !important;
 		}
+	}
+	@media only screen and (max-width: 480px){		
+	/*
+	@tab Mobile Styles
+	@section follow block
+	@tip Set the styling for your share block.
+	*/
+		.mcnFollowBlockInner {
+			/*@editable*/padding-top: 0px !important;
+			/*@editable*/padding-right: 0px !important;
+			/*@editable*/padding-bottom: 0px !important;
+			/*@editable*/padding-left: 0px !important;
 		}
-
+	}
 		
 		
 		@media only screen and (max-width: 480px){
