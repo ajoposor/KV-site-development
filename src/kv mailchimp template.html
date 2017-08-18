@@ -12,6 +12,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>*|MC:SUBJECT|*</title>
+		
     <link href="https://fonts.googleapis.com/css?family=Raleway:%20300,%20700" rel="stylesheet" type="text/css">
     
 		<style type="text/css">
@@ -56,10 +57,6 @@
 			}
 			img{
 				-ms-interpolation-mode:bicubic;
-			}
-			body{
-				margin:0;
-				padding:0;
 			}
 			img{
 				border:0;
@@ -108,7 +105,15 @@
 			}
 
 			.mcnPreviewText{
-				display:none !important;
+				display:none;
+				font-size: 0px;
+				line-height: 0px;
+				max-height: 0px;
+				max-width: 0px;
+				opacity: 0;
+				overflow: hidden;
+				visibility: hidden;
+				mso-hide: all;
 			}
 
 			#templatePreheader,
@@ -1258,7 +1263,12 @@
 	</style>
 </head>
 
-	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+	<body>
+		
+	<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" >*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
+	<!--*|END:IF|*-->	
+		
    <center>
     <table align="center"  id="bodyTable" >
      <tr>
