@@ -104,10 +104,17 @@
 			}
 			
 			
-			body,#bodyTable,#bodyCell{
+			body,#bodyTable{
 				height:100%;
 				margin:0;
 				padding:0;
+				width:100%;
+			}
+			
+			#bodyCell{
+				height:100%;
+				margin:0;
+				padding:10px;
 				width:100%;
 			}
 
@@ -159,12 +166,9 @@
 				vertical-align: middle;
 				}
 				
-			#bodyCell{
-				padding:10px;
-			}
-			#templateContainer{
-				max-width:600px;
+			.templateContainer{
 				width:100%;
+				max-width: 600px !important;
 			}
 
 			a.mcnButton{
@@ -247,7 +251,7 @@
 			@section email border
 			@tip Set the border for your email.
 			*/
-			#templateContainer{
+			.templateContainer{
 			/*@editable*/border:0;
 			}
 
@@ -907,7 +911,7 @@
 			@section template width
 			@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
 			*/
-			#templateContainer{
+			.templateContainer{
 				/*@tab Mobile Styles
 			@section template width
 			@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/max-width:600px !important;
@@ -1283,7 +1287,16 @@
 				
 				
       	<!-- BEGIN TEMPLATE // -->
-        <table id="templateContainer">
+				<!--[if gte mso 9]>
+				<table align="center" width="600" style="width:600px;">
+					<tr>
+						<td width="600" style="width:600px;">
+				<![endif]-->
+				
+				
+				
+				
+        <table class="templateContainer">
 					
 					
          <tr>
@@ -2266,6 +2279,12 @@
 					
 					
 					</table>
+				
+					<!--[if gte mso 9]>
+								</td>
+							</tr>
+						</table>
+					<![endif]-->
 					<!-- // END TEMPLATE -->
 				
 				
