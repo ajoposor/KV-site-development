@@ -1316,7 +1316,8 @@
 						
            <!-- BEGIN PREHEADER ELEMENT // -->
            <table class="mcnCodeBlock">
-						 <tbody class="mcnTextBlockOuter"><tr>
+						 <tbody class="mcnTextBlockOuter">
+							 <tr>
 							 <td class="mcnTextBlockInner">
 								 <!--[if mso]>
 									<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
@@ -1326,16 +1327,16 @@
 									<!--[if mso]>
 									<td valign="top" width="600" style="width:600px;">
 									<![endif]-->
-            <tr>
-             <td  class="preheaderContent"  mc:edit="preheader_content00">
-							 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
-             </td>
-             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-             <td  width="180" class="preheaderContent"  mc:edit="preheader_content01">
-              Email not displaying correctly?<br><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
-             </td>
-             <!-- *|END:IF|* -->
-            </tr>
+									<tr>
+									 <td  class="preheaderContent"  mc:edit="preheader_content00">
+										 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+									 </td>
+									 <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+									 <td  width="180" class="preheaderContent"  mc:edit="preheader_content01">
+										Email not displaying correctly?<br><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+									 </td>
+									 <!-- *|END:IF|* -->
+									</tr>
 								
 								<!--[if mso]>
 								</td>
@@ -1358,6 +1359,7 @@
           <td  id="templateHeader">
            
 						<!-- BEGIN HEADER ELEMENT // -->
+						
             <table width="100%" class="mcnTextBlock" style="min-width: 100%;">
 							<tbody class="mcnTextBlockOuter">
        					<tr>
@@ -1410,7 +1412,7 @@
             <table  class="mcnCodeBlock" >
              <tbody class="mcnTextBlockOuter">
               <tr>
-								<td  class="kvmc-menu-bar-content" mc:edit="menu_content">
+								<td  class="mcnTextBlockInner kvmc-menu-bar-content" mc:edit="menu_content">
 									
 								<!--[if mso]>
 								<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
@@ -1741,7 +1743,7 @@
 			
 
 									
-									<!-- BEGIN FEATURE IMAGE BLOCK ELEMENT // -->
+								<!-- BEGIN FEATURE IMAGE BLOCK ELEMENT // -->
 									<table class="mcnTextBlock">
 										<tbody class="mcnTextBlockOuter">
 											<tr>
@@ -1800,13 +1802,39 @@
 									
 									
 									<!-- BEGIN CODE BLOCK - SHARE TEXT - ELEMENT // -->
+
 									<table class="mcnCodeBlock">
     								<tbody class="mcnTextBlockOuter">
         							<tr>
-            						<td  class="mcnTextBlockInner"  mc:edit="share_bar_title">
+            						<td  class="mcnTextBlockInner">
+													
+												<!--[if mso]>
+												<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+												<tr>
+												<![endif]-->
+
+												<!--[if mso]>
+												<td valign="top" width="600" style="width:600px;">
+												<![endif]-->
+													
+													<tr>
+									 					<td  mc:edit="share_bar_title">
+													
                 					<div class="kvinfo kvNoTopBottomPadding kvcenter">
 														Share:
 													</div>
+														
+														</td>
+													</tr>
+													
+												<!--[if mso]>
+												</td>
+												<![endif]-->
+
+												<!--[if mso]>
+												</tr>
+												</table>
+												<![endif]-->
 												</td>
 											</tr>
 										</tbody>
@@ -2037,21 +2065,45 @@
 																																			
 																																			
 																																			
-                	<!-- PREFOOTER TEXT BLOCK ELEMENT // -->    
+                	<!-- PREFOOTER TEXT BLOCK ELEMENT // -->   
+									
 									<table class="mcnCodeBlock">
 										<tbody class="mcnTextBlockOuter">
 											<tr>
-												<td  class="mcnTextBlockInner" mc:edit="prefooter_content00">
-													<div class="kvinfo kvblock">
-														For more information about our services, visit our 
-														<a href="https://www.kapitalvalue.com/en" target="_blank">web page</a>
-														&nbsp;or&nbsp;
-														<a href="https://www.kapitalvalue.com/en/contact-us" target="_blank">contact us</a>.<br>
-														<br>
-														<a href="*|FORWARD|*">Forward this email to a friend</a>
-														<br><br>
-														Follow us:
-													</div>
+												<td  class="mcnTextBlockInner" >
+													
+												<!--[if mso]>
+												<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+												<tr>
+												<![endif]-->
+
+												<!--[if mso]>
+												<td valign="top" width="600" style="width:600px;">
+												<![endif]-->
+													
+													<tr>
+									 					<td mc:edit="prefooter_content00">
+															<div class="kvinfo kvblock">
+																For more information about our services, visit our 
+																<a href="https://www.kapitalvalue.com/en" target="_blank">web page</a>
+																&nbsp;or&nbsp;
+																<a href="https://www.kapitalvalue.com/en/contact-us" target="_blank">contact us</a>.<br>
+																<br>
+																<a href="*|FORWARD|*">Forward this email to a friend</a>
+																<br><br>
+																Follow us:
+															</div>
+														</td>
+													</tr>
+													
+													<!--[if mso]>
+													</td>
+													<![endif]-->
+
+													<!--[if mso]>
+													</tr>
+													</table>
+													<![endif]-->
 												</td>
 											</tr>
 										</tbody>
@@ -2225,15 +2277,7 @@
 								<!-- // END FOLLOW BAR ELEMENT -->
  
 									
-									
-									
-									
-									
-									
-									
-									
-									
-									
+		
 									
 									
 									<!-- PREFOOTER TEXT BLOCK ELEMENT // --> 
