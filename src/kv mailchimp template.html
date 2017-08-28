@@ -141,11 +141,8 @@
 				mso-hide: all;
 			}
 
-			#templatePreheader,
-			#templateHeader,
-			#templateShareBarTop,
-			#templateBody,
-			#templaceFooter,
+
+			#shareBarTopElement,
 			.mcnShareContentContainer,
 			.mcnShareContent,
 			.mcnFollowContentContainer,
@@ -220,13 +217,7 @@
 			/* font family */
 			body, div, span, p, h1, h2, h3, h4, h5, h6,
 			.mcnTextContent,
-			#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
-			#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
-			#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
-			#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
-			#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a,
-			#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
-			#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a,
+			.templateSection,
 			.mcnFollowTextContent > a,
 			.mcnShareTextContent > a,
 			.preheaderContent, .headerContent, .bodyContent, .footerContent,
@@ -238,6 +229,77 @@
 			{
 				font-family: 'Raleway',Arial,Helvetica,sans-serif;
 			}
+			
+			
+			.templateSection {
+				background:#FAFAFA none no-repeat center/cover;
+				border-bottom:0 solid #CCCCCC;
+				border-top: 0 solid #CCCCCC;
+				padding-top:9px;
+				padding-bottom:9px;
+			}
+						
+			#templateHeader{
+				padding-bottom: 0px;
+			}
+			
+			#templateBody{
+				padding-top: 0px;
+			}
+			
+			#templateHeader, 
+			#templateBoddy {
+					background:#FFFFF none no-repeat center/cover;
+			}
+
+
+
+			#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p,
+			#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a,
+
+			{
+				color: #58595b;
+			}
+
+
+
+			#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
+			#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a,
+
+			{
+				color: #58595b;
+			}
+
+
+
+			#templateBody .mcnTextContent,#templateBody .mcnTextContent p,
+			#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a,
+
+			{
+				color: #58595b;
+			}
+
+
+			#templatePrefooter .mcnTextContent,#templatePrefooter .mcnTextContent p,
+			#templatePrefooter .mcnTextContent a,#templatePrefooter .mcnTextContent p a,
+
+			{
+				color: #58595b;
+			}
+
+
+			#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
+			#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a,
+
+			{
+				color: #58595b;
+			}
+
+			
+			
+			
+			
+			
 
 			/*
 			@tab Page
@@ -306,6 +368,21 @@
 			
 			/*
 			@tab Page
+			@section general text color
+			@tip Set the styling color for body, div, span and p.
+			@style text color
+			*/
+
+				body, div, span, p,
+			
+				{
+					/*@editable*/color: #58595b;
+				}
+			
+			
+			
+			/*
+			@tab Page
 			@section kv info text style
 			@tip Set the styling for kv fine print text style.
 			@style kvfineprint
@@ -324,23 +401,8 @@
 				
 			}
 
-			/*
-			@tab Page
-			@section other text styles color
-			@tip Set the styling for kv fine print text style.
-			@style kvfineprint
-			*/
 
-				body, div, span, p,
-				#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p,
-				#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a,
-				#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
-				#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a
-				{
-					/*@editable*/color: #58595b;
-				}
-			
-			
+
 
 
 			/*
@@ -463,18 +525,10 @@
 				margin-left:0;
 				/*@editable*/text-align:left;
 			}
+			
+			
 			/*
-			@tab Header
-			@section preheader style
-			@tip Set the background color and bottom border for your email's preheader area.
-			@theme header
-			*/
-			#templatePreheader{
-				/*@editable*/background-color:#FAFAFA;
-				/*@editable*/border-bottom:0 solid #CCCCCC;
-			}
-			/*
-			@tab Header
+			@tab Preheader
 			@section preheader text
 			@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
 			*/
@@ -860,7 +914,16 @@
 			/*@editable*/height: 24px;
 			}
 
-
+			/*
+			@tab Prefooter
+			@section Prefooter style
+			@tip Set the background color and borders for your email's Prefooter area.
+			@theme footer
+			*/
+			#templatePrefooter{
+				/*@editable*/background-color:#FAFAFA;
+				/*@editable*/border-top:0 solid #FFFFFF;
+			}
 
 
 			/*
@@ -1310,9 +1373,9 @@
         <table class="templateContainer">
 					<tbody>
 						
-					<!-- BEGIN PREHEADER SECTION// -->
+					<!-- BEGIN PREHEADER SECTION // -->
 					<tr>
-          <td id="templatePreheader">	
+          <td valign="top" id="templatePreheader" class="templateSection">	
 						
            <!-- BEGIN PREHEADER ELEMENT // -->
            <table class="mcnCodeBlock">
@@ -1359,7 +1422,7 @@
 						
          <!-- BEGIN HEADER SECTION // -->   
          <tr>
-          <td  id="templateHeader">
+          <td  valign="top" id="templateHeader"  class="templateSection">
            
 						<!-- BEGIN LOGO ICON ELEMENT // -->
 						
@@ -1464,7 +1527,7 @@
              
 						<!-- BEGIN BODY SECTION // -->
            <tr>
-             <td  id="templateBody">
+             <td  valign="top" id="templateBody"  class="templateSection">
                 
 								<!-- BEGIN HEADLINE TEXT ELEMENT // -->
 								<table class="mcnTextBlock">
@@ -1503,7 +1566,7 @@
 								<!-- // END HEADLINE TEXT ELEMENT -->
 							 
                 <!-- BEGIN SHARE BAR ELEMENT // -->
-								<table class="mcnShareBlock" id="templateShareBarTop">
+								<table class="mcnShareBlock" id="shareBarTopElement">
 									<tbody class="mcnShareBlockOuter">
 										<tr>
 											<td  class="mcnShareBlockInner">
@@ -1853,7 +1916,7 @@
 																																																					 
 																																																					 
 									<!-- BEGIN SHARE BAR 2 ELEMENT // -->
-									<table class="mcnShareBlock" id="templateShareBarTop">
+									<table class="mcnShareBlock" id="shareBarTopElement">
 										<tbody class="mcnShareBlockOuter">
 											<tr>
 												<td  class="mcnShareBlockInner">
@@ -2080,7 +2143,7 @@
 						
 							<!-- BEGIN PRE FOOTER SECTION // -->																																					 
 							 <tr>																														 
-                <td id="templatePrefooter">
+                <td valign="top" id="templatePrefooter"  class="templateSection">
 																																			
 																																			
 																																			
@@ -2379,7 +2442,7 @@
 																																																					 
 							<!-- BEGIN FOOTER SECTION // -->						
               <tr>
-                <td id="templateFooter">
+                <td valign="top" id="templateFooter"  class="templateSection">
 									
 									<!-- BEGIN FOOTER TEXT BLOCK ELEMENT // -->
                   <table class="mcnTextBlock">
