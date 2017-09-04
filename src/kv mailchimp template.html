@@ -164,6 +164,7 @@
 
 
 			#shareBarTopElement,
+			#shareBarBottomElement,
 			.mcnShareContentContainer,
 			.mcnShareContent,
 			.mcnFollowContentContainer,
@@ -171,6 +172,11 @@
 			#kvmc-menu-bar {
 				width: 100%;
 			}
+			
+			#shareBarTopElement {
+				margin-bottom: 9px;
+			}
+			
 
 			.mcnShareContentItem,
 			.mcnFollowContentItem{
@@ -1043,6 +1049,7 @@
 			h1{
 				/*@editable*/font-size:28px !important;
 				/*@editable*/line-height:33px !important;
+				 margin-bottom: 7px;
 			}
 
 			}	@media only screen and (max-width: 480px){
@@ -1054,6 +1061,7 @@
 			h2{
 				/*@editable*/font-size:26px !important;
 				/*@editable*/line-height:30px !important;
+				margin-bottom: 7px;
 			}
 
 			}	@media only screen and (max-width: 480px){
@@ -1065,6 +1073,7 @@
 			h3{
 				/*@editable*/font-size:24px !important;
 				/*@editable*/line-height:27px !important;
+				margin-bottom: 6px;
 			}
 
 			}	@media only screen and (max-width: 480px){
@@ -1076,6 +1085,7 @@
 			h4{
 				/*@editable*/font-size:22px !important;
 				/*@editable*/line-height:25px !important;
+				margin-bottom: 6px;
 			}
 
 			}	@media only screen and (max-width: 480px){
@@ -1087,7 +1097,9 @@
 			h5{
 				/*@editable*/font-size:20px !important;
 				/*@editable*/line-height:23px !important;
+				margin-bottom: 5px;
 			}
+				
 
 			}	@media only screen and (max-width: 480px){
 			/*
@@ -1098,9 +1110,27 @@
 			h6{
 				/*@editable*/font-size:18px !important;
 				/*@editable*/line-height:21px !important;
+				margin-bottom: 5px;
 			}
 
-			}	@media only screen and (max-width: 480px){
+			}		@media only screen and (max-width: 480px){
+			/*
+			@tab Mobile Styles
+			@section heading 6
+			@tip Make the third-level headings larger in size for better readability on small screens.
+			*/
+			  #shareBarTopElement {
+				margin-bottom: 7px;
+			}
+
+			}	
+			
+			
+
+			
+			
+			
+			@media only screen and (max-width: 480px){
 			#templatePreheader{
 				display:none !important;
 			}
@@ -1964,7 +1994,7 @@
 																																																					 
 																																																					 
 									<!-- BEGIN SHARE BAR 2 ELEMENT // -->
-									<table class="mcnShareBlock" id="shareBarTopElement">
+									<table class="mcnShareBlock" id="shareBarBottomElement">
 										<tbody class="mcnShareBlockOuter">
 											<tr>
 												<td  class="mcnShareBlockInner">
