@@ -335,6 +335,8 @@
 
 			#templatePrefooter .mcnTextContent,#templatePrefooter .mcnTextContent p,
 			#templatePrefooter .mcnTextContent a,#templatePrefooter .mcnTextContent p a,
+			#templatePrefooter .mcnCodeContent,#templatePrefooter .mcnCodeContent p,
+			#templatePrefooter .mcnCodeContent a,#templatePrefooter .mcnCodeContent p a
 
 			{
 				color: #58595b;
@@ -343,6 +345,8 @@
 
 			#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p,
 			#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a,
+			#templateFooter .mcnCodeContent,#templateFooter .mcnCodeContent p,
+			#templateFooter .mcnCodeContent a,#templateFooter .mcnCodeContent p a
 
 			{
 				color: #58595b;
@@ -1416,16 +1420,22 @@
 									<!--[if mso]>
 									<td width="600" style="width:600px;">
 									<![endif]-->
-									<tr>
-									 <td  align="left" style="text-align:left;" class="preheaderContent"  mc:edit="preheader_content00">
-										 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
-									 </td>
-									 <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-									 <td align="right" style="text-align:right;" width="180" class="preheaderContent"  mc:edit="preheader_content01">
-										<a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
-									 </td>
-									 <!-- *|END:IF|* -->
-									</tr>
+									 <table align="center">
+										 <tbody>
+									 
+											<tr>
+											 <td  align="left" style="text-align:left;" class="preheaderContent mcnCodeContent"  mc:edit="preheader_content00">
+												 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+											 </td>
+											 <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											 <td align="right" style="text-align:right;" width="180" class="preheaderContent"  mc:edit="preheader_content01">
+												<a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+											 </td>
+											 <!-- *|END:IF|* -->
+											</tr>
+									
+										 </tbody>
+									 </table>
 								
 								<!--[if mso]>
 								</td>
@@ -1468,7 +1478,7 @@
 									<table align="center">
 										<tbody >
 											<tr>
-												<td align="center">
+												<td align="center" class="mcnCodeContent">
 	
 											<a href="https://gallery.mailchimp.com/96c3ac2fd3ab5f7b175730ca5/images/b4fa1d02-d577-4623-bd6c-592de7f539c7.png" target="_blank" mc:edit="header_image">
 											 	<img class="kvmcHeaderLogo" src="https://gallery.mailchimp.com/96c3ac2fd3ab5f7b175730ca5/images/b4fa1d02-d577-4623-bd6c-592de7f539c7.png" alt="KAPITAL VALUE" border="0" style="margin: 0; padding: 0;">
@@ -1512,7 +1522,7 @@
 									<table align="center">
              				<tbody>
               				<tr>
-											<td  class="kvmc-menu-bar-content">	
+											<td  class="kvmc-menu-bar-content mcnCodeContent">	
 									
 
 									
@@ -1979,7 +1989,7 @@
              								<tbody>
 														
 															<tr>
-																<td  mc:edit="share_bar_title" class="kvcenter kvinfo kvNoTopBottomPadding">
+																<td  mc:edit="share_bar_title" class="kvcenter kvinfo kvNoTopBottomPadding mcnCodeContent">
 																Share:
 																</td>
 															</tr>
@@ -2254,7 +2264,7 @@
              								<tbody>
 													
 															<tr>
-																<td class="kvinfo kvblock" mc:edit="prefooter_content00">
+																<td class="kvinfo kvblock mcnCodeContent" mc:edit="prefooter_content00">
 																		<br>	
 																		For more information about our services, visit our 
 																		<a href="https://www.kapitalvalue.com/en" target="_blank">web page</a>
