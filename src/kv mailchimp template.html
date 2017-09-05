@@ -2533,7 +2533,8 @@
 									
 		
 									
-									
+									<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+
 									<!-- PREFOOTER TEXT BLOCK ELEMENT // --> 
 									<table class="mcnTextBlock">
     								<tbody class="mcnTextBlockOuter">
@@ -2576,6 +2577,7 @@
 										</tbody>
 									</table>
 									<!-- // END PREFOOTER TEXT BLOCK ELEMENT -->  	
+									<!-- *|END:IF|* -->
 									
 									
 
@@ -2617,29 +2619,37 @@
 																<td  class="mcnTextContent kvfineprint kvcenter" >
 																		
 																	*|INTERESTED:Language Group:English|*
-																		*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+																		*|IFNOT:ARCHIVE_PAGE|* 
+																		You are receiving this email because you opted in via our website.
 																		<br><br>
 																		Want to change how you receive these emails?<br>
 																		You can <a href="*|UPDATE_PROFILE|*">update your preferences</a>
 																		or <a href="*|UNSUB|*">unsubscribe from this list</a>.
 																		<br><br>
 																		Our mailing address is:<br>
-																		*|HTML:LIST_ADDRESS_HTML|* *|END:IF|*<br>
+																		*|HTML:ADDRESS|* 
+																		<a href=*|"LIST:ADDRESS_VCARD_HREF1*">Add us to your address book</a>
+																		<br>
+																		*|END:IF|*
 																		<br>
 																		<em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em><br>
 																		<br>
-																		*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+																		*|IF:REWARDS|* *|HTML:REWARDS|*	*|END:IF|*
 																	*|END:INTERESTED|*
 
 																	*|INTERESTED:Language Group:Español|*	
-																		*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+																		*|IFNOT:ARCHIVE_PAGE|*
+																		Usted recibe este e-mail por estar suscrito a la lista de envío
 																		<br><br>
 																		Si desea cambiar la forma en que recibe estos emails<br>
 																		Puede <a href="*|UPDATE_PROFILE|*">actualizar sus preferencias</a>
 																		o <a href="*|UNSUB|*">cancelar la suscripción a esta lista de envío</a>.
 																		<br><br>
 																		Nuestra dirección postal es:<br>
-																		*|HTML:LIST_ADDRESS_HTML|* *|END:IF|*<br>
+																		*|HTML:ADDRESS|* 
+																		<a href=*|"LIST:ADDRESS_VCARD_HREF1*">Añadir a su libro de direcciones</a>
+																		<br>
+																		*|END:IF|*
 																		<br>
 																		<em>© *|CURRENT_YEAR|* *|LIST:COMPANY|*, Todos los derechos reservados.</em><br>
 																		<br>
@@ -2647,14 +2657,18 @@
 																	*|END:INTERESTED|*
 
 																	*|INTERESTED:Language Group:Português|*
-																		*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+																		*|IFNOT:ARCHIVE_PAGE|*
+																		Está a receber esta newsletter por estar subscrito na lista de divulgação. 
 																		<br><br>
 																		Se desejar alterar o modo como recebe estes emails,<br>
 																		pode <a href="*|UPDATE_PROFILE|*">actualizar suas preferências</a>
 																		o <a href="*|UNSUB|*">cancelar o registo da lista de divulgação.</a>.
 																		<br><br>
 																		O nosso endereço postal:<br>
-																		*|HTML:LIST_ADDRESS_HTML|* *|END:IF|*<br>
+																		*|HTML:ADDRESS|* 
+																		<a href=*|"LIST:ADDRESS_VCARD_HREF1*">Adicionar no seu libro de endereços</a>
+																		<br>
+																		*|END:IF|*
 																		<br>
 																		<em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, Todos os direitos reservados.</em><br>
 																		<br>
