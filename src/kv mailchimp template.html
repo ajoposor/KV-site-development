@@ -211,15 +211,6 @@
 	}
 
 
-	.footerContent{
-		padding-top:20px;
-		padding-right:18px;
-		padding-bottom:20px;
-		padding-left:18px;
-	}
-
-
-
 
 
 
@@ -260,12 +251,7 @@
 	.shareContentIconHolder,
 	.followContentIconHolder {
 		vertical-align: middle;
-		}
-
-
-
-
-
+	}
 
 	.kvNoTopBottomPadding {
 		padding-top: 0;
@@ -274,7 +260,7 @@
 
 
 
-		.mcnTextBlock {
+	.mcnTextBlock {
 		width: 100%;
 		min-width: 100%;
 	}
@@ -321,10 +307,6 @@
 		border-style: solid;
 		width: 100%
 	}
-
-
-
-
 
 	.mcnShareBlockInner {
 		padding-top: 0;
@@ -390,9 +372,9 @@
 
 
 	.kvmcShareSocialIcon {
-	display: block;
-	width: 24px;
-	height: 24px;
+		display: block;
+		width: 24px;
+		height: 24px;
 	}
 
 
@@ -467,20 +449,13 @@
 
 
 
-
-
-
-
-
-
-
 	/* font family */
 	body, div, span, p, h1, h2, h3, h4, h5, h6,
 	.mcnTextContent,
 	.templateSection,
 	.mcnFollowTextContent > a,
 	.mcnShareTextContent > a,
-	.preheaderContent, .footerContent,
+	.preheaderContent,
 	.kvmc-menu-bar, .kvmc-menu-items, .kvmc-menu-dot,
 	.kvmc-menu-bar-content,
 	.kvmc-menu-bar-content a:link,
@@ -514,8 +489,6 @@
 	.kvinfo,
 	.preheaderContent,
 	.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts,
-	.footerContent,
-	.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts,.footerContent a span
 	#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p,
 	#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a,
 	#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p,
@@ -549,6 +522,13 @@
 	}
 
 
+		body, .kvdiv,
+		.kvfineprint,
+		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts,
+		.kvSummaryText, .kvDetailedText, .kvinfo,
+		h1,h2,h3,h4,h5,h6{
+			font-weight: 300;
+		}
 
 	.kvmcSocialIcon, .kvmcFollowIcon {
 		font-size: 13px;
@@ -559,7 +539,6 @@
 	.kvfineprint {
 		font-size: 13px;
 		line-height: 15px;
-		font-weight: 300;
 		letter-spacing: 0px;
 	}
 
@@ -571,31 +550,27 @@
 	}
 
 	.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts{
-		font-weight:300;
 		text-decoration:underline;
 	}
 
 
 	body, .kvdiv,
 	.kvDetailedText {
-			font-size: 19px;
-			line-height: 26px;
-			font-weight: 300;
-			letter-spacing: 0px;
+		font-size: 19px;
+		line-height: 26px;
+		letter-spacing: 0px;
 	}
 
 	.kvSummaryText {
-			font-size: 22px;
-			line-height: 28px;
-			font-weight: 300;
-			letter-spacing: 0px;
+		font-size: 22px;
+		line-height: 28px;
+		letter-spacing: 0px;
 	}
 
 
 	.kvinfo {
 		font-size: 15px;
 		line-height: 18px;
-		font-weight: 300;
 		letter-spacing: 0px;
 	}
 
@@ -603,7 +578,6 @@
 	h1{
 		font-size:44px;
 		font-style:normal;
-		font-weight:300;
 		line-height:50px;
 		letter-spacing:0;
 		text-align:left;
@@ -612,7 +586,6 @@
 	h2{
 		font-size:38px;
 		font-style:normal;
-		font-weight:300;
 		line-height:46px;
 		letter-spacing:0;
 		text-align:left;
@@ -621,7 +594,6 @@
 	h3{
 		font-size:33px;
 		font-style:normal;
-		font-weight:300;
 		line-height:41px;
 		letter-spacing:0;
 		text-align:left;
@@ -630,7 +602,6 @@
 	h4{
 		font-size:29px;
 		font-style:normal;
-		font-weight:300;
 		line-height:36px;
 		letter-spacing:0;
 		text-align:left;
@@ -639,7 +610,6 @@
 	h5{
 		font-size:25px;
 		font-style:normal;
-		font-weight:300;
 		line-height:31px;
 		letter-spacing:0;
 		text-align:left;
@@ -648,15 +618,10 @@
 	h6{
 		font-size:22px;
 		font-style:normal;
-		font-weight:300;
 		line-height:28px;
 		letter-spacing:normal;
 		text-align:left;
 	}
-
-
-
-
 
 
 	.kvmc-menu-bar-content,
@@ -664,7 +629,7 @@
 	.kvmc-menu-bar-content a:visited,
 	.kvmc-menu-bar-content a .yshortcuts  {
 		font-size:15px;
-		font-weight:300;
+		font-weight: 300;
 		letter-spacing:.05em;
 		text-align:center;
 		vertical-align:middle;
@@ -699,17 +664,6 @@
 		text-decoration: none;
 	}
 
-	.footerContent{
-		font-size:13px;
-		line-height:15px;
-		text-align:center;
-	}
-
-
-	.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts,.footerContent a span{
-		font-weight:300;
-		text-decoration:underline;
-	}
 
 
 	#templatePrefooter .mcnTextContent a,#templatePrefooter .mcnTextContent p a,
@@ -729,9 +683,6 @@
 	body,table,td,p,a,li,blockquote{
 		-webkit-text-size-adjust:none !important;
 	}
-
-
-
 
 	}	@media only screen and (max-width: 480px){
 	body{
@@ -939,12 +890,6 @@
 	}
 
 
-
-
-
-
-
-
 	@media only screen and (max-width: 480px){		
 
 	.mcnShareBlockInner {
@@ -980,20 +925,6 @@
 
 	}
 
-
-	@media only screen and (max-width: 480px){
-
-		.footerContent{
-			font-size:10px !important;
-			line-height:12px !important;
-		}
-
-		}	@media only screen and (max-width: 480px){
-		.footerContent a{
-			display:block !important;
-		}
-
-	}
 
 	</style>
 </head>
