@@ -319,9 +319,9 @@
 		.mcnFollowBlockInner,
 		.mcnFollowContentContainer > tbody > tr > td{
 			padding-top: 0;
-			padding-right: 9px;
+			padding-right: 18px;
 			padding-bottom: 0;
-			padding-left: 9px;
+			padding-left: 18px;
 			}
 
 	.mcnShareContentItemContainer,
@@ -346,8 +346,7 @@
 		padding-left: 0;
 	}
 		
-	td.mcnShareIconContent,
-	td.mcnFollowIconContent{
+	.shareFollowLink {
 	padding-top: 1px;
 	padding-right: 2px;
 	padding-bottom: 1px;
@@ -849,38 +848,22 @@
 
 	@media only screen and (max-width: 480px){		
 
-	.mcnShareBlockInner {
+	.mcnShareBlockInner,
+	.mcnFollowBlockInner{
 		padding-top: 0px !important;
-		padding-right: 0px !important;
+		padding-right: 9px !important;
 		padding-bottom: 0px !important;
-		padding-left: 0px !important;
+		padding-left: 9px !important;
 	}
 
-	.mcnShareTextContent > a {
+	.mcnShareTextContent > a,
+	.mcnFollowTextContent > a{
 	font-size: 13px;
 	line-height: 15px;
 	}
 
-
-
-	}
-	@media only screen and (max-width: 480px){		
-
-	.mcnFollowBlockInner {
-		padding-top: 0px !important;
-		padding-right: 0px !important;
-		padding-bottom: 0px !important;
-		padding-left: 0px !important;
 	}
 
-
-	.mcnFollowTextContent > a {
-	font-size: 13px;
-	line-height: 15px;
-	}
-
-
-	}
 
 
 	</style>
@@ -1189,52 +1172,22 @@
 																							<!--[if mso]>
 																								<td>
 																							<![endif]-->
-																							<table align="right" style="display:inline;" >
-																								<tbody>
-																									<tr>
-																										<td  valign="top" class="mcnShareContentItemContainer">
-																											<table class="mcnShareContentItem">
-																												<tbody>
-																													<tr>
-																														<td align="right" valign="middle"  class="shareContentIconHolder">
-																															<table align="right" width="100%">
-																																<tbody>
-																																	<tr align="right">
-																																		<td valign="middle" align="right" width="24" class="mcnShareIconContent" >
-																																			<a href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="_blank">
-																																				<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="In" class="kvmcShareSocialIcon">
-																																			</a>
-																																		</td>
-																																		<td valign="middle" align="right" width="24" class="mcnShareIconContent">
-																																				<a href="*|FORWARD|*" target="_blank" >
-																																					<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" alt="->" class="kvmcShareSocialIcon"></a>
-																																		</td>
-																																		<td valign="middle" align="right" width="24" class="mcnShareIconContent">
-																																				<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																																					<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="f" class="kvmcShareSocialIcon">
-																																			</a>
-																																		</td>
-																																		<td valign="middle" align="right" width="24" class="mcnShareIconContent">
-																																				<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																																					<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="tw" class="kvmcShareSocialIcon">
-																																			</a>
-																																		</td>
-																																		<td valign="middle" align="right" width="24" class="mcnShareIconContent">
-																																			<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																																				<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png" alt="P" class="kvmcShareSocialIcon">
-																																			</a>
-																																		</td>
-																																	</tr>
-																																</tbody>
-																															</table>
-																														</td>
-																													</tr>
-																												</tbody>
-																											</table>
-																										</td>
-																									</tr>
-																							</tbody>
-																						</table>
+																							
+																							<a class="shareFollowLink" href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="_blank">
+																								<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="In" class="kvmcShareSocialIcon">
+																							</a>
+																							<a class="shareFollowLink"href="*|FORWARD|*" target="_blank" >
+																								<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" alt="->" class="kvmcShareSocialIcon">
+																							</a>																							
+																							<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
+																								<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="f" class="kvmcShareSocialIcon">
+																							</a>
+																							<a class="shareFollowLink"href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
+																								<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="tw" class="kvmcShareSocialIcon">
+																							</a>
+																							<a class="shareFollowLink"href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
+																								<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png" alt="P" class="kvmcShareSocialIcon">
+																							</a>
 																							<!--[if mso]>
 																							</td>
 																							<![endif]-->
