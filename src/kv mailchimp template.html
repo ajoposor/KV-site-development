@@ -309,49 +309,60 @@
 		border-style: solid;
 		width: 100%
 	}
+		
+		
+		.mcnShareBlockInner,
+		.mcnShareContentContainer > tbody > tr > td
+		.mcnFollowBlockInner,
+		.mcnFollowContentContainer > tbody > tr > td{
+			padding-top: 0;
+			padding-right: 9px;
+			padding-bottom: 0;
+			padding-left: 9px;
+			}
 
-	.mcnShareBlockInner {
-		padding-top: 0;
-		padding-right: 9px;
-		padding-bottom: 0;
-		padding-left: 9px;
-	}
-
-	.mcnShareContentContainer > tbody > tr > td {
-		padding-top: 0;
-		padding-right: 9px;
-		padding-bottom: 0;
-		padding-left: 9px;
-	}
-
-	.mcnShareContentItemContainer {
+	.mcnShareContentItemContainer,
+	.mcnFollowContentItemContainer{
 		padding-top: 0;
 		padding-bottom: 0;
 		padding-left: 0;
 		padding-right: 0;
 	}
 
-	mcnShareContentItem {
+	.mcnShareContentItem,
+	.mcnFollowContentItem{
 		border-radius: 1px;
 	}
+		
 
-	.mcnShareContentItem > tbody > tr > td {
+	.mcnShareContentItem > tbody > tr > td,
+	.mcnFollowContentItem > tbody > tr > td{
 		padding-top: 0;
 		padding-right: 0;
 		padding-bottom: 0;
 		padding-left: 0;
 	}
-
-	td.mcnShareIconContent {
+		
+	td.mcnShareIconContent,
+	td.mcnFollowIconContent{
 	padding-top: 1px;
-	padding-right: 5px;
+	padding-right: 2px;
 	padding-bottom: 1px;
-	padding-left: 5px;
+	padding-left: 2px;
 	}
 
-	.mcnShareTextContent {
+	.mcnShareTextContent,
+	.mcnFollowTextContent{
 	padding: 0;
 	}
+		
+	.kvmcShareSocialIcon,
+	.kvmcFollowSocialIcon{
+		display: block;
+		width: 24px;
+		height: 24px;
+	}
+
 
 
 	#kvmc-menu-bar {
@@ -372,65 +383,6 @@
 	}
 
 
-
-	.kvmcShareSocialIcon {
-		display: block;
-		width: 24px;
-		height: 24px;
-	}
-
-
-
-	.mcnFollowBlockInner {
-		padding-top: 0;
-		padding-right: 9px;
-		padding-bottom: 0;
-		padding-left: 9px;
-	}
-
-	.mcnFollowContentContainer > tbody > tr > td {
-		padding-top: 0;
-		padding-right: 9px;
-		padding-bottom: 0;
-		padding-left: 9px;
-	}
-
-	.mcnFollowContentItemContainer {
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-	}
-
-	mcnFollowContentItem {
-		border-radius: 1px;
-	}
-
-	.mcnFollowContentItem > tbody > tr > td {
-		padding-top: 0;
-		padding-right: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-	}
-
-	td.mcnFollowIconContent {
-	padding-top: 1px;
-	padding-right: 5px;
-	padding-bottom: 1px;
-	padding-left: 5px;
-	}
-
-	.mcnFollowTextContent {
-	padding: 0;
-	}	
-
-
-
-	.kvmcFollowSocialIcon {
-	display: block;
-	width: 24px;
-	height: 24px;
-	}
 
 
 
@@ -1624,6 +1576,37 @@
 																																			<td align="left" valign="middle"   class="mcnShareTextContent" >
 																																				<a href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target=""> </a>
 																																			</td>
+																																			<td valign="middle" width="24" class="mcnShareIconContent">
+																																					<a href="*|FORWARD|*" target="_blank" >
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" alt="->" class="kvmcShareSocialIcon"></a>
+																																			</td>
+																																			<td align="left" valign="middle"   class="mcnShareTextContent" >
+																																					<a href="*|FORWARD|*" target=""> </a>
+																																			</td>
+																																			<td valign="middle" width="24" class="mcnShareIconContent">
+																																					<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="f" class="kvmcShareSocialIcon">
+																																				</a>
+																																			</td>
+																																			<td align="left" valign="middle"  class="mcnShareTextContent">
+																																					<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="" > </a>
+																																			</td>	
+																																			<td valign="middle" width="24" class="mcnShareIconContent">
+																																					<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="tw" class="kvmcShareSocialIcon">
+																																				</a>
+																																			</td>
+																																			<td align="left" valign="middle"  class="mcnShareTextContent">
+																																					<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target=""> </a>
+																																			</td>	
+																																			<td valign="middle" width="24" class="mcnShareIconContent">
+																																				<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
+																																					<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png" alt="P" class="kvmcShareSocialIcon">
+																																				</a>
+																																			</td>
+																																			<td align="left"  valign="middle" class="mcnShareTextContent">
+																																				<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target=""> </a>
+																																			</td>																																			
 																																		</tr>
 																																	</tbody>
 																																</table>
@@ -1638,135 +1621,7 @@
 																								<!--[if mso]>
 																								</td>
 																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																										<tbody><tr>
-																												<td  valign="top"  class="mcnShareContentItemContainer">
-																														<table class="mcnShareContentItem">
-																																<tbody><tr>
-																																		<td align="left" valign="middle"  class="shareContentIconHolder" >
-																																				<table align="left" width="" >
-																																						<tbody><tr>
-																																								<td valign="middle" width="24" class="mcnShareIconContent">
-																																										<a href="*|FORWARD|*" target="_blank" >
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" alt="->" class="kvmcShareSocialIcon"></a>
-																																								</td>
-																																								<td align="left" valign="middle"   class="mcnShareTextContent" >
-																																										<a href="*|FORWARD|*" target=""> </a>
-																																								</td>
-																																						</tr>
-																																				</tbody></table>
-																																		</td>
-																																</tr>
-																														</tbody></table>
-																												</td>
-																										</tr>
-																								</tbody></table>
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																										<tbody><tr>
-																												<td  valign="top" class="mcnShareContentItemContainer">
-																														<table class="mcnShareContentItem">
-																																<tbody><tr>
-																																		<td align="left" valign="middle"  class="shareContentIconHolder" >
-																																				<table align="left" width="" >
-																																						<tbody><tr>
-																																								<td valign="middle" width="24" class="mcnShareIconContent">
-																																										<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="f" class="kvmcShareSocialIcon">
-																																									</a>
-																																								</td>
-																																								<td align="left" valign="middle"  class="mcnShareTextContent">
-																																										<a href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="" > </a>
-																																								</td>
-																																						</tr>
-																																				</tbody></table>
-																																		</td>
-																																</tr>
-																														</tbody></table>
-																												</td>
-																										</tr>
-																								</tbody></table>
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																										<tbody><tr>
-																												<td  valign="top" class="mcnShareContentItemContainer">
-																														<table class="mcnShareContentItem">
-																																<tbody><tr>
-																																		<td align="left" valign="middle"  class="shareContentIconHolder" >
-																																				<table align="left" width="" >
-																																						<tbody><tr>
-																																								<td valign="middle" width="24" class="mcnShareIconContent">
-																																										<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="tw" class="kvmcShareSocialIcon">
-																																									</a>
-																																								</td>
-																																								<td align="left" valign="middle"  class="mcnShareTextContent">
-																																										<a href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target=""> </a>
-																																								</td>
-																																						</tr>
-																																				</tbody></table>
-																																		</td>
-																																</tr>
-																														</tbody></table>
-																												</td>
-																										</tr>
-																								</tbody></table>
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																									<tbody>
-																										<tr>
-																											<td  valign="top" class="mcnShareContentItemContainer">
-																												<table class="mcnShareContentItem">
-																													<tbody>
-																														<tr>
-																															<td align="left" valign="middle"  class="shareContentIconHolder" >
-																																<table align="left" width="" >
-																																	<tbody>
-																																		<tr>
-																																			<td valign="middle" width="24" class="mcnShareIconContent">
-																																				<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																																					<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png" alt="P" class="kvmcShareSocialIcon">
-																																				</a>
-																																			</td>
-																																			<td align="left"  valign="middle" class="mcnShareTextContent">
-																																				<a href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target=""> </a>
-																																			</td>
-																																		</tr>
-																																	</tbody>
-																																</table>
-																															</td>
-																														</tr>
-																													</tbody>
-																												</table>
-																											</td>
-																										</tr>
-																									</tbody>
-																								</table>
-																								<!--[if mso]>
-																										</td>
-																								<![endif]-->
+																									
 																								<!--[if mso]>
 																											</tr>
 																									</table>
@@ -1935,6 +1790,39 @@
 																																					<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png" alt="In" class="kvmcFollowSocialIcon">
 																																				</a>
 																																			</td>
+																																			
+																																			<td valign="middle" width="24" class="mcnFollowIconContent">
+																																				*|INTERESTED:Language Group:English|*
+																																				 <a href="https://kapitalvalue.com/en" >
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" alt="KV" class="kvmcFollowSocialIcon">
+																																					</a>
+																																				*|END:INTERESTED|*
+
+																																				*|INTERESTED:Language Group:Español|*
+																																				 <a href="https://kapitalvalue.com/" >
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" alt="KV" class="kvmcFollowSocialIcon">
+																																					</a>
+																																				*|END:INTERESTED|*
+
+																																				*|INTERESTED:Language Group:Português|*
+																																				 <a href="https://kapitalvalue.com/pt-br/" >
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" alt="KV" class="kvmcFollowSocialIcon">
+																																					</a>
+																																				*|END:INTERESTED|*
+																																			</td>			
+																																			<td valign="middle" width="24" class="mcnFollowIconContent">
+																																					<a href="http://www.facebook.com/kapitalvalue" target="_blank">
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" alt="f" class="kvmcFollowSocialIcon">
+																																				</a>
+																																			</td>	
+																																			
+																																			<td valign="middle" width="24" class="mcnFollowIconContent">
+																																					<a href="http://www.twitter.com/kapitalvalue" target="_blank">
+																																						<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" alt="tw" class="kvmcFollowSocialIcon">
+																																				</a>
+																																			</td>
+																																			
+																																			
 																																		</tr>
 																																	</tbody>
 																																</table>
@@ -1949,108 +1837,6 @@
 																								<!--[if mso]>
 																								</td>
 																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																										<tbody><tr>
-																												<td   valign="top" class="mcnFollowContentItemContainer">
-																														<table class="mcnFollowContentItem">
-																																<tbody><tr>
-																																		<td align="left"  valign="middle" class="followContentIconHolder" >
-																																				<table align="left" width="" >
-																																						<tbody><tr>
-																																								<td valign="middle" width="24" class="mcnFollowIconContent">
-																																									
-																																									*|INTERESTED:Language Group:English|*
-																																									 <a href="https://kapitalvalue.com/en" >
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" alt="KV" class="kvmcFollowSocialIcon">
-																																										</a>
-																																									*|END:INTERESTED|*
-
-																																									*|INTERESTED:Language Group:Español|*
-																																									 <a href="https://kapitalvalue.com/" >
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" alt="KV" class="kvmcFollowSocialIcon">
-																																										</a>
-																																									*|END:INTERESTED|*
-
-																																									*|INTERESTED:Language Group:Português|*
-																																									 <a href="https://kapitalvalue.com/pt-br/" >
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" alt="KV" class="kvmcFollowSocialIcon">
-																																										</a>
-																																									*|END:INTERESTED|*
-																																									
-																																									
-																																								</td>
-																																						</tr>
-																																				</tbody></table>
-																																		</td>
-																																</tr>
-																														</tbody></table>
-																												</td>
-																										</tr>
-																								</tbody></table>
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																										<tbody><tr>
-																												<td  valign="top" class="mcnFollowContentItemContainer">
-																														<table class="mcnFollowContentItem">
-																																<tbody><tr>
-																																		<td align="left"  valign="middle" class="followContentIconHolder" >
-																																				<table align="left" width="" >
-																																						<tbody><tr>
-																																								<td valign="middle" width="24" class="mcnFollowIconContent">
-																																										<a href="http://www.facebook.com/kapitalvalue" target="_blank">
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" alt="f" class="kvmcFollowSocialIcon">
-																																									</a>
-																																								</td>
-																																						</tr>
-																																				</tbody></table>
-																																		</td>
-																																</tr>
-																														</tbody></table>
-																												</td>
-																										</tr>
-																								</tbody></table>
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-
-																								<!--[if mso]>
-																								<td>
-																								<![endif]-->
-																								<table align="left" style="display:inline;">
-																										<tbody><tr>
-																												<td valign="top"  class="mcnFollowContentItemContainer">
-																														<table class="mcnFollowContentItem">
-																																<tbody><tr>
-																																		<td align="left"  valign="middle" class="followContentIconHolder" >
-																																				<table align="left" width="" >
-																																						<tbody><tr>
-																																								<td valign="middle" width="24" class="mcnFollowIconContent">
-																																										<a href="http://www.twitter.com/kapitalvalue" target="_blank">
-																																											<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" alt="tw" class="kvmcFollowSocialIcon">
-																																									</a>
-																																								</td>
-																																						</tr>
-																																				</tbody></table>
-																																		</td>
-																																</tr>
-																														</tbody></table>
-																												</td>
-																										</tr>
-																								</tbody></table>
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-
 																		
 																									
 																								<!--[if mso]>
