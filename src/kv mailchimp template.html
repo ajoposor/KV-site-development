@@ -214,54 +214,10 @@
 	}
 
 
-
-
-
-
-	#shareBarTopElement,
-	#shareBarBottomElement,
-	#followBarElement,
-	.mcnShareContentContainer,
-	.mcnShareContent,
-	.mcnShareContentItem,
-	.mcnFollowContentContainer,
-	.mcnFollowContent,
-	.mcnFollowContentItem,
 	#kvmc-menu-bar {
 		width: 100%;
 	}
 
-	#shareBarTopElement {
-		margin-bottom: 9px;
-	}
-
-	#shareBarBottomElement,
-	#followBarElement {
-		margin-top: 4px;
-	}
-
-	.mcnShareContentItem,
-	.mcnFollowContentItem{
-		border-collapse:separate !important;
-	}
-
-	.mcnShareBlock,
-	.mcnShareContentContainer,
-	.mcnShareContent,
-	.mcnFollowBlock,
-	.mcnFollowContentContainer,
-	.mcnFollowContent{
-		min-width: 100%;
-	}
-
-	td.mcnShareIconContent,
-	td.mcnShareTextContent,
-	td.mcnFollowIconContent,
-	td.mcnFollowTextContent,
-	.shareContentIconHolder,
-	.followContentIconHolder {
-		vertical-align: middle;
-	}
 
 	.kvNoTopBottomPadding {
 		padding-top: 0;
@@ -269,29 +225,28 @@
 	}
 
 
-
 	.mcnTextBlock {
 		width: 100%;
 		min-width: 100%;
 	}
 
+		
+	.lrMarginBlock {
+			padding-right: 18px;	
+			padding-left: 18px;
+		}
 
 	.mcnTextContent {
-		padding-top: 9px;
-		padding-right: 18px;			
+		padding-top: 9px;		
 		padding-bottom: 9px;
-		padding-left: 18px;
 	}
 
 
 	.mcnCodeBlock {
 		width: 100%;
 		min-width: 100%;
-		padding-top: 0;
-		padding-right: 18px;			
+		padding-top: 0;		
 		padding-bottom: 0;
-		padding-left: 18px;
-
 	}
 
 
@@ -302,11 +257,11 @@
 	}
 
 	.mcnDividerBlockInner {
-		padding-top: 4px;
-		padding-right: 18px;			
+		padding-top: 4px;	
 		padding-bottom: 4px;
-		padding-left: 18px;
 	}
+		
+
 
 
 	.mcnDividerContent {
@@ -318,40 +273,7 @@
 		width: 100%
 	}
 		
-		
-		.mcnShareBlockInner,
-		.mcnShareContentContainer > tbody > tr > td,
-		.mcnFollowBlockInner,
-		.mcnFollowContentContainer > tbody > tr > td {
-			padding-top: 0;
-			padding-right: 18px;
-			padding-bottom: 0;
-			padding-left: 18px;
-			width: 100%;
-			}
 
-	.mcnShareContentItemContainer,
-	.mcnFollowContentItemContainer{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		width:100%;
-	}
-
-	.mcnShareContentItem,
-	.mcnFollowContentItem{
-		border-radius: 1px;
-	}
-		
-
-	.mcnShareContentItem > tbody > tr > td,
-	.mcnFollowContentItem > tbody > tr > td{
-		padding-top: 0;
-		padding-right: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-	}
 		
 	.shareFollowLink {
 	padding-top: 0;
@@ -362,11 +284,6 @@
 	line-height: 24px;
 	}
 
-	.mcnShareTextContent,
-	.mcnFollowTextContent{
-	padding: 0;
-	}
-		
 	.kvmcShareSocialIcon,
 	.kvmcFollowSocialIcon{
 		width: 24px;
@@ -382,17 +299,13 @@
 
 	.kvmc-menu-bar-content  {
 		padding-top:10px;
-		padding-right:18px;
 		padding-bottom:10px;
-		padding-left:18px;
 	}
 
 	.kvmc-menu-items    {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-
-
 
 
 
@@ -417,8 +330,6 @@
 	body, div, span, p, h1, h2, h3, h4, h5, h6,
 	.mcnTextContent,
 	.templateSection,
-	.mcnFollowTextContent > a,
-	.mcnShareTextContent > a,
 	.preheaderContent,
 	.kvmc-menu-bar, .kvmc-menu-items, .kvmc-menu-dot,
 	.kvmc-menu-bar-content,
@@ -480,11 +391,6 @@
 	h6{
 		color:#0a5a8e;
 	}
-	.mcnShareTextContent > a,
-	.mcnFollowTextContent > a{
-	color: #58595b;
-	}
-
 
 		body, .kvdiv,
 		.kvfineprint,
@@ -611,16 +517,6 @@
 
 
 	.mcnShareTextContent > a {
-		font-size: 15px;
-		font-weight: 300;
-		line-height: 18px;
-		text-align: center;
-		text-decoration: none;
-	}
-
-
-
-	.mcnFollowTextContent > a {
 		font-size: 15px;
 		font-weight: 300;
 		line-height: 18px;
@@ -783,11 +679,18 @@
 
 	}  @media only screen and (max-width: 480px){
 
+		.lrMarginBlock {
+		padding-right:9px !important;
+		padding-left:9px !important;
+	}
+
+	}  
+		
+		@media only screen and (max-width: 480px){
+
 		.kvmc-menu-bar-content {
 		padding-top:4px !important;
-		padding-right:9px !important;
 		padding-bottom:4px !important;
-		padding-left:9px !important;
 	}
 
 	} 
@@ -810,10 +713,7 @@
 
 		.mcnTextBlock {
 		padding-top: 6px !important;
-		padding-right: 9px !important;			
 		padding-bottom: 6px !important;
-		padding-left: 9px !important;
-
 		}
 	}
 
@@ -821,56 +721,24 @@
 	@media only screen and (max-width: 480px){				
 
 		.mcnTextContent {
-			padding-top: 4px !important;
-			padding-right: 9px !important;			
+			padding-top: 4px !important;		
 			padding-bottom: 4px !important;
-			padding-left: 9px !important;
 		}
 	}
 
-
-
-	@media only screen and (max-width: 480px){	
-
-		.mcnCodeTextBlock {
-		padding-right: 9px !important;			
-		padding-left: 9px !important;
-
-		}
-	}
 
 
 
 	@media only screen and (max-width: 480px){			
 
 		.mcnDividerBlockInner {
-			padding-top: 2px !important;
-			padding-right: 9px !important;			
+			padding-top: 2px !important;		
 			padding-bottom: 2px !important;
-			padding-left: 9px !important;
 		}
 
 
 	}
 
-
-	@media only screen and (max-width: 480px){		
-
-	.mcnShareBlockInner,
-	.mcnFollowBlockInner{
-		padding-top: 0px !important;
-		padding-right: 9px !important;
-		padding-bottom: 0px !important;
-		padding-left: 9px !important;
-	}
-
-	.mcnShareTextContent > a,
-	.mcnFollowTextContent > a{
-	font-size: 13px;
-	line-height: 15px;
-	}
-
-	}
 
 
 
@@ -1108,7 +976,7 @@
              <td  valign="top" id="templateBody"  class="templateSection">
                 
 								<!-- BEGIN HEADLINE TEXT ELEMENT // -->
-								<table class="mcnTextBlock">
+								<table class="mcnTextBlock lrMarginBlock">
 									<tbody class="mcnTextBlockOuter">
 										<tr>
 											<td class="mcnTextBlockInner">
@@ -1156,7 +1024,7 @@
 								<!-- // END HEADLINE TEXT ELEMENT -->
 							 
                 <!-- BEGIN SHARE BAR ELEMENT // -->
-								<table   align="right" class="mcnShareBlock" id="shareBarTopElement">
+								<table   align="right" class="mcnShareBlock lrMarginBlock" id="shareBarTopElement">
 									<tbody class="mcnShareBlockOuter">
 										<tr>
 											<td  valign="top" class="mcnShareBlockInner">
@@ -1226,7 +1094,7 @@
               
   
 								<!-- BEGIN SUMMARY TEXT BLOCK ELEMENT // -->
-								<table class="mcnTextBlock">
+								<table class="mcnTextBlock lrMarginBlock">
 									<tbody class="mcnTextBlockOuter">
 										<tr>
 											<td class="mcnTextBlockInner">
@@ -1279,7 +1147,7 @@
 
 									
 								<!-- BEGIN FEATURE IMAGE BLOCK ELEMENT // -->
-									<table class="mcnTextBlock">
+									<table class="mcnTextBlock lrMarginBlock">
 										<tbody class="mcnTextBlockOuter">
 											<tr>
 												<td  class="mcnTextBlockInner" >
@@ -1330,7 +1198,7 @@
 				
 							 
 								<!-- BEGIN DETAILED TEXT BLOCK ELEMENT // -->
-								<table class="mcnTextBlock">
+								<table class="mcnTextBlock lrMarginBlock">
 									<tbody class="mcnTextBlockOuter">
 										<tr>
 											<td class="mcnTextBlockInner">
@@ -1404,7 +1272,7 @@
 
 
 									<!-- BEGIN DIVIDER BLOCK ELEMENT // -->
-									<table class="mcnDividerBlock">
+									<table class="mcnDividerBlock lrMarginBlock">
     								<tbody class="mcnDividerBlockOuter">
 											<tr>
 												<td class="mcnDividerBlockInner">
@@ -1430,7 +1298,7 @@
 									<!-- BEGIN CODE BLOCK - SHARE TEXT - ELEMENT // -->
 							 
 
-									<table class="mcnCodeBlock">
+									<table class="mcnCodeBlock lrMarginBlock">
     								<tbody class="mcnTextBlockOuter">
         							<tr>
             						<td  class="mcnTextBlockInner">
@@ -1487,7 +1355,7 @@
 							 	 <!-- BEGIN CODE BLOCK - NEW SHARE BAR - ELEMENT // -->
 							 
 
-									<table class="mcnCodeBlock">
+									<table class="mcnCodeBlock lrMarginBlock" style="margin-top:4px; margin-bottom:9px;">
     								<tbody class="mcnTextBlockOuter">
         							<tr>
             						<td  class="mcnTextBlockInner">
@@ -1505,7 +1373,7 @@
              								<tbody>
 														
 															<tr>
-																<td  class="kvcenter kvinfo style="padding-top:5px; padding-bottom:9px;" mcnCodeContent">
+																<td  class="kvcenter kvinfo mcnCodeContent">
 																																			
 																<a class="shareFollowLink" href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="_blank">
 																	<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="In" class="kvmcShareSocialIcon">
@@ -1544,77 +1412,7 @@
 									<!-- // END CODE BLOCK - NEW SHARE BAR - ELEMENT -->						
 																																																					 
 							 
-							 
-							 <!-- BEGIN NEW SHARE BAR 2 ELEMENT // -->
-									<table   class="mcnFollowBlock" id="shareBarBottomElement">
-										<tbody class="mcnFollowBlockOuter">
-											<tr>
-												<td valign="top" class="mcnFollowBlockInner">
-													<table   class="mcnFollowContentContainer">
-														<tbody>
-															<tr>
-																<td align="center" style="width:100%;">
-																	<table align="center" class="mcnFollowContent">
-																		<tbody>
-																			<tr>
-																				<td align="center" valign="top" class="mcnFollowContentItemContainer" >
-																					<table align="center">
-																						<tbody>
-																							<tr>
-																								<td align="center" valign="top"  >
-																							<!--[if mso]>
-																								<table align="center" border="0">
-																									<tr>
-																							<![endif]-->
-
-																							<!--[if mso]>
-																								<td  style="text-align:center;">
-																							<![endif]-->
-
-																							<div style="text-align:center;">																					
-																								<a class="shareFollowLink" href="https://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" target="_blank">
-																									<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" alt="In" class="kvmcShareSocialIcon">
-																								</a>
-																								<a class="shareFollowLink" href="*|FORWARD|*" target="_blank" >
-																									<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" alt="->" class="kvmcShareSocialIcon">
-																								</a>
-																								<a class="shareFollowLink" href="https://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																									<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" alt="f" class="kvmcShareSocialIcon">
-																								</a>
-																								<a class="shareFollowLink" href="https://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																									<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" alt="tw" class="kvmcShareSocialIcon">
-																								</a>
-																								<a class="shareFollowLink" href="https://www.pinterest.com/pin/find/?url=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank">
-																									<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-pinterest-48.png" alt="P" class="kvmcShareSocialIcon">
-																								</a>
-																								</div>		
-																								<!--[if mso]>
-																								</td>
-																								<![endif]-->
-																		
-																									
-																								<!--[if mso]>
-																											</tr>
-																									</table>
-																								<![endif]-->
-																							</td>
-																						</tr>
-																					</tbody>
-																				</table>
-																			</td>
-																		</tr>
-																	</tbody>
-																</table>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-								<!-- // END NEW SHARE BAR 2 ELEMENT -->
- 
+						
 									
 									
                     
@@ -1641,7 +1439,7 @@
                 	<!-- PREFOOTER TEXT BLOCK ELEMENT // -->   
 
 									
-									<table class="mcnCodeBlock">
+									<table class="mcnCodeBlock lrMarginBlock">
 										<tbody class="mcnTextBlockOuter">
 											<tr>
 												<td  class="mcnTextBlockInner" >
@@ -1721,7 +1519,7 @@
 									
 									
 										<!-- BEGIN FOLLOW BAR ELEMENT // -->
-									<table   class="mcnFollowBlock" id="followBarElement">
+									<table   class="mcnFollowBlock lrMarginBlock" id="followBarElement">
 										<tbody class="mcnFollowBlockOuter">
 											<tr>
 												<td valign="top" class="mcnFollowBlockInner">
@@ -1809,7 +1607,7 @@
 									<!-- *|IFNOT:ARCHIVE_PAGE|* -->
 
 									<!-- PREFOOTER TEXT BLOCK ELEMENT // --> 
-									<table class="mcnTextBlock">
+									<table class="mcnTextBlock lrMarginBlock">
     								<tbody class="mcnTextBlockOuter">
         							<tr>
             						<td  class="mcnTextBlockInner">
@@ -1874,7 +1672,7 @@
                 <td valign="top" id="templateFooter"  class="templateSection">
 									
 									<!-- BEGIN FOOTER TEXT BLOCK ELEMENT // -->
-                  <table class="mcnTextBlock">
+                  <table class="mcnTextBlock lrMarginBlock">
     								<tbody class="mcnTextBlockOuter">
         							<tr>
             						<td  class="mcnTextBlockInner">
