@@ -75,15 +75,7 @@
 		border-top:0;
 	}
 	.mcnPreviewText{
-		display:none;
-		font-size: 0px;
-		line-height: 0px;
-		max-height: 0px;
-		max-width: 0px;
-		opacity: 0;
-		overflow: hidden;
-		visibility: hidden;
-		mso-hide: all;
+		display:none !important;
 	}
 	#outlook a{
 		padding:0;
@@ -532,8 +524,6 @@
 
 
 
-
-
 	@media only screen and (max-width: 480px){
 	body,table,td,p,a,li,blockquote{
 		-webkit-text-size-adjust:none !important;
@@ -737,20 +727,24 @@
 	<body>
 		
 	<!--*|IF:MC_PREVIEW_TEXT|*-->
-		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" >*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
+		<!--[if !gte mso 9]>
+				<!---->
+					<span class="mcnPreviewText" style="font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden;	mso-hide: all;">*|MC_PREVIEW_TEXT|*
+					</span>
+				<!--<![endif]-->
 	<!--*|END:IF|*-->	
 		
    <center>
     <table align="center" id="bodyTable">
      <tr>
-      <td align="center" class="kvcenter" id="bodyCell">
+      <td align="center" valign="top"  class="kvcenter" id="bodyCell">
 				
 				
       	<!-- BEGIN TEMPLATE // -->
 				<!--[if gte mso 9]>
 				<table align="center" width="600" style="width:600px;">
 					<tr>
-						<td align="center" width="600" style="width:600px;">
+						<td align="center" valign="top"  width="600" style="width:600px;">
 				<![endif]-->
 				
 				
@@ -758,7 +752,7 @@
 						
 					<!-- BEGIN PREHEADER SECTION // -->
 					<tr>
-           <td  align="center" id="templatePreheader" class="templateSection">	
+           <td  align="center" valign="top" id="templatePreheader" class="templateSection">	
 						
            <!-- BEGIN PREHEADER ELEMENT // -->
            <table align="center" class="mcnCodeBlock">
@@ -824,7 +818,7 @@
        					<tr>
 									<td class="mcnTextBlockInner">
 								 <!--[if mso]>
-									<table align="left" width="100%" style="width:100%;">
+									<table align="center" width="100%" style="width:100%;">
 									<tr>
 									<![endif]-->
 
@@ -1440,7 +1434,7 @@
              								<tbody>
 													
 															<tr>
-																<td class="kvinfo kvblock mcnCodeContent lrMarginBlock">
+																<td class="kvinfo kvcenter mcnCodeContent lrMarginBlock">
 																	
 																	*|INTERESTED:Language Group:English|*
 																	<br>	
@@ -1584,18 +1578,18 @@
     								<tbody class="mcnTextBlockOuter">
         							<tr>
             						<td  class="mcnTextBlockInner">
-												<!--[if mso]>
-													<table align="center" >
+												 <!--[if mso]>
+													<table align="center" width="100%" style="width:100%;">
 													<tr>
-												<![endif]-->
+													<![endif]-->
 
-												<!--[if mso]>
-													<td  >
-												<![endif]-->
+													<!--[if mso]>
+													<td width="600" style="width:600px;">
+													<![endif]-->
                 					<table align="center" class="mcnTextContentContainer">
 														<tbody>
 															<tr>
-																<td  class="mcnTextContent kvinfo kvcenter lrMarginBlock">
+																<td  class="mcnCodeContent kvinfo kvcenter lrMarginBlock">
 																		<br>
 																		
 																		<a href="*|ARCHIVE|*" target="_blank">
