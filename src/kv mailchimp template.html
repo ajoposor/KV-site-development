@@ -133,9 +133,6 @@
 	.mcnTextContent img{
 		height:auto !important;
 	}
-	.mcnDividerBlock{
-		table-layout:fixed !important;
-	}
 
 
 
@@ -260,12 +257,7 @@
 
 
 	.mcnDividerContent {
-		border-top-width: 2px;
-		border-right-width: 0;
-		border-left-width: 0;
-		border-bottom-width: 0;
-		border-style: solid;
-		width: 100%
+		min-width: 100%
 	}
 		
   .shareFollowBar {
@@ -1269,37 +1261,22 @@
 
 
 									<!-- BEGIN DIVIDER BLOCK ELEMENT // -->
-									<table class="mcnDividerBlock">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock">
     								<tbody class="mcnDividerBlockOuter">
 											<tr>
 												<td width="100%" class="mcnDividerBlockInner lrMarginBlock">
-													 <!--[if mso]>
-													<table align="center"  width="100%" style="width:100%;">
-													<tr>
-													<![endif]-->
 
-													<!--[if mso]>
-													<td align="center" width="600" style="width:600px;">
-													<![endif]-->
 													
-													<table border="0" cellpadding="0" cellspacing="0" width="100%"  class="mcnDividerContent" style="padding:0 !important; border-color: #EAEAEA !important;">
+													<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 2px solid #EAEAEA;">
 														<tbody>
 															<tr>
-																<td width="100%">
+																<td >
 																	<span></span>
 																</td>
 															</tr>
 														</tbody>
 													</table>
-													
-												<!--[if mso]>
-												</td>
-												<![endif]-->
 
-												<!--[if mso]>
-												</tr>
-												</table>
-												<![endif]-->
 													
 												</td>
 											</tr>
