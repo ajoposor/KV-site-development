@@ -243,6 +243,7 @@
 
 
 	.mcnDividerBlock {
+		width: 100%;
 		min-width: 100%;
 		background-color: inherit;
 		table-layout: fixed !important;	
@@ -1266,8 +1267,16 @@
 											<tr>
 												<td width="100%" class="mcnDividerBlockInner lrMarginBlock">
 
+													 <!--[if mso]>
+													<table align="center"  width="100%" style="width:100%;">
+													<tr>
+													<![endif]-->
+
+													<!--[if mso]>
+													<td align="center" width="600" style="width:600px;">
+													<![endif]-->
 													
-													<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 2px solid #EAEAEA;">
+													<table width="100%" align="center" class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 2px solid #EAEAEA;">
 														<tbody>
 															<tr>
 																<td width="100%" >
@@ -1277,6 +1286,14 @@
 														</tbody>
 													</table>
 
+												<!--[if mso]>
+												</td>
+												<![endif]-->
+
+												<!--[if mso]>
+												</tr>
+												</table>
+												<![endif]-->
 													
 												</td>
 											</tr>
