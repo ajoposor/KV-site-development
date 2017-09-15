@@ -1042,7 +1042,7 @@ max-width: 1188px; /*1220 menos 32 16x2*/
 
 
 /limit item to certain size and center within wrap
-.kv_child_450 {
+.kv_child_div_450 {
 	width: 450px;
 	margin: 0 auto;
 }
