@@ -1041,6 +1041,13 @@ max-width: 1188px; /*1220 menos 32 16x2*/
 }
 
 
+/limit item to certain size and center within wrap
+.kv_child_450 {
+	width: 450px;
+	margin: 0 auto;
+}
+
+
 @media only screen and (max-width: 1240px) { 
    .kv_max_width {
       max-width: 908px; /* 940 menos 16 por cada lado de padding */
