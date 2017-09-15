@@ -936,6 +936,11 @@ z-index: 2;
 }
 
 
+.wpcf7-mail-sent-ok{width:100%}
+.wpcf7-mail-sent-ng{width:100%;}
+.cf7p-message .wpcf7-validation-errors{width:100%;}
+
+
 
 /* class to make form fields go to 66% width and to 100% below threshold */
 .kv-wpcf7-66 {
@@ -952,6 +957,14 @@ z-index: 2;
 .kv-wpcf7-max-width-450 {
 	max-width: 450px;
 }
+
+
+
+
+
+
+
+
 
 
 
