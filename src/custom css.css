@@ -955,6 +955,7 @@ z-index: 2;
 
 
 
+
 /** 
 * 
 * Menus and Logo 
@@ -1046,6 +1047,13 @@ max-width: 1188px; /*1220 menos 32 16x2*/
 	width: 450px;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width: 482px) { 
+	.kv_child_div_450 {
+		width: 100%;
+	}
+}
+
 
 
 @media only screen and (max-width: 1240px) { 
