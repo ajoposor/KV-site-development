@@ -1021,11 +1021,13 @@ max-width: 1188px !important;
 
 
 /* Buttons */
-a.button .button_label{padding:11px 10px}
+a.button .button_label{
+	padding:11px 10px;
+}
 
 @media only screen and (min-width: 479px) {  
    a.button .button_label {
-				padding:11px 6px
+				padding:11px 6px;
     }
 }
 
