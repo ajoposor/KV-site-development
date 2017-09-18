@@ -517,7 +517,7 @@ h6, .p6 {
 
 @media only screen and (max-width: 479px) {
     body {
-        font-size: 17x;
+        font-size: 17px;
         line-height: 22px;
     }
     big,
@@ -1025,7 +1025,7 @@ a.button .button_label{
 	padding:11px 10px;
 }
 
-@media only screen and (min-width: 479px) {  
+@media only screen and (max-width: 479px) {  
    a.button .button_label {
 				padding:11px 6px;
     }
