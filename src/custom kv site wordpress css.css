@@ -1091,6 +1091,11 @@ max-width: 1188px; /*1220 menos 32 16x2*/
       padding-right: 16px; /*0 margin + 16  padding*/
      	padding-left: 16px;
      }
+	
+		#Subheader .container {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+	}
 }
 
 
