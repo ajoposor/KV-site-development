@@ -1065,8 +1065,9 @@ a.button .button_label{
 #Subheader,
 .post-templacte-default #Content,
 .blog #Content {
-max-width: 1188px; /*1220 menos 32 16x2*/
-margin: auto;
+	max-width: 1188px; /*1220 menos 32 16x2*/
+	margin: auto;
+	width: unset;
 }
 
 
