@@ -1064,7 +1064,12 @@ a.button .button_label{
 .kv_max_width,
 #Subheader,#Filters,.post-item {
 max-width: 1188px; /*1220 menos 32 16x2*/
- margin: auto;
+margin: auto;
+}
+
+/* replace bottom margin from #Filters */
+.filter_buttoms {
+	margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1239px) and (min-width: 960px) { 
