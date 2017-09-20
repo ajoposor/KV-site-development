@@ -1068,6 +1068,7 @@ margin: auto;
 }
 
 #Filters {
+			width: calc(100%-32px) !important;
       padding-right: 16px !important; /*0 margin + 16  padding*/
      	padding-left: 16px !important;
 }
