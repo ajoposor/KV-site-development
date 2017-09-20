@@ -1067,6 +1067,10 @@ max-width: 1188px; /*1220 menos 32 16x2*/
 margin: auto;
 }
 
+#Filters {
+      padding-right: 16px !important; /*0 margin + 16  padding*/
+     	padding-left: 16px !important;
+}
 
 /* replace bottom margin from #Filters */
 #Filters .filters_buttons {
@@ -1078,7 +1082,7 @@ margin: auto;
 
 @media only screen and (max-width: 1239px) and (min-width: 960px) { 
    .kv_max_width,
-	#Subheader,#Filters,.post-item {
+	#Subheader,.post-item {
       max-width: 908px; /* 940 menos 16 por cada lado de padding */
      }
 
@@ -1086,7 +1090,7 @@ margin: auto;
 
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
    .kv_max_width,
-		#Subheader,#Filters,.post-item {
+		#Subheader,.post-item {
       max-width: 676px; /* 708 menos 16 por cada lado de padding */
      }
     
@@ -1095,7 +1099,7 @@ margin: auto;
 
 @media only screen and (max-width: 767px) { 
    .kv_max_width,
-		#Subheader,#Filters,.post-item {
+		#Subheader,.post-item {
       max-width: 700px;
       padding-right: 16px !important; /*0 margin + 16  padding*/
      	padding-left: 16px !important;
