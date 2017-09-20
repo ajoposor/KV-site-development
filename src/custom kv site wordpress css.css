@@ -1069,8 +1069,11 @@ margin: auto;
 
 
 /* replace bottom margin from #Filters */
-.filters_buttons {
+#Filters .filters_buttons {
 	margin-bottom: 30px;
+	background-image: unset;
+	background-color: rgba(166, 146, 86, 0.7);
+	
 }
 
 @media only screen and (max-width: 1239px) and (min-width: 960px) { 
