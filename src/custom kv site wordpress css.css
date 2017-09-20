@@ -1103,6 +1103,11 @@ margin: auto;
 		#Subheader,.post-item {
       max-width: 668px;
      }
+	
+		#Subheader .container {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+	}
 }
 
 
