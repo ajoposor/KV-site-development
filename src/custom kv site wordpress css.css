@@ -1062,7 +1062,7 @@ a.button .button_label{
 /* kv_max_width: para limitar ancho de párrafos en secciones a todo lo ancho */
 
 .kv_max_width,
-#Subheader,#Filters,.post-item {
+#Subheader,.post-item {
 max-width: 1188px; /*1220 menos 32 16x2*/
 margin: auto;
 }
