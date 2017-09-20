@@ -1088,8 +1088,8 @@ max-width: 1188px; /*1220 menos 32 16x2*/
    .kv_max_width,
 		#Subheader,#Filters,.post-item {
       max-width: 700px;
-      padding-right: 16px; /*0 margin + 16  padding*/
-     	padding-left: 16px;
+      padding-right: 16px !important; /*0 margin + 16  padding*/
+     	padding-left: 16px !important;
      }
 	
 		#Subheader .container {
