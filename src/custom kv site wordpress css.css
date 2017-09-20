@@ -1069,16 +1069,10 @@ max-width: 1188px; /*1220 menos 32 16x2*/
 margin: auto;
 }
 
-/*
-#Filters {
-			width: calc(100%-32px) !important;
-      padding-right: 16px !important; /*0 margin + 16  padding*/
-     	padding-left: 16px !important;
-}*/
+
 
 /* replace bottom margin from #Filters */
 #Filters .filters_buttons {
-	/*margin-bottom: 30px;*/
 	background-image: unset;
 	background-color: rgba(166, 146, 86, 0.1);
 	
