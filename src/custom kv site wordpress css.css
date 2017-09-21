@@ -1063,7 +1063,7 @@ a.button .button_label{
 
 .kv_max_width,
 #Subheader,
-.post-templacte-default #Content,
+.post-template-default #Content,
 .blog #Content,
 .archive #Content {
 	max-width: 1188px; /*1220 menos 32 16x2*/
@@ -1083,7 +1083,7 @@ a.button .button_label{
 @media only screen and (max-width: 1239px) and (min-width: 960px) { 
    .kv_max_width,
 	#Subheader,
-	.post-templacte-default #Content,
+	.post-template-default #Content,
 	.blog #Content,
 	.archive #Content {
       max-width: 908px; /* 940 menos 16 por cada lado de padding */
@@ -1094,7 +1094,7 @@ a.button .button_label{
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
    .kv_max_width,
 		#Subheader,
-	.post-templacte-default #Content,
+	.post-template-default #Content,
 	.blog #Content, .archive #Content  {
       max-width: 676px; /* 708 menos 16 por cada lado de padding */
      }
@@ -1105,7 +1105,7 @@ a.button .button_label{
 @media only screen and (max-width: 767px) and (min-width: 700px)  { 
    .kv_max_width,
 		#Subheader,
-		.post-templacte-default #Content,
+		.post-template-default #Content,
 	.blog #Content,.archive #Content {
       max-width: 668px;
      }
@@ -1119,7 +1119,7 @@ a.button .button_label{
 
 @media only screen and (max-width: 699px)   { 
    .kv_max_width,
-	.post-templacte-default #Content,
+	.post-template-default #Content,
 	.blog #Content,.archive #Content{
       max-width: 668px;
       padding-right: 16px !important; /*0 margin + 16  padding*/
@@ -1332,19 +1332,19 @@ width: 100% !important;
 
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
 	#Subheader { padding-top: 32px !important;	}
-	.blog #Content,.archive #Content {padding-top: 20px;}
+	.blog #Content,.archive #Content, .post-template-default #Content {padding-top: 20px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 480px)  { 
 	#Subheader { padding-top: 25px !important;	}
-	.blog #Content,.archive #Content {padding-top: 18px;}
+	.blog #Content,.archive #Content, .post-template-default #Content {padding-top: 18px;}
 	
 }
 
 
 @media only screen and (max-width: 479px) {
 		#Subheader { 	padding-top: 10px !important; 	}
-	  .blog #Content,.archive #Content {padding-top: 15px;}
+	  .blog #Content,.archive #Content, .post-template-default #Content {padding-top: 15px;}
 }
 
 /**
