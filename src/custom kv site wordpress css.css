@@ -1380,14 +1380,17 @@ width: 100% !important;
 /* format share bar */
 .post-template-default .share_wrapper {
 	width: auto;
-	float:right;
+	float:right !important;
 	padding: 0;
 	border-width: 0px;
 }
 
 .post-template-default .share_wrapper .stBubble {display:none !important;}
 
-
+/*Remove featured image from single post */
+.post-template-default .wp-post-image {
+	display:none;
+}
 
 
 .blog .sections_group,.archive .sections_group  { display:flex; flex-direction: column;}
