@@ -1375,7 +1375,7 @@ width: 100% !important;
 */
 
 /* Remove Subheader from single posts */
-post-template-default #Subheader {display: none;}
+.post-template-default #Subheader {display: none;}
 
 
 
