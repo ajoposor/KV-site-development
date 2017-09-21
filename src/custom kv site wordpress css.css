@@ -1073,8 +1073,9 @@ a.button .button_label{
 
 
 
-/* replace bottom margin from #Filters */
-#Filters .filters_buttons {
+/* replace filters_buttons and post-nav background  */
+#Filters .filters_buttons,
+.post-template-default .post-nav{
 	background-image: unset;
 	background-color: rgba(166, 146, 86, 0.1);
 	
