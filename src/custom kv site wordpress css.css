@@ -1325,23 +1325,23 @@ width: 100% !important;
 *
 */
 
-#Subheader { 	padding-top: 35px; }
+#Subheader { 	padding-top: 35px !important; }
 .blog #Content {padding-top: 30px;}
 
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
-	#Subheader { padding-top: 32px;	}
+	#Subheader { padding-top: 32px !important;	}
 	.blog #Content {padding-top: 20px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 480px)  { 
-	#Subheader { padding-top: 25px;	}
+	#Subheader { padding-top: 25px !important;	}
 	.blog #Content {padding-top: 18px;}
 	
 }
 
 
 @media only screen and (max-width: 479px) {
-		#Subheader { 	padding-top: 10px; 	}
+		#Subheader { 	padding-top: 10px !important; 	}
 	  .blog #Content {padding-top: 15px;}
 }
 
