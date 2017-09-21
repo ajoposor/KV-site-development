@@ -1377,6 +1377,17 @@ width: 100% !important;
 /* Remove Subheader from single posts */
 .post-template-default #Subheader {display: none;}
 
+/* format share bar */
+.post-template-default .share_wrapper {
+	width: auto;
+	float:right;
+	padding: 0;
+	border-width: 0px;
+}
+
+.post-template-default .share_wrapper .stBubble {display:none !important;}
+
+
 
 
 .blog .sections_group,.archive .sections_group  { display:flex; flex-direction: column;}
