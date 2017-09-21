@@ -1063,6 +1063,7 @@ a.button .button_label{
 
 .kv_max_width,
 #Subheader,
+#Subheader::after,
 .post-templacte-default #Content,
 .blog #Content {
 	max-width: 1188px; /*1220 menos 32 16x2*/
@@ -1082,6 +1083,7 @@ a.button .button_label{
 @media only screen and (max-width: 1239px) and (min-width: 960px) { 
    .kv_max_width,
 	#Subheader,
+	#Subheader::after,
 	.post-templacte-default #Content,
 	.blog #Content  {
       max-width: 908px; /* 940 menos 16 por cada lado de padding */
