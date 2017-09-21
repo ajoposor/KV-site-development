@@ -1314,6 +1314,34 @@ width: 100% !important;
 
 
 
+/***
+*
+* Format vertical spacing
+*
+*/
+
+#Subheader { 	padding-top: 35px; }
+.blog #Content {padding-top: 30px;}
+
+@media only screen and (max-width: 959px) and (min-width: 768px) { 
+	#Subheader { padding-top: 32px;	}
+	.blog #Content {padding-top: 20px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px)  { 
+	#Subheader { padding-top: 25px;	}
+	.blog #Content {padding-top: 18px;}
+	
+}
+
+
+@media only screen and (max-width: 479px) {
+		#Subheader { 	padding-top: 10px; 	}
+	  .blog #Content {padding-top: 15px;}
+}
+
+
+
 
 /**
 *
