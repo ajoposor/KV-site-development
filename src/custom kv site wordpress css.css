@@ -1349,7 +1349,7 @@ width: 100% !important;
 
 #Subheader { 	padding-top: 35px !important; }
 .blog #Content,.archive #Content {padding-top: 30px;}
-.post-template-default .post-nav {margin-bottom 0px !important; padding: 6px 10px 0px 130px;}
+.post-template-default .post-nav {margin-bottom: 0px !important; padding: 6px 10px 0px 130px;}
 
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
 	#Subheader { padding-top: 32px !important;	}
