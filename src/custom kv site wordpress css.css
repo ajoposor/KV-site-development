@@ -1349,6 +1349,7 @@ width: 100% !important;
 
 #Subheader { 	padding-top: 35px !important; }
 .blog #Content,.archive #Content {padding-top: 30px;}
+.post-template-default .post-nav {margin-bottom 0px !important; padding: 6px 10px 0px 130px;}
 
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
 	#Subheader { padding-top: 32px !important;	}
@@ -1358,6 +1359,7 @@ width: 100% !important;
 @media only screen and (max-width: 767px) and (min-width: 480px)  { 
 	#Subheader { padding-top: 25px !important;	}
 	.blog #Content,.archive #Content, .post-template-default #Content {padding-top: 18px;}
+	.post-template-default .post-nav {margin-bottom 0px !important; padding: 6px 10px 0px 90px;}	
 	
 }
 
@@ -1365,6 +1367,7 @@ width: 100% !important;
 @media only screen and (max-width: 479px) {
 		#Subheader { 	padding-top: 10px !important; 	}
 	  .blog #Content,.archive #Content, .post-template-default #Content {padding-top: 15px;}
+		.post-template-default .post-nav {margin-bottom 0px !important; padding: 6px 10px 0px;}	
 }
 
 /**
