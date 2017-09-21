@@ -1074,12 +1074,31 @@ a.button .button_label{
 
 
 /* replace filters_buttons and post-nav background  */
-#Filters .filters_buttons,
-.post-template-default .post-nav{
+#Filters .filters_buttons {
 	background-image: unset;
 	background-color: rgba(166, 146, 86, 0.1);
 	
 }
+
+.post-template-default .post-nav{
+	background-image: unset;
+}
+
+.post-template-default .post-nav .next-prev-nav {display:none;}
+
+
+@media only screen and (max-width: 959px) and (min-width: 768px) { 
+.post-template-default .list-nav {line-height:39px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) { 
+.post-template-default .list-nav {line-height:35px;}
+}
+
+@media only screen and (max-width: 479px) { 
+.post-template-default .list-nav {line-height:31px;}
+}
+
 
 @media only screen and (max-width: 1239px) and (min-width: 960px) { 
    .kv_max_width,
@@ -1354,6 +1373,11 @@ width: 100% !important;
 * Blog Page and Archives Formatting
 *
 */
+
+/* Remove Subheader from single posts */
+post-template-default #Subheader {display: none;}
+
+
 
 .blog .sections_group,.archive .sections_group  { display:flex; flex-direction: column;}
 .blog .extra_content, .archive .extra_content {order:3;}
