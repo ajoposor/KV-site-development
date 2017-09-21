@@ -1117,13 +1117,18 @@ a.button .button_label{
 
 @media only screen and (max-width: 699px)   { 
    .kv_max_width,
-		#Subheader,
 	.post-templacte-default #Content,
 	.blog #Content  {
       max-width: 668px;
       padding-right: 16px !important; /*0 margin + 16  padding*/
      	padding-left: 16px !important;
      }
+	
+	  #Subheader {
+			max-width: 668px;
+			margin-right: 16px !important;
+			margin-left: 16px !important;
+	}
 	
 		#Subheader .container {
 			padding-left: 0px !important;
