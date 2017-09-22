@@ -1241,15 +1241,9 @@ width: 180px;
 #Top_bar.is-sticky #logo {
 margin: 5px 100px 5px 0px !important;  /*   */
 }
-
-
-}
-
-
-
-@media only screen and (max-width: 767px) { 
-
-   #Top_bar .container {
+	
+	
+	   #Top_bar .container {
       max-width: 700px !important;
      }
 
@@ -1265,6 +1259,8 @@ margin: 5px 100px 5px 0px !important;  /*   */
 
 
 }
+
+
 
 
 /* leave responsive menu icon on the right */
