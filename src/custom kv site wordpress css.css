@@ -1427,7 +1427,7 @@ width: 100% !important;
 .the_content_wrapper {margin: 0;}
 
 /* Remove Subheader from single posts and blog page */
-.post-template-default #Subheader
+.post-template-default #Subheader,
 .blog #Subheader, .archive #Subheader {display: none;}
 
 
