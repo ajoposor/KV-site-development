@@ -306,7 +306,8 @@ h6, .p6 {
         font-size: 20px;
         line-height: 24px;
     }
-    #menu > ul > li > a,
+  #menu > ul > li > a,
+	#menu .sub-menu span,
 	a.button.action_button,
 	#overlay-menu ul li a,
 	.wpml-ls-menu-item {
@@ -416,7 +417,8 @@ h6, .p6 {
         font-size: 19px;
         line-height: 23px;
     }
-    #menu > ul > li > a,
+  #menu > ul > li > a,
+	#menu .sub-menu span,
 	a.button.action_button,
 	#overlay-menu ul li a,
 	.wpml-ls-menu-item {
@@ -526,7 +528,8 @@ h6, .p6 {
         font-size: 17px;
         line-height: 22px;
     }
-    #menu > ul > li > a,
+  #menu > ul > li > a,
+	#menu .sub-menu span,
 	a.button.action_button,
 	#overlay-menu ul li a,
 	.wpml-ls-menu-item {
