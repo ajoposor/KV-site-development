@@ -1426,8 +1426,10 @@ width: 100% !important;
 /* remove margin from the content wrapper */
 .the_content_wrapper {margin: 0;}
 
-/* Remove Subheader from single posts */
-.post-template-default #Subheader {display: none;}
+/* Remove Subheader from single posts and blog page */
+.post-template-default #Subheader
+.blog #Subheader, .archive #Subheader {display: none;}
+
 
 /* format share bar */
 .post-template-default .share_wrapper {
