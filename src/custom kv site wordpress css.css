@@ -235,7 +235,7 @@ a.button.action_button,
     letter-spacing: 0.05em;
 }
 
-#Filters {font-size: 18px;}
+#Filters, .kv_button {font-size: 18px;}
 
 
 #overlay-menu ul li a {
@@ -319,7 +319,7 @@ h6, .p6 {
 	    letter-spacing: 0.05em;
     }
 	
-		#Filters {font-size: 17px;}
+		#Filters, .kv_button {font-size: 17px;}
 	
     #overlay-menu ul li a {
         line-height: 17px;
@@ -433,7 +433,7 @@ h6, .p6 {
 	    letter-spacing: 0.05em;
     }
 	
-		#Filters {font-size: 16px;}
+		#Filters, .kv_button {font-size: 16px;}
 	
     #overlay-menu ul li a {
         line-height: 17px;
@@ -547,7 +547,7 @@ h6, .p6 {
 	    letter-spacing: 0.05em;
     }
 	
-		#Filters {font-size: 15px;}
+		#Filters, .kv_button {font-size: 15px;}
 	
     #overlay-menu ul li a {
         line-height: 17px;
@@ -1418,6 +1418,10 @@ width: 100% !important;
 * Blog Page and Archives Formatting
 *
 */
+
+
+/* format date span */
+
 
 /* remove margin from the content wrapper */
 .the_content_wrapper {margin: 0;}
