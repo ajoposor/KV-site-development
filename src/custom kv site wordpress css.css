@@ -225,6 +225,7 @@ big,
 }
 
 #menu > ul > li > a,
+#menu > ul > li > a > ul span,
 a.button.action_button,
 #overlay-menu ul li a,
 .wpml-ls-menu-item {
