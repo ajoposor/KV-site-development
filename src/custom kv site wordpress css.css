@@ -1213,6 +1213,16 @@ a.button .button_label{
   #Top_bar a.responsive-menu-toggle.is-sticky { 
       right: 10px !important;  /* 16 - 6 (34-22)/2  */  
    }
+	
+	#Top_bar a.responsive-menu-toggle.is-stickly {
+		display: block;
+	}
+	
+	#Top_bar #menu {
+		display: none;
+	}
+	
+	
     
 }
 
