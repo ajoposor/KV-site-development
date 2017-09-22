@@ -1379,6 +1379,9 @@ width: 100% !important;
 *
 */
 
+/* remove margin from the content wrapper */
+.the_content_wrapper {margin: 0;}
+
 /* Remove Subheader from single posts */
 .post-template-default #Subheader {display: none;}
 
@@ -1435,6 +1438,36 @@ width: 100% !important;
 }
 
 
+/**
+*
+*	
+*	 Format Share bar in blogs and portfolio
+*	
+*/	
+	
+
+	.ssba .ssba-wrap {margin-bottom: 20px;}
+	
+	div.ssba-wrap:nth-of-type(2) > div {text-align:center;}
+
+	
+	@media only screen and (max-width: 959px) and (min-width: 768px) { 
+		.ssba .ssba .img {width:30px !important; padding:4px;}
+	}
+
+	@media only screen and (max-width: 767px) and (min-width: 480px)  { 
+		.ssba .ssba .img {width:27px !important; padding:3px;}
+	}	
+
+
+	@media only screen and (max-width: 479px) {
+		.ssba .ssba-wrap {margin-bottom: 15px;}
+		.ssba .ssba .img {width:25px !important; padding:2px;}
+	}
+
+
+	
+	
 /**
 *
 *
