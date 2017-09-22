@@ -1446,7 +1446,7 @@ width: 100% !important;
 */	
 	
 
-	.ssba .ssba-wrap {margin-bottom: 20px;}
+	div.ssba-wrap {margin-bottom: 20px;}
 	
 	div.ssba-wrap:nth-of-type(2) > div {text-align:center;}
 
