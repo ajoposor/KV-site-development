@@ -1192,7 +1192,7 @@ a.button .button_label{
 }
 
 
-@media only screen and (max-width: 960px) { 
+@media only screen and (max-width: 959px) { 
 
    #Top_bar .container{
       max-width: 708px !important; /* 708 quitar los márgenes de 16 de cada lado en los elementos */
