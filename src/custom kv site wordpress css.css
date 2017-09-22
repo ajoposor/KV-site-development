@@ -1427,8 +1427,9 @@ width: 100% !important;
 }
 
 @media only screen and (max-width: 530px) {
-.blog #Filters .filters_buttons li.label, .archive #Filters .filters_buttons li.label,  {
-    display: none;
+	.blog #Filters .filters_buttons li.label, .archive #Filters .filters_buttons li.label,  {
+			display: none;
+	}
 }
 @media only screen and (max-width: 479px) {
 .blog #Filters, .archive #Filters { margin-bottom: 20px;}
