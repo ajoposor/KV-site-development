@@ -1213,10 +1213,8 @@ a.button .button_label{
   #Top_bar a.responsive-menu-toggle.is-sticky { 
       right: 10px !important;  /* 16 - 6 (34-22)/2  */  
    }
-	
-   
+    
 }
-
 
 
 
@@ -1241,9 +1239,15 @@ width: 180px;
 #Top_bar.is-sticky #logo {
 margin: 5px 100px 5px 0px !important;  /*   */
 }
-	
-	
-	   #Top_bar .container {
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) { 
+
+   #Top_bar .container {
       max-width: 700px !important;
      }
 
@@ -1259,8 +1263,6 @@ margin: 5px 100px 5px 0px !important;  /*   */
 
 
 }
-
-
 
 
 /* leave responsive menu icon on the right */
@@ -1492,6 +1494,8 @@ width: 100% !important;
 .wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer {
 	margin-bottom: 0px;
 }
+
+
 
 
 
