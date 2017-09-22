@@ -1219,7 +1219,7 @@ a.button .button_label{
 	}
 	
 	#Top_bar #menu {
-		display: none;
+		display: none !important;
 	}
 	
 	
