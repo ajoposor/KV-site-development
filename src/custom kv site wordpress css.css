@@ -224,6 +224,7 @@ big,
     letter-spacing: 0px;
 }
 
+
 #menu > ul > li > a,
 #menu .sub-menu span,
 a.button.action_button,
@@ -233,6 +234,9 @@ a.button.action_button,
     font-weight: 300;
     letter-spacing: 0.05em;
 }
+
+#Filters {font-size: 18px;}
+
 
 #overlay-menu ul li a {
     line-height: 17px;
@@ -314,6 +318,9 @@ h6, .p6 {
         font-size: 15px;
 	    letter-spacing: 0.05em;
     }
+	
+		#Filters {font-size: 17px;}
+	
     #overlay-menu ul li a {
         line-height: 17px;
     }
@@ -425,6 +432,9 @@ h6, .p6 {
         font-size: 15px;
 	    letter-spacing: 0.05em;
     }
+	
+		#Filters {font-size: 16px;}
+	
     #overlay-menu ul li a {
         line-height: 17px;
     }
@@ -536,6 +546,9 @@ h6, .p6 {
         font-size: 15px;
 	    letter-spacing: 0.05em;
     }
+	
+		#Filters {font-size: 15px;}
+	
     #overlay-menu ul li a {
         line-height: 17px;
     }
