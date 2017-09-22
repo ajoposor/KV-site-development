@@ -1287,13 +1287,15 @@ background: unset !important;
 }
 
 /* set color to 1 opacity on sticky bar, and shadow */
-#Top_bar.is-sticky { 
-background: rgba(255,255,255,1) !important;
- -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
- -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+	#Top_bar.is-sticky,
+	#Top_bar:not(.home)	{ 
+		background: rgba(255,255,255,1) !important;
+	 -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+	 -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
  }
 
+	
 /* set color to 1 opacity on top bar*/
 #Top_bar.top { 
 background: rgba(255,255,255,1) !important;
