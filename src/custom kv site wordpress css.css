@@ -1452,17 +1452,17 @@ width: 100% !important;
 
 	
 	@media only screen and (max-width: 959px) and (min-width: 768px) { 
-		.ssba .ssba .img {width:30px !important; padding:4px;}
+		.ssba .img {width:30px !important; padding:4px;}
 	}
 
 	@media only screen and (max-width: 767px) and (min-width: 480px)  { 
-		.ssba .ssba .img {width:27px !important; padding:3px;}
+		.ssba .img {width:27px !important; padding:3px;}
 	}	
 
 
 	@media only screen and (max-width: 479px) {
-		.ssba .ssba-wrap {margin-bottom: 15px;}
-		.ssba .ssba .img {width:25px !important; padding:2px;}
+		div.ssba-wrap {margin-bottom: 15px;}
+		.ssba .img {width:25px !important; padding:2px;}
 	}
 
 
