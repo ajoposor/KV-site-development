@@ -1400,6 +1400,10 @@ width: 100% !important;
 	display:none;
 }
 
+/* Reformat featured image in blog page */
+.blog .image_links.double .a:nth-of-type(1) { display: none !important;}
+.blog .image_links.double .a:nth-of-type(1) { width: 100%;}
+
 /* Remove fixed nav bars */
 .post-template-default a.fixed-nav {display:none;}
 
