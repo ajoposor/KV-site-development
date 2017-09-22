@@ -1214,21 +1214,10 @@ a.button .button_label{
       right: 10px !important;  /* 16 - 6 (34-22)/2  */  
    }
 	
-	#Top_bar a.responsive-menu-toggle.is-stickly {
-		display: block;
-	}
-	
    
 }
 
 
-@media only screen and (min-width: 950px)  and (max-width: 959px) {
-	
-	body:not(.header-simple) #Top_bar #menu {
-	display: none !important;
-	}
-
-}
 
 
 @media only screen and (max-width: 767px) { 
