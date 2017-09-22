@@ -1218,14 +1218,17 @@ a.button .button_label{
 		display: block;
 	}
 	
-	#Top_bar #menu {
-		display: none !important;
-	}
-	
-	
-    
+   
 }
 
+
+@media only screen and (min-width: 950px)  and (max-width: 959px) {
+	
+	body:not(.header-simple) #Top_bar #menu {
+	display: none !important;
+	}
+
+}
 
 
 @media only screen and (max-width: 767px) { 
