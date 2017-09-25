@@ -1470,6 +1470,8 @@ width: 100% !important;
 
 #Filters .filters_wrapper {margin-top: 5px;}
 
+.post-footer .post-links {border-left-width: 0;}
+
 
 @media only screen and (max-width: 767px) {
    .blog #Filters  .filters_buttons, .archive #Filters  .filters_buttons { padding: 15px 10px; } 
