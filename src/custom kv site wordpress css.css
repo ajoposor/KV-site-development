@@ -1500,7 +1500,7 @@ width: 100% !important;
 
 	div.ssba-wrap {margin-bottom: 20px;}
 	
-	.ssba-wrap > div ~ div {text-align:center !important;}
+	.ssba-wrap:not(:first-of-type) + div {text-align:center !important;}
 
 	
 	@media only screen and (max-width: 959px) and (min-width: 768px) { 
