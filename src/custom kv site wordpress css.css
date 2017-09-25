@@ -1535,8 +1535,9 @@ width: 100% !important;
 .kv_chart_title {text-align:center;}
 .kv_chart_unidades {text-align:center;}
 .kv_chart_number {text-align:center;}
-.kv_sources {font-style:italic;}
-.kv_source_items {}
+.kv_sources {font-style:italic; margin-bottom: 0;}
+.kv_source_items {padding-left:15px; font-style:italic;}
+.kv_share_article {padding-top:20px; text-align:center;}
 	
 	
 /**
