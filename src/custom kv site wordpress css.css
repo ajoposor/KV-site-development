@@ -219,7 +219,7 @@ body {
 big,
 .big {
     font-size: 22px;
-    line-height: 28x;
+    line-height: 28px;
     font-weight: 300;
     letter-spacing: 0px;
 }
@@ -253,7 +253,7 @@ h1,
 .text-logo #logo,
 .p1 {
     font-size: 44px;
-    line-height: 50x;
+    line-height: 50px;
     font-weight: 300;
     letter-spacing: 0px;
 }
@@ -326,7 +326,7 @@ h6, .p6 {
     }
     #Subheader .title {
         font-size: 32px;
-        line-height: 32x;
+        line-height: 32px;
     }
     h1,
     .text-logo #logo,
@@ -723,7 +723,7 @@ vertical-align: top;
 }
 
 .kv-wrap-h1 {
- height: 60;
+ height: 60px;
 }
 
 
@@ -756,8 +756,7 @@ vertical-align: top;
 /*.icon_box .icon_wrapper i { color: #FFFFFF !important; }  color de línea el ícono */
 /*.icon_box:hover .icon_wrapper i { color: #1F3C6E !important; }*/
 /*.icon_box:hover .icon_wrapper::before, .icon_box a:hover .icon_wrapper::before {
-    background-color: #ff0000;*/
-}
+    background-color: #ff0000;}*/
 
 
 /* Notebook others */
@@ -778,7 +777,7 @@ vertical-align: top;
 /* making iframe responsive */
 .my-responsive-iframe-content { position: relative;
 padding-top: 0%;
-padding-botton: 0%;
+padding-bottom: 0%;
 height: 0;
 overflow: hidden;
 }
@@ -847,13 +846,9 @@ color: #444444;
 
 /* Contact Form 7 Styles
 ---------------------------------------*/
-// makes check box align far left
+/* makes check box align far left */
 
-.wpcf7-list-item.first.last  {
-
-   margin-left: 0px;
-
-}
+.wpcf7-list-item.first.last  { margin-left: 0px; }
 
 .wpcf7_my_submit_recaptcha_inline_container {
 
@@ -942,10 +937,10 @@ z-index: 2;
 
 .wpcf7-mail-sent-ok, 
 .wpcf7-spam-blocked {
-    //color: #4F8A10;
-    //background-color: #DFF2BF;
-	color: #FFFFFF;
-	background-color: rgba(166,146,85,1.0) !important;
+    /*color: #4F8A10;*/
+    /*background-color: #DFF2BF;*/
+		color: #FFFFFF;
+		background-color: rgba(166,146,85,1.0) !important;
     border: 0px !important;
     margin: 10px 0px 10px 0px !important;
 }
@@ -1407,9 +1402,9 @@ width: 100% !important;
 
 
 @media only screen and (max-width: 479px) {
-		#Subheader { 	padding-top: 10px !important; 	}
+		#Subheader {	padding-top: 10px !important; }
 	  .blog #Content,.archive #Content, .post-template-default #Content {padding-top: 15px;}
-		.post-template-default .post-nav {margin-bottom 0px !important; padding: 0px 0px 5px 0px;}	
+		.post-template-default .post-nav {margin-bottom 0 !important; padding: 0px 0px 5px 0px;}	
 }
 
 /**
