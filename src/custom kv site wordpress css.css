@@ -1501,7 +1501,7 @@ width: 100% !important;
 	div.ssba-wrap {margin-bottom: 20px;}
 
 	div.ssba-wrap:not(:first-of-type) {text-align:left !important;}
-	div.ssba-wrap:not(:first-of-type) div {text-align:center !important; color:red;}
+	div.ssba-wrap:not(:first-of-type) div {text-align:center !important;}
 
 	
 	@media only screen and (max-width: 959px) and (min-width: 768px) { 
