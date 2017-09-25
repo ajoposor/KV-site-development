@@ -1499,7 +1499,8 @@ width: 100% !important;
 	
 
 	div.ssba-wrap {margin-bottom: 20px;}
-	
+
+	.ssba-wrap:not(:first-of-type) {text-align:left !important;}
 	.ssba-wrap:not(:first-of-type) + div {text-align:center !important;}
 
 	
