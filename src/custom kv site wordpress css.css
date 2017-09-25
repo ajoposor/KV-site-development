@@ -1521,6 +1521,22 @@ width: 100% !important;
 	}
 
 
+/**
+*
+* Format Blog Articles
+*
+*
+*
+*/
+
+.kv_article_date {font-style: italic; padding-right:15px;}
+.kv_article_body {padding-bottom:15px;}
+.kv_chart_number {text-align:center;}
+.kv_chart_title {text-align:center;}
+.kv_chart_unidades {text-align:center;}
+.kv_chart_number {text-align:center;}
+.kv_sources {font-style:italic;}
+.kv_source_items {}
 	
 	
 /**
