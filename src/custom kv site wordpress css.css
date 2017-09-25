@@ -62,13 +62,13 @@ background-color: rgba(34, 119, 187, 1.0);
 */
 
 #Footer .footer_copy {
- border-top: 0px solid rgba(255,255,255,.1);
+ border-top: 0 solid rgba(255,255,255,.1);
 }
 
 
 #Footer .footer_copy .one {
-    margin-bottom: 0px;
-    padding-top: 0px;
+    margin-bottom: 0;
+    padding-top: 0;
     min-height: 33px;
 }
 
@@ -78,12 +78,12 @@ background-color: rgba(34, 119, 187, 1.0);
 
 /* vertical center copyright text */
 .footer-copy-center #Footer .footer_copy .copyright {
-	margin: 8px 0px 8px 0px;
+	margin: 8px 0 8px 0;
 }
 
 /* remove margin on back to top icon to reduce line height */
 .footer-copy-center #Footer .footer_copy a#back_to_top {
-	margin: 0px;
+	margin: 0;
 }
 
 
@@ -146,7 +146,7 @@ p.big + p.big {
 */
 
 .kv_no_margin_bottom {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .kv_header_half_bottom_margin {
@@ -213,7 +213,7 @@ body {
     font-size: 19px;
     line-height: 26px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 big,
@@ -221,7 +221,7 @@ big,
     font-size: 22px;
     line-height: 28px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 
@@ -246,7 +246,7 @@ a.button.action_button,
     font-size: 38px;
     line-height: 38px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 h1,
@@ -255,49 +255,49 @@ h1,
     font-size: 44px;
     line-height: 50px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 h2, .p2 {
     font-size: 38px;
     line-height: 46px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 h3, .p3 {
     font-size: 33px;
     line-height: 41px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 h4, .p4 {
     font-size: 29px;
     line-height: 36px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 h5, .p5 {
     font-size: 25px;
     line-height: 31px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 h6, .p6 {
     font-size: 22px;
     line-height: 28px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 #Intro .intro-title {
     font-size: 44px;
     line-height: 50px;
     font-weight: 300;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -658,7 +658,7 @@ h6, .p6 {
 
 .kv_0height {
 
-height: 0px !important;
+height: 0 !important;
 }
 
 .kv-col-12 {
@@ -711,13 +711,13 @@ vertical-align: top;
 }
 
 .kv-icon-container {
-    padding: 0px 10% 10% 10%;
+    padding: 0 10% 10% 10%;
    max-width: 70px;
    margin:auto;
 }
 
 .kv-picture-container {
-   padding: 0px 0px 0px 0px;
+   padding: 0 0 0 0;
    margin:auto;
   overflow: hidden;
 }
@@ -848,7 +848,7 @@ color: #444444;
 ---------------------------------------*/
 /* makes check box align far left */
 
-.wpcf7-list-item.first.last  { margin-left: 0px; }
+.wpcf7-list-item.first.last  { margin-left: 0; }
 
 .wpcf7_my_submit_recaptcha_inline_container {
 
@@ -895,7 +895,7 @@ overflow: hidden;
 
 .wpcf7_my_flex-item-recaptcha {
 
-margin: 0px 0px 0px 0px;
+margin: 0 0 0 0;
 min-width: 302px;
 overflow: hidden;
 height: 76px;
@@ -941,8 +941,8 @@ z-index: 2;
     /*background-color: #DFF2BF;*/
 		color: #FFFFFF;
 		background-color: rgba(166,146,85,1.0) !important;
-    border: 0px !important;
-    margin: 10px 0px 10px 0px !important;
+    border: 0 !important;
+    margin: 10px 0 10px 0 !important;
 }
 
 
@@ -1012,7 +1012,7 @@ max-width: 1188px !important;
 .header-fixed #Top_bar #logo,
 .header-plain #Top_bar #logo,
 .header-transparent #Top_bar #logo {
-    padding: 5px 0px 5px 0px !important;
+    padding: 5px 0 5px 0 !important;
 }
 
 /* adjust header/menu height to menu items to 60px  and reduce side padding from 20 to 15*/
@@ -1025,7 +1025,7 @@ max-width: 1188px !important;
 /* fix back unexpected padding appeared after introducing above change */
 @media only screen and (min-width: 768px) {  
     #Top_bar.is-sticky .menu_wrapper .menu > li > a {
-        padding: 7px 0px 3px 0px !important;
+        padding: 7px 0 3px 0 !important;
     }
 }
 
@@ -1143,8 +1143,8 @@ a.button .button_label{
      }
 	
 		#Subheader .container {
-			padding-left: 0px !important;
-			padding-right: 0px !important;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
 	}
 }
 
@@ -1165,8 +1165,8 @@ a.button .button_label{
 	}
 	
 		#Subheader .container {
-			padding-left: 0px !important;
-			padding-right: 0px !important;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
 	}
 }
 
@@ -1211,7 +1211,7 @@ a.button .button_label{
    }
 
    #Top_bar .logo {
-     margin: 0px 14px 0px 16px !important;
+     margin: 0 14px 0 16px !important;
      margin-left: 16px !important;
    }
 
@@ -1231,7 +1231,7 @@ a.button .button_label{
 /* set logo to be displayed on the left side*/
 #Top_bar .logo {
    float: left;
-   margin: 0px 14px 0px 16px; 
+   margin: 0 14px 0 16px; 
    position: unset;
    width: unset;
    text-align: unset;
@@ -1239,13 +1239,13 @@ a.button .button_label{
 
 /* set side margins on logo top_bar top */
 #Top_bar .logo #logo {
-margin: 5px 0px 5px 0px !important;
+margin: 5px 0 5px 0 !important;
 width: 180px;
 }
 
 /* adjust margin on topbar sticky logo on the left void space */
 #Top_bar.is-sticky #logo {
-margin: 5px 100px 5px 0px !important;  /*   */
+margin: 5px 100px 5px 0 !important;  /*   */
 }
 
 
@@ -1356,8 +1356,8 @@ background: rgba(255,255,255,1) !important;
 @media only screen and (max-width: 767px) { 
 
 .section_wrapper {
-padding-left: 0px !important;
-padding-right: 0px !important;
+padding-left: 0 !important;
+padding-right: 0 !important;
 }
 
 }
@@ -1384,9 +1384,9 @@ width: 100% !important;
 
 #Subheader { 	padding-top: 35px !important; }
 .blog #Content,.archive #Content {padding-top: 30px;}
-.post-template-default .post-nav {margin-bottom: 0px !important; padding: 0px 0px 0px 130px;}
-.post-template-default .post-header {margin-bottom: 0px !important;}
-.post-template-default .section-post-header .single-photo-wrapper {margin-bottom: 0px !important;}
+.post-template-default .post-nav {margin-bottom: 0 !important; padding: 0 0 0 130px;}
+.post-template-default .post-header {margin-bottom: 0 !important;}
+.post-template-default .section-post-header .single-photo-wrapper {margin-bottom: 0 !important;}
 
 @media only screen and (max-width: 959px) and (min-width: 768px) { 
 	#Subheader { padding-top: 32px !important;	}
@@ -1396,14 +1396,14 @@ width: 100% !important;
 @media only screen and (max-width: 767px) and (min-width: 480px)  { 
 	#Subheader { padding-top: 25px !important;	}
 	.blog #Content,.archive #Content, .post-template-default #Content {padding-top: 18px;}
-	.post-template-default .post-nav {margin-bottom: 0px !important; padding: 0px 0px 5px 90px;}		
+	.post-template-default .post-nav {margin-bottom: 0 !important; padding: 0 0 5px 90px;}		
 }
 
 
 @media only screen and (max-width: 479px) {
 		#Subheader {	padding-top: 10px !important; }
 	  .blog #Content,.archive #Content, .post-template-default #Content {padding-top: 15px;}
-		.post-template-default .post-nav {margin-bottom: 0 !important; padding: 0px 0px 5px 0px;}	
+		.post-template-default .post-nav {margin-bottom: 0 !important; padding: 0 0 5px 0;}	
 }
 
 /**
@@ -1430,7 +1430,7 @@ width: 100% !important;
 	width: auto;
 	float:right !important;
 	padding: 0;
-	border-width: 0px;
+	border-width: 0;
 }
 
 .post-template-default .share_wrapper .stBubble {display:none !important;}
@@ -1457,9 +1457,9 @@ width: 100% !important;
 
 
 .blog .filters_buttons .authors, .archive .filters_buttons .authors {display:none;}
-.blog .pager_wrapper, .archive .pager_wrapper {margin-bottom: 0px; }
+.blog .pager_wrapper, .archive .pager_wrapper {margin-bottom: 0; }
 
-.blog .column_blog,.archive .column_blog {margin-bottom: 0px;}
+.blog .column_blog,.archive .column_blog {margin-bottom: 0;}
 
 .blog  .post-item, .archive .column_blog {background-color: rgba(166, 146, 86, 0.02);}
 .blog .post-desc .post-footer, .archive .post-desc .post-footer {background: unset;}
@@ -1485,7 +1485,7 @@ width: 100% !important;
 @media only screen and (max-width: 479px) {
 .blog #Filters, .archive #Filters { margin-bottom: 20px;}
 .blog #Filters .filters_buttons, .archive #Filters .filters_buttons { padding: 8px 7px; } 
-.blog #Filters .filters_buttons li, .archive #Filters .filters_buttons li {  margin-right: 0px; }
+.blog #Filters .filters_buttons li, .archive #Filters .filters_buttons li {  margin-right: 0; }
 .blog .pager_lm .pager_load_more, .archive .pager_lm .pager_load_more {margin: 10px 0;}
 }
 
@@ -1535,7 +1535,7 @@ width: 100% !important;
 
 /* remove bottom margin from footer */
 .wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 
