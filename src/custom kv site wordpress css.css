@@ -1457,8 +1457,8 @@ width: 100% !important;
 .blog .sections_group,.archive .sections_group  { display:flex; flex-direction: column;}
 .blog .extra_content, .archive .extra_content {order:3;}
 
-.post-template-default div.post-wrapper-content {display:flex; flex-direction: column;}
-.post-template-default div.subscribe_buttom_section {order:2;}
+.post-template-default div.the_content_wrapper {display:flex; flex-direction: column;}
+.post-template-default div.subscribe_buttom_section {order:4;}
 
 
 
