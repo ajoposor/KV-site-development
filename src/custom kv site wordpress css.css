@@ -1532,11 +1532,12 @@ width: 100% !important;
 
 .kv_article_date {font-style: italic; padding-right:15px;}
 .kv_article_body {padding-bottom:0;}
-.kv_chart_number {text-align:center;}
-.kv_chart_title {text-align:center; font-weight: bold; margin-bottom: 0px}
-.kv_chart_unidades {text-align:center;}
 .kv_chart_container {text-align:center;}
+.kv_chart_title {text-align:center; font-weight: bold; margin-bottom: 0px; padding-top:25px;}
+.kv_chart_unidades {text-align:center;}
 .kv_chart{width:500px;}
+.kv_chart_number {text-align:center; padding-bottom: 20px;}
+
  @media only screen and (max-width: 531px) {
 	 .kv_chart{width:100%;}
 }
