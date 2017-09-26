@@ -1466,6 +1466,7 @@ width: 100% !important;
 .blog .post-desc .post-footer, .archive .post-desc .post-footer {background: unset;}
 .blog .post-desc,.archive .post-desc {padding: 0 0 0 20px;}
 .blog .post-desc .post-head, .archive .post-desc .post-head {display: none;}
+.post-template-default .title_wrapper  {padding-left: 0;}
 .post-template-default .title_wrapper .post-meta {display: none;}
 .blog .post-desc .entry-title, .archive .post-desc .entry-title {margin-bottom: 5px;}
 
@@ -1529,6 +1530,8 @@ width: 100% !important;
 *
 *
 */
+
+
 
 .kv_article_date {font-style: italic; padding-right:15px;}
 .kv_article_body {padding-bottom:0;}
