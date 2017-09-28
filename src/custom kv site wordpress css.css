@@ -1094,7 +1094,7 @@ a.button .button_label{
 }
 
 .post-template-default .post-nav,
-.statistics-template-default .post-nav,{
+.statistics-template-default .post-nav {
 	background-image: unset;
 }
 
@@ -1106,7 +1106,7 @@ a.button .button_label{
 @media only screen and (max-width: 959px) and (min-width: 768px) {
 	.post-template-default .list-nav,
 	.statistics-template-default .list-nav 
-		{line-height:39px;}{line-height:39px;}
+		{line-height:39px;}
 
 }
 
