@@ -53,22 +53,6 @@ add_action( 'init', 'statistics_tags_taxonomy', 0 );
 /* ---------------------------------------------------------------------------
  * Add statistics custom post type
  * --------------------------------------------------------------------------- */
-function create_statistics_cpt(){
-    register_post_type( 'statistics',
-        // CPT Options
-        array(
-            'labels' => array(
-            'name' => __( 'Statistics Graphs' ),
-            'singular_name' => __( 'Statistics Graph' )
-        ),
-            'public' => true,
-            'has_archive' => true,
-            'rewrite' => array('slug' => 'statistics'),
-        )
-    );
-}
-add_action( 'init', 'create_statistics_cpt' );
-
 
 // Register Custom Post Type
 function define_statistics_post_type() {
