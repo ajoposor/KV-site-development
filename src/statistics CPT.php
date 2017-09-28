@@ -10,26 +10,26 @@
 function statistics_tags_taxonomy() {
 
 	$labels = array(
-		'name'                       => _x( 'Statistics Tags', 'Taxonomy General Name', 'text_domain' ),
-		'singular_name'              => _x( 'Statistics Tag', 'Taxonomy Singular Name', 'text_domain' ),
-		'menu_name'                  => __( 'Statistics Tags', 'text_domain' ),
-		'all_items'                  => __( 'All Statistics', 'text_domain' ),
-		'parent_item'                => __( 'Parent Tag', 'text_domain' ),
-		'parent_item_colon'          => __( 'Parent Tag:', 'text_domain' ),
-		'new_item_name'              => __( 'New Statistics Tag', 'text_domain' ),
-		'add_new_item'               => __( 'Add New Statistics Tag', 'text_domain' ),
-		'edit_item'                  => __( 'Edit Statistics Tag', 'text_domain' ),
-		'update_item'                => __( 'Update Statistics Tag', 'text_domain' ),
-		'view_item'                  => __( 'View Item', 'text_domain' ),
-		'separate_items_with_commas' => __( 'Separate tags with commas', 'text_domain' ),
-		'add_or_remove_items'        => __( 'Add or remove statistics tags', 'text_domain' ),
-		'choose_from_most_used'      => __( 'Choose from the most used tags', 'text_domain' ),
-		'popular_items'              => __( 'Popular Items', 'text_domain' ),
-		'search_items'               => __( 'Search statistics tags', 'text_domain' ),
-		'not_found'                  => __( 'Not Found', 'text_domain' ),
-		'no_terms'                   => __( 'No items', 'text_domain' ),
-		'items_list'                 => __( 'Items list', 'text_domain' ),
-		'items_list_navigation'      => __( 'Items list navigation', 'text_domain' ),
+		'name'                       => _x( 'Statistics Tags', 'Taxonomy General Name', 'mfn-opts' ),
+		'singular_name'              => _x( 'Statistics Tag', 'Taxonomy Singular Name', 'mfn-opts' ),
+		'menu_name'                  => __( 'Statistics Tags', 'mfn-opts' ),
+		'all_items'                  => __( 'All Statistics', 'mfn-opts' ),
+		'parent_item'                => __( 'Parent Tag', 'mfn-opts' ),
+		'parent_item_colon'          => __( 'Parent Tag:', 'mfn-opts' ),
+		'new_item_name'              => __( 'New Statistics Tag', 'mfn-opts' ),
+		'add_new_item'               => __( 'Add New Statistics Tag', 'mfn-opts' ),
+		'edit_item'                  => __( 'Edit Statistics Tag', 'mfn-opts' ),
+		'update_item'                => __( 'Update Statistics Tag', 'mfn-opts' ),
+		'view_item'                  => __( 'View Item', 'mfn-opts' ),
+		'separate_items_with_commas' => __( 'Separate tags with commas', 'mfn-opts' ),
+		'add_or_remove_items'        => __( 'Add or remove statistics tags', 'mfn-opts' ),
+		'choose_from_most_used'      => __( 'Choose from the most used tags', 'mfn-opts' ),
+		'popular_items'              => __( 'Popular Items', 'mfn-opts' ),
+		'search_items'               => __( 'Search statistics tags', 'mfn-opts' ),
+		'not_found'                  => __( 'Not Found', 'mfn-opts' ),
+		'no_terms'                   => __( 'No items', 'mfn-opts' ),
+		'items_list'                 => __( 'Items list', 'mfn-opts' ),
+		'items_list_navigation'      => __( 'Items list navigation', 'mfn-opts' ),
 	);
 	$args = array(
 		'labels'                     => $labels,
@@ -48,41 +48,63 @@ add_action( 'init', 'statistics_tags_taxonomy', 0 );
 
 
 
+
+
+/* ---------------------------------------------------------------------------
+ * Add statistics custom post type
+ * --------------------------------------------------------------------------- */
+function create_statistics_cpt(){
+    register_post_type( 'statistics',
+        // CPT Options
+        array(
+            'labels' => array(
+            'name' => __( 'Statistics Graphs' ),
+            'singular_name' => __( 'Statistics Graph' )
+        ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'statistics'),
+        )
+    );
+}
+add_action( 'init', 'create_statistics_cpt' );
+
+
 // Register Custom Post Type
-function statistics_post_type() {
+function define_statistics_post_type() {
 
 	$labels = array(
-		'name'                  => _x( 'Statistics Graphs', 'Post Type General Name', 'text_domain' ),
-		'singular_name'         => _x( 'Statistics Graph', 'Post Type Singular Name', 'text_domain' ),
-		'menu_name'             => __( 'Statistics Graphs', 'text_domain' ),
-		'name_admin_bar'        => __( 'Statistics Graphs', 'text_domain' ),
-		'archives'              => __( 'Item Archives', 'text_domain' ),
-		'attributes'            => __( 'Item Attributes', 'text_domain' ),
-		'parent_item_colon'     => __( 'Parent Item:', 'text_domain' ),
-		'all_items'             => __( 'All Items', 'text_domain' ),
-		'add_new_item'          => __( 'Add New Item', 'text_domain' ),
-		'add_new'               => __( 'Add New', 'text_domain' ),
-		'new_item'              => __( 'New Item', 'text_domain' ),
-		'edit_item'             => __( 'Edit Item', 'text_domain' ),
-		'update_item'           => __( 'Update Item', 'text_domain' ),
-		'view_item'             => __( 'View Item', 'text_domain' ),
-		'view_items'            => __( 'View Items', 'text_domain' ),
-		'search_items'          => __( 'Search Item', 'text_domain' ),
-		'not_found'             => __( 'Not found', 'text_domain' ),
-		'not_found_in_trash'    => __( 'Not found in Trash', 'text_domain' ),
-		'featured_image'        => __( 'Featured Image', 'text_domain' ),
-		'set_featured_image'    => __( 'Set featured image', 'text_domain' ),
-		'remove_featured_image' => __( 'Remove featured image', 'text_domain' ),
-		'use_featured_image'    => __( 'Use as featured image', 'text_domain' ),
-		'insert_into_item'      => __( 'Insert into item', 'text_domain' ),
-		'uploaded_to_this_item' => __( 'Uploaded to this item', 'text_domain' ),
-		'items_list'            => __( 'Items list', 'text_domain' ),
-		'items_list_navigation' => __( 'Items list navigation', 'text_domain' ),
-		'filter_items_list'     => __( 'Filter items list', 'text_domain' ),
+		'name'                  => _x( 'Statistics Graphs', 'Post Type General Name', 'mfn-opts' ),
+		'singular_name'         => _x( 'Statistics Graph', 'Post Type Singular Name', 'mfn-opts' ),
+		'menu_name'             => __( 'Statistics Graphs', 'mfn-opts' ),
+		'name_admin_bar'        => __( 'Statistics Graphs', 'mfn-opts' ),
+		'archives'              => __( 'Item Archives', 'mfn-opts' ),
+		'attributes'            => __( 'Item Attributes', 'mfn-opts' ),
+		'parent_item_colon'     => __( 'Parent Item:', 'mfn-opts' ),
+		'all_items'             => __( 'All Items', 'mfn-opts' ),
+		'add_new_item'          => __( 'Add New Item', 'mfn-opts' ),
+		'add_new'               => __( 'Add New', 'mfn-opts' ),
+		'new_item'              => __( 'New Item', 'mfn-opts' ),
+		'edit_item'             => __( 'Edit Item', 'mfn-opts' ),
+		'update_item'           => __( 'Update Item', 'mfn-opts' ),
+		'view_item'             => __( 'View Item', 'mfn-opts' ),
+		'view_items'            => __( 'View Items', 'mfn-opts' ),
+		'search_items'          => __( 'Search Item', 'mfn-opts' ),
+		'not_found'             => __( 'Not found', 'mfn-opts' ),
+		'not_found_in_trash'    => __( 'Not found in Trash', 'mfn-opts' ),
+		'featured_image'        => __( 'Featured Image', 'mfn-opts' ),
+		'set_featured_image'    => __( 'Set featured image', 'mfn-opts' ),
+		'remove_featured_image' => __( 'Remove featured image', 'mfn-opts' ),
+		'use_featured_image'    => __( 'Use as featured image', 'mfn-opts' ),
+		'insert_into_item'      => __( 'Insert into item', 'mfn-opts' ),
+		'uploaded_to_this_item' => __( 'Uploaded to this item', 'mfn-opts' ),
+		'items_list'            => __( 'Items list', 'mfn-opts' ),
+		'items_list_navigation' => __( 'Items list navigation', 'mfn-opts' ),
+		'filter_items_list'     => __( 'Filter items list', 'mfn-opts' ),
 	);
 	$args = array(
-		'label'                 => __( 'Statistics Graph', 'text_domain' ),
-		'description'           => __( 'Statistics graphs.', 'text_domain' ),
+		'label'                 => __( 'Statistics Graph', 'mfn-opts' ),
+		'description'           => __( 'Statistics graphs.', 'mfn-opts' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'custom-fields', 'page-attributes', ),
 		'taxonomies'            => array( 'statistics_tags' ),
@@ -103,5 +125,5 @@ function statistics_post_type() {
 	register_post_type( 'statistics', $args );
 
 }
-add_action( 'init', 'statistics_post_type', 0 );
+add_action( 'init', 'define_statistics_post_type', 0 );
 
