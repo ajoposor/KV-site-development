@@ -1,5 +1,74 @@
 /**
 *
+*
+* Custom section margins and responsive (disable padding on page)
+*
+*/
+
+
+.kv-content-wrapper {
+ max-width: 1188px;
+ margin: 0 auto;
+ margin-top: 35px;
+ margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+   .kv-content-wrapper { max-width: 908px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.kv-content-wrapper {max-width: 676px;}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 767px) {
+.kv-content-wrapper {max-width: 668px;}
+}
+
+@media only screen  and (max-width: 699px) {
+.kv-content-wrapper {max-width: 699px; padding-left: 16px; padding-right: 16px;}
+}
+
+
+/**
+*
+* custom paragraphs
+*
+*
+*/
+
+/* a paragraph proceeded by another paragraph will have a top margin */
+p.big + p.big {
+    margin-top: 0.60em;
+}
+
+
+
+.kv_lista_competencias {
+
+   margin-bottom: 0.79em !important;
+
+}
+
+
+/**
+*
+*
+*  Custom title
+*
+*/
+
+
+.kv-page-title {
+ margin-bottom: 20px;
+}
+
+
+
+
+
+/**
+*
 *  custom color classes
 *
 */
@@ -110,28 +179,6 @@ background-color: rgba(34, 119, 187, 1.0);
    font-weight: 600 !important;
 }
 
-
-
-
-/**
-*
-* custom paragraphs
-*
-*
-*/
-
-/* a paragraph proceeded by another paragraph will have a top margin */
-p.big + p.big {
-    margin-top: 0.60em;
-}
-
-
-
-.kv_lista_competencias {
-
-   margin-bottom: 0.79em !important;
-
-}
 
 
 
@@ -1626,6 +1673,232 @@ width: 100% !important;
 .wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer {
 	margin-bottom: 0;
 }
+
+
+
+/**
+*
+*
+*  Custom formatting of tiles for selectors (like world bank cards)
+*
+*
+*/
+
+
+
+
+
+div.tool-cards-div {
+  background: rgba(29,59,96,0.05);
+  position: relative;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+div.tool-cards-div {padding-bottom: 0;}
+}
+
+
+.kv-void-p {
+  padding: 0;
+  margin:0;
+}
+ul.tool-card-list {
+	padding: 0;
+  list-style-type: none;
+list-style-image: none;
+list-style-position: outside;
+margin: 0;
+}
+
+ul.tool-card-list li {
+    padding: 0px 0 10px;
+}
+
+
+@media only screen and  (max-width: 767px) {
+
+ul.tool-card-list li {
+   margin: 0;
+}
+
+}
+
+
+
+.tool-card-list {
+	list-style: none;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+.tool-card {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid #e4e9ec;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+height: auto;
+margin: 1px 0 0;
+	width: 100%;
+}
+
+
+
+
+.tool-card a {
+    display: block;
+    height: 100%;
+    width: 100%;
+	 	cursor: pointer;
+    text-decoration: none;
+		background-color: transparent;
+}
+
+.tool-card a:hover {
+    color: #1f95dd;
+}
+
+.tool-card a:active, a:hover {
+    outline: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.tool-card {
+		height: 280px;
+		margin: 60px 20px 80px;
+		padding-bottom: 0;
+		width: 290px;
+		}
+	
+		.tool-card a:hover .title {
+				color: #2277bb;
+		}
+	}
+
+.tool-card a h4:after {
+    font-family: mfn-icons;
+    font-variant: normal;
+    font-weight: 400;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    color: #393f42;
+    content: '   \e877';
+    display: inline-block;
+    font-size: 15px;
+    margin: 1px;
+}
+
+
+.tool-card a .icon {
+    border: 1px solid #e4e9ec;
+    border-radius: 50%;
+    height: 55px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 55px;
+    background-size: 300%;
+}
+
+
+.tool-card a .icon {
+    background: url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-personas-beige.png) #fff no-repeat;
+}
+
+.tool-card #icon-materias-primas {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-personas-beige.png) #fff no-repeat;
+}
+
+
+
+.tool-card a .icon {
+	line-height: 1;
+	padding: 0;
+	transition-property: color;
+	transition-duration: .25;
+}
+
+
+.tool-card a .icon {
+    background-position: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	.tool-card a .icon {
+	background-position: center;
+	height: 80px;
+	left: calc(50% - 40px);
+	top: -40px;
+	width: 80px;
+	background-size: initial;	
+}
+}
+
+
+
+.tool-card  h4 {
+    color: #101f28;
+    font-weight: 600;
+}
+
+
+
+.tool-card .title {
+    box-sizing: border-box;
+    color: #101f28;
+    display: block;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px 20px 5px 85px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+@media  only screen and (min-width: 768px) {
+	.tool-card .title {
+		position: absolute;
+    color: #2277bb;
+    padding: 70px 20px 0;
+    left: 0;
+    top: 0;
+    text-align: center;
+		}
+}
+
+
+.tool-card .description {
+    color: #50595e;
+    box-sizing: border-box;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 20px 20px 85px;
+    transition: all .1s ease-in-out;
+    text-align: left;
+    width: 100%;
+	 	line-height: 22px;
+}
+
+@media only screen and  (min-width: 768px) {
+	.tool-card .description {
+			padding: 118px 20px 40px;
+	}
+}
+
+
+
 
 
 
