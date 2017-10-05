@@ -1,0 +1,246 @@
+<head>
+
+	 <script src="https://rawgit.com/Stuk/jszip/master/dist/jszip.min.js"></script>
+	 	<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+	 <script src="https://rawgit.com/ajoposor/aoPlotlyAddOn/0eec64f9377e9643f733d32b08b01e0fbb5f9408/dist/aoPlotlyAddOn.js"></script>
+</head>
+<body>
+<div id="wholeDiv_SP500_LT" style="visibility:hidden">
+	<h3>S&P 500 Long Term Trend</h3>
+  <div id="myDiv_SP500_LT" class="plotly" align="left" style="width:100%; height:480px;"></div>
+(*) Shaded areas indicate recessions.<br>For Real Estate: FRESX, Fidelity Real Estate<br>
+	</div>
+<script>
+ 
+var tokens = ["123","123","123","123","123","123","123","123","123","123"];
+
+
+
+// THIS FIRST FUNCTION WOULD BE INCLUDED IN A DIV CODE TO SET A PLOT, THE REMAINER FUNCTIONS WILL BE ADDED TO THE https://rawgit.com/ajoposor/aoPlotlyAddOn/master/src/aoPlotlyAddOn.js LIBRARY
+
+(function() {
+	// PARAMETERS:	divInfo, series, options, timeInfo, layout
+
+	var divInfo = {
+		//whole div, including your titles and footnotes.
+		// required to hide div while plot loads.
+		wholeDivID: "wholeDiv_SP500_LT",
+
+		// div in which plot will be included
+		// should be a div within 'wholeDiv'
+		plotDivID: "myDiv_SP500_LT",
+
+
+               onErrorHideWholeDiv: false
+//,
+// align="center"
+
+              //noLoadedDataMessage: '<div style="height:480px; width:100%;"><div style="position:relative; top:50%; transform:translateY(-50%); text-align:center;"><h3><font color="#1A5488"  ><b>Datos no recibidos</b></font></div></div>'
+	};
+
+	//X AXIS DATE RANGE PARAMETERS
+
+	var timeInfo = {
+		tracesInitialDate: "1950-01-01"
+	};
+
+	
+
+	// TRACE INFO
+	// use urlType = 'direct', 'csv' or 'yqlJson', 'pureJson'. In case 'direct, provide trace x and y arrays directly under traceAttriblutes
+	// xSeriesName and ySeriesName are the labels for each variable as they appear in the CSV or Json files.
+	// traceAttributes contains information in the same format a Plotly's trace, except for x and y which would be read from the csv or json files. Otherwise, provide x, and y arrays directly in traceAttributes.
+	var data = [
+		{
+			type: "scatter",
+			name: "S&P 500",
+			mode: "lines",
+			opacity: 1,
+			fill: "tozeroy",
+			fillcolor: "rgba(205, 245,255, 0.20)", //#FAFCFD + 50% transparency
+			line: {
+				color: "#1A5488",
+				width: 3,
+				dash: "solid"
+			}
+		},{
+				type: "scatter",
+				visible: true,
+				name: "US CPI",
+				mode: "lines",
+				opacity: 0.8,
+				fill: "none",
+				fillcolor: "#5AC148",
+				line: {
+					color: "#000000",
+					width: 1,
+					dash: "dash"
+				}
+		},{
+				type: "scatter",
+				visible: false,
+				name: "US CPI",
+				mode: "lines",
+				opacity: 0.8,
+				fill: "none",
+				fillcolor: "#5AC148",
+				line: {
+					color: "#000000",
+					width: 1,
+					dash: "dash"
+				}
+		}
+	];
+	
+var otherDataProperties = [
+	{
+		traceID: "S&P 500",
+		toggleRealNominal: true,
+	},{
+		toggleRealNominal: true,
+		traceID: "US CPI"
+	},{
+		deflactor: true,
+		toggleRealNominal: false,			
+		traceID: "US CPI deflactor"
+	}
+	
+];
+	
+	
+// URL PARAMETERS FOR TRACES TO BE READ
+
+	//enter proxy roor 'url', if applicable, otherwise '';
+	var rootUrl = "";
+	var encodeSuffixUrl = false;
+
+	// enter your quandl api key
+	var yourQuandlApiKey = "L_MvzxJew8qq8_aXv_tx";
+
+	var urls = [
+        "/plots_data/yf/yfpt-unlocked.php?ticker=%5EGSPC&begindate=2017-05-12&retries=2&timeout=0&token="+tokens[0]+"&error_string=error",
+              
+        "/plots_data/quandl/quandl-proxy.php?timeout=43200&url="+
+        encodeURIComponent("https://www.quandl.com/api/v3/datasets/FRED/CPIAUCSL.csv?start_date=2017-04-01&api_key="+ yourQuandlApiKey),
+        "/plots_data/fixed_assets/SP500%20sectors-1998-12-2017-04.csv"
+	];
+  
+    
+    
+	
+var dataSources = [
+        {
+			urlType: "csv",
+			url: urls[0],
+            firstItemToRead: "last",
+			traces:[
+				{
+// added Datesss to test 
+				xSeriesName: "Date",
+				ySeriesName: "Adj Close",
+				xDateSuffix: "",//"T00:00:00-04:00",
+				traceID: "S&P 500"
+				}
+			]
+		},{
+			urlType: "csv",
+			url: urls[1],
+			traces:[
+				{
+				xSeriesName: "Date",
+				ySeriesName: "Value",
+				xDateSuffix: "",//"T00:00:00-04:00",
+				postProcessDate: "end of month",
+				traceID: "US CPI"
+				},{
+				xSeriesName: "Date",
+				ySeriesName: "Value",
+				xDateSuffix: "",//"T00:00:00-04:00",
+				deflactor: true,	
+				postProcessDate: "end of month",
+				traceID: "US CPI deflactor"
+				}
+			]
+		},{
+			urlType: "csv",
+			url: urls[2],
+			onlyAddXDateSuffix: " 00:00:00-04:00",
+			traces: [
+				{
+				xSeriesName: "Date",
+				ySeriesName: "SP500 Adjusted Close",
+                calculateAdjustedClose: true,
+				traceID: "S&P 500"
+				},				{
+				xSeriesName: "Date_CPI",
+				ySeriesName: "CPI_EOM",
+				xDateSuffix: "",//"T00:00:00-04:00",
+				traceID: "US CPI deflactor"				
+				}
+			]
+		}
+	];
+	
+
+	var settings = {
+
+                queueConcurrencyDelay: 2,
+		series: {
+			// frequency and aggregation info of base traces.
+			baseFrequency: "base", //could be 'daily', 'weekly', 'monthly', 'quarterly', 'annual' or your custom name.
+			baseAggregation: "close", // could be 'close', 'average', 'change', 'percChange', 'sqrPercChange', 'cumulative', or your custom name
+			targetFrequencyDisplay: "daily", //maximum frequency for display of x axis., could be monthly, quarterly, etc.
+		},
+		
+
+		displayRecessions: true,
+		allowCompare: true,
+		allowDownload: true,
+		allowRealNominal: true,
+		initialRealNominal: "real", /*(could be set to "nominal" or "real")*/
+		baseRealDate: "end of range", /* could be "end of range", "end of domain", "beggining of range", beggining of domain", or a date "yyyy-mm-dd hh:mm:ss.sss-04:00"*/
+		downloadedFileName: "S&P Sectors Data",
+		xAxisNameOnCSV: "Date",
+		transformToBaseIndex: true, //series would be transformed to common value of 1 at beginning
+		allowFrequencyResampling: true, // includes buttons to allow for calculation of aggregation and methods (monthly, quarterly), close, average, etc.
+		desiredFrequencies: [
+			"daily",
+			"weekly",
+			"monthly",
+			"quarterly",
+			"semiannual",
+			"annual"
+		],
+		allowSelectorOptions: true, // buttons for time range selection, 3m, 6m, 1y, YTD, 5y, etc.
+		allowLogLinear: true,
+		textAndSpaceToTextRatio: 1.8,
+		endOfWeek: 5 // 0 Sunday, 1 Monday, etc.
+	};
+
+	var layout = {
+		yaxis: {
+			type: "log",
+			hoverformat: ".4r"
+		},
+		margin:{
+			r: 43
+		}
+	};
+
+	var options = {
+		showLink: false,
+		displayModeBar: false
+	};
+
+	aoPlotlyAddOn.newTimeseriesPlot(divInfo, data, otherDataProperties, dataSources, settings, timeInfo, layout, options);
+
+	
+})();
+
+    
+    
+    
+    
+    
+</script>
+</body>
