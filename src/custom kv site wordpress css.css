@@ -9,7 +9,7 @@
 .kv-content-wrapper {
  max-width: 1188px;
  margin: 0 auto;
- margin-top: 35px;
+ margin-top: 20px;
  margin-bottom: 25px;
 }
 
@@ -60,7 +60,7 @@ p.big + p.big {
 
 
 .kv-page-title {
- margin-bottom: 20px;
+ margin-bottom: 20px !important;
 }
 
 
