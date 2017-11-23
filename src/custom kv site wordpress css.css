@@ -1289,7 +1289,7 @@ a.button .button_label{
     
 }
 
-@media only screen and (max-width: 959px)  and (min-width: 769px) { 
+@media only screen and (max-width: 959px)  and (min-width: 768px) { 
 	
 	#Top_bar .top_bar_left {width: 100% !important};
 
