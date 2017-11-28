@@ -1800,7 +1800,7 @@ margin: 1px 0 0;
     content: '   \e877';
     display: inline-block;
     font-size: 15px;
-    margin: 1px;
+    margin: 1px 1px 1px 10px;
 }
 
 
