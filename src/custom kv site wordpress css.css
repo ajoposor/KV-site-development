@@ -1907,6 +1907,31 @@ margin: 1px 0 0;
 
 
 
+.fed-graph-footer {
+  background-color: #E1E9F0;
+ font-family:open sans;
+  width: auto;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgb(68,68,69);
+  }
+
+.fed-graph-recession-text {
+  width: 33%;
+}
+
+.fed-graph-source-text {
+width:50%;
+float:left;
+text-align: center;
+}
+
+.fed-graph-credits-text {
+float: left;
+width: 18%;
+text-align: right;
+}
 
 
 
