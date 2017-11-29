@@ -1921,6 +1921,7 @@ margin: 1px 0 0;
 .fred-graph-recession-text {
   width: 33%;
 	display: inline-block;
+	text-align: left;
 }
 
 .fred-graph-source-text {
