@@ -1907,7 +1907,7 @@ margin: 1px 0 0;
 
 
 
-.fed-graph-footer {
+.fred-graph-footer {
   background-color: #E1E9F0;
  font-family:open sans;
 	font-size: 12px;
@@ -1918,17 +1918,17 @@ margin: 1px 0 0;
   color: rgb(68,68,69);
   }
 
-.fed-graph-recession-text {
+.fred-graph-recession-text {
   width: 33%;
 }
 
-.fed-graph-source-text {
+.fred-graph-source-text {
 width:50%;
 float:left;
 text-align: center;
 }
 
-.fed-graph-credits-text {
+.fred-graph-credits-text {
 float: left;
 width: 18%;
 text-align: right;
