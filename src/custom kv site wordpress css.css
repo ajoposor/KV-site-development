@@ -1920,18 +1920,21 @@ margin: 1px 0 0;
 
 .fred-graph-recession-text {
   width: 33%;
+	display: inline-block;
 }
 
 .fred-graph-source-text {
 width:50%;
 float:left;
 text-align: center;
+display: inline-block;
 }
 
 .fred-graph-credits-text {
 float: left;
 width: 18%;
 text-align: right;
+display: inline-block;
 }
 
 
