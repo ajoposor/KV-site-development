@@ -1907,7 +1907,8 @@ margin: 1px 0 0;
 
 
 
-.fred-graph-footer {
+.fred-graph-footer, .fred-graph-footer-note,
+.fred-graph-footer-links-narrow, .fred-graph-footer-links-wide {
   background-color: #E1E9F0;
 	font-size: 12px;
   width: auto;
@@ -1917,6 +1918,10 @@ margin: 1px 0 0;
   color: rgb(68,68,69);
   }
 
+. fred-graph-footer-note {
+	width:100%;
+	text-align: left;
+}
 .fred-graph-recession-text {
   width: 33.3%;
 	display: inline-block;
@@ -1938,13 +1943,29 @@ text-align: right;
 display: inline-block;
 }
 
+.fred-graph-footer-links-narrow {
+		display: none;
+		text-align: left;
+}
+	
+	.fred-graph-footer-links-narrow {
+		display: block;
+		text-align: left;
+	}
 
 
 @media only screen and (max-width: 767px) {
 	.fred-graph-footer {
 			display: none;
 	}
+	
+	.fred-graph-footer-links-narrow {
+		display: block;
+	}
+	
+	.fred-graph-footer-links-narrow {
+		display: none;
+	}
+	
 }
-
-
 
