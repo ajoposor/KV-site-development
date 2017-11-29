@@ -1948,7 +1948,7 @@ display: inline-block;
 		text-align: left;
 }
 	
-	.fred-graph-footer-links-narrow {
+	.fred-graph-footer-links-wide {
 		display: block;
 		text-align: left;
 	}
@@ -1963,7 +1963,7 @@ display: inline-block;
 		display: block;
 	}
 	
-	.fred-graph-footer-links-narrow {
+	.fred-graph-footer-links-wide {
 		display: none;
 	}
 	
