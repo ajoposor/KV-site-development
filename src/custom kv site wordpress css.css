@@ -1909,7 +1909,6 @@ margin: 1px 0 0;
 
 .fred-graph-footer {
   background-color: #E1E9F0;
- font-family:open sans;
 	font-size: 12px;
   width: auto;
   margin: 0;
@@ -1919,7 +1918,7 @@ margin: 1px 0 0;
   }
 
 .fred-graph-recession-text {
-  width: 33%;
+  width: 33.3%;
 	display: inline-block;
 	text-align: left;
 	float: left;
@@ -1934,7 +1933,7 @@ display: inline-block;
 
 .fred-graph-credits-text {
 float: right;
-width: 18%;
+width: 16.6%;
 text-align: right;
 display: inline-block;
 }
