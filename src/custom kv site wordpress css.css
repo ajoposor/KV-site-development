@@ -1907,8 +1907,7 @@ margin: 1px 0 0;
 
 
 
-.fred-graph-footer, .fred-graph-footer-note,
-.fred-graph-footer-links-narrow, .fred-graph-footer-links-wide {
+.fred-graph-footer, .fred-graph-footer-note {
   background-color: #E1E9F0;
 	font-size: 12px;
   width: auto;
@@ -1917,6 +1916,19 @@ margin: 1px 0 0;
   padding-right: 8px;
   color: rgb(68,68,69);
   }
+
+
+.fred-graph-footer-links-narrow, 
+.fred-graph-footer-links-wide {
+  background-color: rgb(255,255,255);
+	font-size: 12px;
+  width: auto;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgb(68,68,69);
+  }
+
 
 . fred-graph-footer-note {
 	width:100%;
