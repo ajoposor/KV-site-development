@@ -1969,3 +1969,14 @@ display: inline-block;
 	
 }
 
+
+.fred-graph-footer-links-narrow a, 
+.fred-graph-footer-links-narrow a:hover, 
+.fred-graph-footer-links-narrow a:visited,
+.fred-graph-footer-links-wide a, 
+.fred-graph-footer-links-wide a:hover, 
+.fred-graph-footer-links-wide a:visited
+{
+    color: #39619A;
+    text-decoration: none;
+}
