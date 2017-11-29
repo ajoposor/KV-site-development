@@ -347,6 +347,17 @@ h6, .p6 {
     letter-spacing: 0;
 }
 
+
+
+.kv-fred-graph-units {
+	  font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+	
+
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     body {
         font-size: 18px;
@@ -459,6 +470,14 @@ h6, .p6 {
         font-size: 33px;
         line-height: 33px;
     }
+	
+	.kv-fred-graph-units {
+	  font-size: 20px;
+    line-height: 24px;
+}
+	
+
+	
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -573,6 +592,11 @@ h6, .p6 {
         font-size: 29px;
         line-height: 29px;
     }
+	
+		.kv-fred-graph-units {
+	  font-size: 19px;
+    line-height: 23px;
+		}
 }
 
 @media only screen and (max-width: 479px) {
@@ -687,6 +711,12 @@ h6, .p6 {
         font-size: 26px;
         line-height: 26px;
     }
+	
+		.kv-fred-graph-units {
+	  font-size: 17px;
+    line-height: 22px;
+		}
+	
 }
 
 
@@ -1992,3 +2022,5 @@ display: inline-block;
     color: #39619A;
     text-decoration: none;
 }
+
+
