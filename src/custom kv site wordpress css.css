@@ -1922,6 +1922,7 @@ margin: 1px 0 0;
   width: 33%;
 	display: inline-block;
 	text-align: left;
+	float: left;
 }
 
 .fred-graph-source-text {
@@ -1932,7 +1933,7 @@ display: inline-block;
 }
 
 .fred-graph-credits-text {
-float: left;
+float: right;
 width: 18%;
 text-align: right;
 display: inline-block;
