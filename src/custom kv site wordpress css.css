@@ -2028,14 +2028,14 @@ display: inline-block;
 }
 
 .kv-fred-chart-div-2L {
-  width: calc(100% + 60px);
+  width: calc(100% + 40px);
 }
 
 .kv-fred-chart-div-3L {
-  width: calc(100% + 70px);
+  width: calc(100% + 50px);
 }
 
 .kv-fred-chart-div-4L {
-  width: calc(100% + 80px);
+  width: calc(100% + 60px);
 }
 
