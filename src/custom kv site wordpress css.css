@@ -1935,7 +1935,11 @@ margin: 1px 0 0;
 	}
 }
 
-
+/**
+*
+* Fred Graphs formatting
+*
+*/
 
 .fred-graph-footer, .fred-graph-footer-note {
   background-color: #E1E9F0;
@@ -2023,4 +2027,15 @@ display: inline-block;
     text-decoration: none;
 }
 
+.kv-fred-chart-div-2L {
+  width: calc(100% + 60px);
+}
+
+.kv-fred-chart-div-3L {
+  width: calc(100% + 70px);
+}
+
+.kv-fred-chart-div-4L {
+  width: calc(100% + 80px);
+}
 
