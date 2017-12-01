@@ -312,7 +312,7 @@ h2, .p2 {
     letter-spacing: 0;
 }
 
-h3, .p3 {
+h3, .p3, .kv-fred-graph-title {
     font-size: 33px;
     line-height: 41px;
     font-weight: 300;
@@ -396,7 +396,7 @@ h6, .p6 {
         font-size: 32px;
         line-height: 40px;
     }
-    h3, .p3 {
+    h3, .p3, .kv-fred-graph-title  {
         font-size: 29px;
         line-height: 36px;
     }
@@ -518,7 +518,7 @@ h6, .p6 {
         font-size: 29px;
         line-height: 35px;
     }
-    h3, .p3 {
+    h3, .p3, .kv-fred-graph-title {
         font-size: 26px;
         line-height: 31px;
     }
@@ -637,7 +637,7 @@ h6, .p6 {
         font-size: 26px;
         line-height: 30px;
     }
-    h3, .p3 {
+    h3, .p3, .kv-fred-graph-title  {
         font-size: 24px;
         line-height: 27px;
     }
