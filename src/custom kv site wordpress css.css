@@ -2053,11 +2053,16 @@ display: inline-block;
     text-decoration: none;
 }
 
+
 .kv-fred-chart-div-2L2D {
-  width: calc(100% + 40px);
+  width: calc(100% + 35px);
 }
 
 .kv-fred-chart-div-2L3D {
+  width: calc(100% + 40px);
+}
+
+.kv-fred-chart-div-2L4D {
   width: calc(100% + 53px);
 }
 
