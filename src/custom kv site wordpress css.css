@@ -1941,6 +1941,10 @@ margin: 1px 0 0;
 *
 */
 
+.kv-fred-container {
+	 visibility: hidden;
+}
+
 .kv-fred-graph-framer {
 	position: relative;
 	width: 100%;
