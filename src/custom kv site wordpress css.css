@@ -2085,6 +2085,11 @@ display: inline-block;
   width: calc(100% + 20px);
 }
 
+
+.kv-fred-chart-div-1L2P {
+  width: calc(100% + 15px);
+}
+
 .kv-fred-chart-div-1L3D {
   width: calc(100% + 24px);
 }
