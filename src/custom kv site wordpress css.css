@@ -2134,3 +2134,12 @@ display: inline-block;
 
 
 
+/**
+*
+* AO Plotly Graphs formatting
+*
+*/
+
+.kv-aoplotly-chart-3D {
+	  width: calc(100% - 22px);
+}
