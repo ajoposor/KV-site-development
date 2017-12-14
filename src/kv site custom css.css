@@ -2030,16 +2030,24 @@ display: inline-block;
 	}
 
 
+.fred-narrow {
+	display: none;
+}
+.fred-wide {
+	display: block;
+}
+
+
 @media only screen and (max-width: 767px) {
-	.fred-graph-footer {
+	.fred-graph-footer,  {
 			display: none;
 	}
 	
-	.fred-graph-footer-links-narrow {
+	.fred-graph-footer-links-narrow, .fred-narrow {
 		display: block;
 	}
 	
-	.fred-graph-footer-links-wide {
+	.fred-graph-footer-links-wide, .fred-wide {
 		display: none;
 	}
 	
