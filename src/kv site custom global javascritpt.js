@@ -1,21 +1,6 @@
 
 /**
 *
-*  Declare global variables
-*
-*
-*/
-
-// to be used in eia graphs that use AEO traces
-
-var globalVariableAeoYear = "2017";
-
-
-
-
-
-/**
-*
 *  make logo icons point to another page:
 *
 *
