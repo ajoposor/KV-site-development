@@ -2039,7 +2039,7 @@ display: inline-block;
 
 
 @media only screen and (max-width: 767px) {
-	.fred-graph-footer,  {
+	.fred-graph-footer  {
 			display: none;
 	}
 	
