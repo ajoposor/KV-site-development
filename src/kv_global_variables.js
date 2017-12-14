@@ -5,14 +5,10 @@
 	function defineLibrary() {
 
 		var kvGlobals = {};
-
+		
 		kvGlobals.globalVariableAeoYear = "2017"; 
-
-	};
-
-      
-    // end section of library declaration  
-      
+    
+		// end section of library declaration  
      return kvGlobals;
     }
   
