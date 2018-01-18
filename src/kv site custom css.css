@@ -1843,30 +1843,48 @@ margin: 1px 0 0;
     top: 20px;
     width: 55px;
     background-size: 300%;
+		line-height: 1;
+		padding: 0;
+		transition-property: color;
+		transition-duration: .25;
+	 	background-position: center;
 }
 
 
-.tool-card a .icon {
-    background: url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-personas-beige.png) #fff no-repeat;
+.tool-card a .icon #icon-economia-eeuu {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-barras creciendo.png) #fff no-repeat;
 }
 
-.tool-card #icon-materias-primas {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-personas-beige.png) #fff no-repeat;
-}
-
-
-
-.tool-card a .icon {
-	line-height: 1;
-	padding: 0;
-	transition-property: color;
-	transition-duration: .25;
+.tool-card a .icon #icon-tasas-de-interes {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-porcentaje.png) #fff no-repeat;
 }
 
 
-.tool-card a .icon {
-    background-position: center;
+.tool-card a .icon #icon-tasas-de-cambio {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploadskv-icono-azul-currency.png) #fff no-repeat;
 }
+
+
+.tool-card a .icon #icon-mercado-de-valores {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-hi-lo-bars-line-creciendo.png) #fff no-repeat;
+}
+
+
+.tool-card a .icon #icon-metales-y-minerales {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-metales-y-mineria.png) #fff no-repeat;
+}
+
+
+.tool-card a .icon #icon-materias-primas-agricolas {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-productos-agricolas.png) #fff no-repeat;
+}
+
+.tool-card a .icon #icon-petroleo-y-gas-natural {
+    background:  url(https://www.kapitalvalue.com/wp-content/uploads/v-icono-azul-oil-and-gas.png) #fff no-repeat;
+}
+
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -1934,6 +1952,8 @@ margin: 1px 0 0;
 			padding: 118px 20px 40px;
 	}
 }
+
+
 
 /**
 *
