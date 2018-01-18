@@ -1842,7 +1842,8 @@ margin: 1px 0 0;
     position: absolute;
     top: 20px;
     width: 55px;
-    background-size: 300%;
+		background-size: 100%;
+		background-repeat: no-repeat;
 		line-height: 1;
 		padding: 0;
 		transition-property: color;
@@ -1852,35 +1853,35 @@ margin: 1px 0 0;
 
 
 .tool-card a .icon#icon-economia-eeuu {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-barras-creciendo.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-barras-creciendo.png) #fff no-repeat;
 }
 
 .tool-card a .icon#icon-tasas-de-interes {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-porcentaje.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-porcentaje.png) #fff no-repeat;
 }
 
 
 .tool-card a .icon#icon-tasas-de-cambio {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-currency.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-currency.png) #fff no-repeat;
 }
 
 
 .tool-card a .icon#icon-mercado-de-valores {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-hi-lo-bars-line-creciendo.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-hi-lo-bars-line-creciendo.png) #fff no-repeat;
 }
 
 
 .tool-card a .icon#icon-metales-y-minerales {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-metales-y-mineria.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-metales-y-mineria.png) #fff no-repeat;
 }
 
 
 .tool-card a .icon#icon-materias-primas-agricolas {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-productos-agricolas.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-productos-agricolas.png) #fff no-repeat;
 }
 
 .tool-card a .icon#icon-petroleo-y-gas-natural {
-    background:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-oil-and-gas.png) #fff no-repeat;
+    background-image:  url(https://www.kapitalvalue.com/wp-content/uploads/kv-icono-azul-oil-and-gas.png) #fff no-repeat;
 }
 
 
