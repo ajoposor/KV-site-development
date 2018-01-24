@@ -70,7 +70,7 @@
             window.open("/en/","_self");
             //logoElement.setAttribute("href", "/en/");
             
-         } else if (addressComponents.indexOf("pt") !== -1) {
+         } else if (addressComponents.indexOf("pt-br") !== -1) {
             window.open("/pt-br/","_self");
             //logoElement.setAttribute("href", "/pt-br/");
             
