@@ -6,7 +6,7 @@
 
 		var kvGlobals = {};
 		
-		kvGlobals.globalVariableAeoYear = "2017"; 
+		kvGlobals.globalVariableAeoYear = "2018"; 
     
 		// end section of library declaration  
      return kvGlobals;
