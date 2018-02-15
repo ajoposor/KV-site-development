@@ -5,7 +5,7 @@
 *
 */
 
-
+/* use with a single wrapper per page */
 .kv-content-wrapper {
  max-width: 1188px;
  margin: 0 auto;
@@ -13,21 +13,33 @@
  margin-bottom: 25px;
 }
 
+/* use to set proper with responsiveness, so that text is keep to the left margin */
+.kv-width-wrapper {
+	 max-width: 1188px;
+}
+
 @media only screen and (min-width: 960px) and (max-width: 1239px) {
-   .kv-content-wrapper { max-width: 908px;}
+   .kv-content-wrapper, .kv-width-wrapper { max-width: 908px;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-.kv-content-wrapper {max-width: 676px;}
+.kv-content-wrapper, .kv-width-wrapper {max-width: 676px;}
 }
 
 @media only screen and (min-width: 700px) and (max-width: 767px) {
-.kv-content-wrapper {max-width: 668px;}
+.kv-content-wrapper, .kv-width-wrapper {max-width: 668px;}
 }
 
 @media only screen  and (max-width: 699px) {
-.kv-content-wrapper {max-width: 699px; padding-left: 16px; padding-right: 16px;}
+.kv-content-wrapper, .kv-width-wrapper {max-width: 699px; padding-left: 16px; padding-right: 16px;}
 }
+
+/* use on the top wrapper to have a margin so that the shadow from the menu bar can be seen */
+.kv-top-wrapper {
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
 
 
 /**
